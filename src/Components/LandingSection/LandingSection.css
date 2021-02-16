@@ -1,32 +1,147 @@
-.landsection {
-  @apply cursor-default w-full md:pt-16;
+:root {
+   --color-headerTitle:white;
+   --color-headerNav:#828282;
+   --color-registerBtn:white;
+   --color-heroMainText:white;
 }
-  .header {
-    @apply px-12 md:px-44 py-6 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
-  
-  }
-    .acmlogo {
-      @apply h-10;
-    }
-    .shadow {
-    @apply px-12 md:px-44 py-6 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
-    }
-    .registerbutton {
-      @apply h-12;
-    }
-    .greentext{
-      @apply text-c2cTextgreen font-black;
-    }
-  .titlecontainer {
-    @apply sm:flex flex-col items-center text-2xl text-center text-graydark justify-center min-h-screen mx-auto w-6/12;
 
-  }
-    .title {
-      @apply text-5xl px-4 md:text-5xl text-graylight font-semibold mb-8 leading-14 tracking-tight;
+
+.landsection {
+  width:100vw;
+  height:100vh;
+  background: url("../../assets/map.png");
+}
+
+
+
+/* header start*/
+.header {
+ width:100vw;
+ display:flex;
+ flex-direction:row;
+ /* background-color:red; */
+ align-items:center;
+ justify-content:space-between;
+ padding:0.2em 3em;
+ background:transparent;
+ background-size:cover;
+ background-position:center;
+}
+.acmLogo {
+   height:4em;
+   width:4em;
+}
+
+.header > a {
+	display: flex;
+	align-items:center;
+}
+.header > a > span {
+	color: var(--color-headerTitle);
+	font-weight:700;
+	margin-left:1em;
+	font-size:1em;
+}
+
+
+.header > nav {
+
+}
+
+.header > nav >span {
+	color: var(--color-headerNav);
+	margin: 0 0.8em;
+	font-weight:700;
+	font-size:14px;
+}
+
+.registerBtn {
+	background: rgba(72, 186, 134, 0.25);
+	color:var(--color-registerBtn);
+	padding:0.5em 1em;
+	border-radius:8px;
+	display:flex;
+	align-items:center;
+}
+
+.registerBtn >img {
+	margin-left:0.3em;
+	margin-top:0.1em;
+}
+
+.regBtn_rightArrow {
+	height:0.5em;
+	width:auto;
+}
+
+@media screen and (max-width:425px) {
+    .landsection {
+    	background-position:center center;
     }
-    .subtitle {
-      @apply flex justify-center text-xl mb-8 items-center px-4 md:p-0 mx-auto;
-    }
-    .motto {
-      @apply flex items-center justify-center mb-36 px-4;
-    }
+	.header {
+		padding: 0.2em 0.5em;
+	}
+	.header > nav {
+		display:none;
+	}
+	.header > .registerBtn {
+		display:none;
+	}
+}
+/* header end */
+
+/* heroSection start */
+.heroSection {
+	width:100vw;
+	/* background:red; */
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding-top:8em;
+}
+
+.heroSection > p{
+	font-weight:600;
+	font-size:3rem;
+	color:var(--color-heroMainText);
+	text-align:center;
+}
+
+.titleHighlight {
+	font-weight:900;
+	color:#48BA86;
+}
+
+.heroSection > p > span:nth-child(even)::after {
+	content:"\a";
+	white-space:pre;
+}
+
+.heroSection > .subTitle {
+	color:#BDBDBD;
+	font-size:0.8rem;
+	margin-top:0.5em;
+	margin-bottom:6em;
+}
+
+@media screen and (max-width:425px) {
+	.heroSection > p > span::after {
+		content:"\a";
+		white-space:pre;
+	}
+
+	.heroSection {
+		padding-top:2em;
+		padding-left:1.5em;
+		align-items:flex-start;
+	}
+
+	.heroSection >p {
+		text-align:left;
+		font-size:2rem;
+	}
+	
+}
+
+/* heroSection end */

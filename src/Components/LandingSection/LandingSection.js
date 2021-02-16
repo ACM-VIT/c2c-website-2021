@@ -1,61 +1,42 @@
-import { useState, useEffect } from "react";
-
 import c2clogo from "../../assets/c2clogo.svg";
-import register from "../../assets/register.svg";
+import rightArrow from "../../assets/right_arrow.png";
 /** Styles */
 import './LandingSection.css';
 const LandingSection = ()=>{
-  const [offset, setOffset] = useState(0)
-  const [header, setHeader] = useState('header')
-
-  useEffect(() => {
-    window.onscroll = () => {
-      setOffset(window.pageYOffset)
-      setHeader(
-        window.pageYOffset === 0
-          ? 'header'
-          : 'shadow'
-      )
-    }
-    return () => {}
-  }, [])
 
   return (
     <article className="landsection">
-      <section className={header}>
-        <a
-          href="https://c2c.acmvit.in"
-          className="text-white"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <img className="acmlogo" src={c2clogo} alt="C2C Logo" />
+      <section className="header">
+        <a href="https://acmvit.in" target="_blank" rel="noreferrer noopener">
+          <img className="acmLogo" src={c2clogo} alt="C2C Logo" />
+          <span>Code2Create</span>
         </a>
-        <a
-          href="https://devfolio.co"
-          className="text-white"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <img className="registerbutton" src={register} alt="Register Now" />
-        </a>
-      </section>
-      <section className="titlecontainer">
-        <h1 className="title">
-          <span className="greentext">We are</span> the Hackathon everyone’s
-          been <span className="greentext"> waiting for</span>
-        </h1>
-        <div className="subtitle">
-          Experience the fifth edition of Code2Create now, right from the
-          comfort of your home
+        <nav>
+          <span>About</span>
+          <span>Organisers</span>
+          <span>Sponsers</span>
+        </nav>
+        <div className="registerBtn">
+        Register Now
+        <img className="regBtn_rightArrow" src={rightArrow} alt="right arrow"/>
         </div>
-        <a
-          href="https://devfolio.co"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <img className="registerbutton" src={register} alt="Register Now" />
-        </a>
+      </section>
+      <section className="heroSection">
+         <p>
+          <span ><span className="titleHighlight">We are</span> the </span>
+          <span>Hackathon </span>
+          <span>everyone&apos;s been </span>
+          <span><span className="titleHighlight">waiting for</span></span>
+         </p>
+         <span className="subTitle">Experience the fifth edition of Code2Create now, right from the
+          comfort of your home</span>
+        
+        <div className="buttoncontainer">
+          <div className="registerBtn">
+          Register Now
+          <img className="regBtn_rightArrow" src={rightArrow} alt="right arrow"/>
+          </div>
+        </div>
       </section>
     </article>
   );
