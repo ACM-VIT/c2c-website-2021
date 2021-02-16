@@ -1,0 +1,36 @@
+.landsection {
+  @apply cursor-default w-full md:pt-16;
+}
+  .header {
+    @apply px-8 md:px-28 py-3 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
+  
+  }
+    .acmlogo {
+      @apply h-14;
+    }
+    .shadow {
+      @apply px-8 md:px-28 py-3 flex justify-center md:justify-between items-center md:fixed md:w-full shadow-md md:top-0 md:left-0 md:z-50;
+    }
+    .button {
+      @apply hidden md:flex cursor-pointer items-center justify-center text-base align-middle rounded-lg py-2 px-5 text-white;
+    }
+
+  .titlecontainer {
+    @apply mt-6 sm:m-0 sm:flex flex-col items-center text-2xl text-center text-graydark justify-center min-h-screen;
+
+  }
+    .title {
+      @apply text-4xl px-4 md:text-5xl text-graylight font-bold mb-8 leading-none tracking-wider;
+    }
+    .subtitle {
+      @apply flex justify-center text-2xl mb-8 items-center px-4 md:p-0 mx-auto;
+    }
+    .buttoncontainer {
+      @apply flex text-white items-center justify-center my-6;
+    }
+    .button {
+      @apply flex cursor-pointer justify-center items-center px-8 py-4 rounded-lg text-2xl text-center text-white;
+    }
+    .motto {
+      @apply flex items-center justify-center mb-36 px-4;
+    }
