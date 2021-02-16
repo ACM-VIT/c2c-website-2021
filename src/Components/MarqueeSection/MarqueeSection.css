@@ -1,0 +1,11 @@
+:root {
+	
+}
+
+.marqContainer {
+	width:100vw;
+}
+
+.marqContainer > p {
+	white-space:no-wrap;
+}
