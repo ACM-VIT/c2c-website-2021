@@ -21,16 +21,21 @@ const LandingSection = ()=>{
         <img className="regBtn_rightArrow" src={rightArrow} alt="right arrow"/>
         </div>
       </section>
-      <section className="titlecontainer">
-        <h1 className="title">
-          We are the Hackathon everyone’s been waiting for
-        </h1>
-        <div className="subtitle">
-          Experience the fifth edition of Code2Create now, right from the
-          comfort of your home
-        </div>
+      <section className="heroSection">
+         <p>
+          <span ><span className="titleHighlight">We are</span> the </span>
+          <span>Hackathon </span>
+          <span>everyone&apos;s been </span>
+          <span><span className="titleHighlight">waiting for</span></span>
+         </p>
+         <span className="subTitle">Experience the fifth edition of Code2Create now, right from the
+          comfort of your home</span>
+        
         <div className="buttoncontainer">
-          <div className="registerBtn">Register Now</div>
+          <div className="registerBtn">
+          Register Now
+          <img className="regBtn_rightArrow" src={rightArrow} alt="right arrow"/>
+          </div>
         </div>
       </section>
     </article>

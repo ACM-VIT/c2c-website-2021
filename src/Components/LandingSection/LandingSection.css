@@ -2,6 +2,7 @@
    --color-headerTitle:white;
    --color-headerNav:#828282;
    --color-registerBtn:white;
+   --color-heroMainText:white;
 }
 
 
@@ -88,3 +89,59 @@
 	}
 }
 /* header end */
+
+/* heroSection start */
+.heroSection {
+	width:100vw;
+	/* background:red; */
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding-top:8em;
+}
+
+.heroSection > p{
+	font-weight:600;
+	font-size:3rem;
+	color:var(--color-heroMainText);
+	text-align:center;
+}
+
+.titleHighlight {
+	font-weight:900;
+	color:#48BA86;
+}
+
+.heroSection > p > span:nth-child(even)::after {
+	content:"\a";
+	white-space:pre;
+}
+
+.heroSection > .subTitle {
+	color:#BDBDBD;
+	font-size:0.8rem;
+	margin-top:0.5em;
+	margin-bottom:6em;
+}
+
+@media screen and (max-width:425px) {
+	.heroSection > p > span::after {
+		content:"\a";
+		white-space:pre;
+	}
+
+	.heroSection {
+		padding-top:2em;
+		padding-left:1.5em;
+		align-items:flex-start;
+	}
+
+	.heroSection >p {
+		text-align:left;
+		font-size:2rem;
+	}
+	
+}
+
+/* heroSection end */
