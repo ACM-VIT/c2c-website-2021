@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import c2clogo from "../../assets/c2clogo.svg";
-
+import register from "../../assets/register.svg";
 /** Styles */
 import './LandingSection.css';
 const LandingSection = ()=>{
@@ -23,22 +23,39 @@ const LandingSection = ()=>{
   return (
     <article className="landsection">
       <section className={header}>
-        <a href="https://acmvit.in" target="_blank" rel="noreferrer noopener">
+        <a
+          href="https://c2c.acmvit.in"
+          className="text-white"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <img className="acmlogo" src={c2clogo} alt="C2C Logo" />
         </a>
-        <div className="button">Register Now</div>
+        <a
+          href="https://devfolio.co"
+          className="text-white"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img className="registerbutton" src={register} alt="Register Now" />
+        </a>
       </section>
       <section className="titlecontainer">
         <h1 className="title">
-          We are the Hackathon everyone’s been waiting for
+          <span className="greentext">We are</span> the Hackathon everyone’s
+          been <span className="greentext"> waiting for</span>
         </h1>
         <div className="subtitle">
           Experience the fifth edition of Code2Create now, right from the
           comfort of your home
         </div>
-        <div className="buttoncontainer">
-          <div className="button">Register Now</div>
-        </div>
+        <a
+          href="https://devfolio.co"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img className="registerbutton" src={register} alt="Register Now" />
+        </a>
       </section>
     </article>
   );
