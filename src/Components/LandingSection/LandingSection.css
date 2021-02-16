@@ -68,4 +68,16 @@
 	height:0.5em;
 	width:auto;
 }
+
+@media screen and (max-width:425px) {
+	.header {
+		padding: 0.2em 0.5em;
+	}
+	.header > nav {
+		display:none;
+	}
+	.header > .registerBtn {
+		display:none;
+	}
+}
 /* header end */
