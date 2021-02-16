@@ -7,6 +7,9 @@ module.exports = {
       screens: {
         xs: "480px",
       },
+             lineHeight: {
+         '14': '4.5rem',
+        },
       backgroundColor: {
         websiteBackground: "#121212",
         c2cBgGreen: "#48BA86",
