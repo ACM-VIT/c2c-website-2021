@@ -5,7 +5,7 @@ import slacklogo from "../../assets/slack_2.svg";
 import devfoliologo from "../../assets/devfolio_3.svg";
 import foldlogo from "../../assets/fold_4.svg";
 import maticlogo from "../../assets/matic_5.svg";
-import geeksforgeekslogo from "../../assets/geeksforgeeks_6.svg";
+import geeksforgeekslogo from "../../assets/geeksforgeeks_6.png";
 import jetbrainslogo from "../../assets/jetbrains_8.svg";
 import codingblockslogo from "../../assets/codingblocks_7.svg";
 import wolframlogo from "../../assets/wolfram_9.svg";
