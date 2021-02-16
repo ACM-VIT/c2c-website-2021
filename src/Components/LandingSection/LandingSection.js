@@ -1,32 +1,25 @@
-import { useState, useEffect } from "react";
-
 import c2clogo from "../../assets/c2clogo.svg";
-
+import rightArrow from "../../assets/right_arrow.png";
 /** Styles */
 import './LandingSection.css';
 const LandingSection = ()=>{
-  const [offset, setOffset] = useState(0)
-  const [header, setHeader] = useState('header')
-
-  useEffect(() => {
-    window.onscroll = () => {
-      setOffset(window.pageYOffset)
-      setHeader(
-        window.pageYOffset === 0
-          ? 'header'
-          : 'shadow'
-      )
-    }
-    return () => {}
-  }, [])
 
   return (
     <article className="landsection">
-      <section className={header}>
+      <section className="header">
         <a href="https://acmvit.in" target="_blank" rel="noreferrer noopener">
-          <img className="acmlogo" src={c2clogo} alt="C2C Logo" />
+          <img className="acmLogo" src={c2clogo} alt="C2C Logo" />
+          <span>Code2Create</span>
         </a>
-        <div className="button">Register Now</div>
+        <nav>
+          <span>About</span>
+          <span>Organisers</span>
+          <span>Sponsers</span>
+        </nav>
+        <div className="registerBtn">
+        Register Now
+        <img className="regBtn_rightArrow" src={rightArrow} alt="right arrow"/>
+        </div>
       </section>
       <section className="titlecontainer">
         <h1 className="title">
@@ -37,7 +30,7 @@ const LandingSection = ()=>{
           comfort of your home
         </div>
         <div className="buttoncontainer">
-          <div className="button">Register Now</div>
+          <div className="registerBtn">Register Now</div>
         </div>
       </section>
     </article>

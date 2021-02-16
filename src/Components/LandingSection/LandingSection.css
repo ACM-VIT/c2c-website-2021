@@ -1,36 +1,71 @@
-.landsection {
-  @apply cursor-default w-full md:pt-16;
+:root {
+   --color-headerTitle:white;
+   --color-headerNav:#828282;
+   --color-registerBtn:white;
 }
-  .header {
-    @apply px-8 md:px-28 py-3 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
-  
-  }
-    .acmlogo {
-      @apply h-14;
-    }
-    .shadow {
-      @apply px-8 md:px-28 py-3 flex justify-center md:justify-between items-center md:fixed md:w-full shadow-md md:top-0 md:left-0 md:z-50;
-    }
-    .button {
-      @apply hidden md:flex cursor-pointer items-center justify-center text-base align-middle rounded-lg py-2 px-5 text-white;
-    }
 
-  .titlecontainer {
-    @apply mt-6 sm:m-0 sm:flex flex-col items-center text-2xl text-center text-graydark justify-center min-h-screen;
 
-  }
-    .title {
-      @apply text-4xl px-4 md:text-5xl text-graylight font-bold mb-8 leading-none tracking-wider;
-    }
-    .subtitle {
-      @apply flex justify-center text-2xl mb-8 items-center px-4 md:p-0 mx-auto;
-    }
-    .buttoncontainer {
-      @apply flex text-white items-center justify-center my-6;
-    }
-    .button {
-      @apply flex cursor-pointer justify-center items-center px-8 py-4 rounded-lg text-2xl text-center text-white;
-    }
-    .motto {
-      @apply flex items-center justify-center mb-36 px-4;
-    }
+.landsection {
+  width:100vw;
+  height:100v;
+}
+
+
+
+/* header start*/
+.header {
+ width:100vw;
+ display:flex;
+ flex-direction:row;
+ /* background-color:red; */
+ align-items:center;
+ justify-content:space-between;
+ padding:0.2em 3em;
+}
+.acmLogo {
+   height:4em;
+   width:4em;
+}
+
+.header > a {
+	display: flex;
+	align-items:center;
+}
+.header > a > span {
+	color: var(--color-headerTitle);
+	font-weight:700;
+	margin-left:1em;
+	font-size:1em;
+}
+
+
+.header > nav {
+
+}
+
+.header > nav >span {
+	color: var(--color-headerNav);
+	margin: 0 0.8em;
+	font-weight:700;
+	font-size:14px;
+}
+
+.registerBtn {
+	background: rgba(72, 186, 134, 0.25);
+	color:var(--color-registerBtn);
+	padding:0.5em 1em;
+	border-radius:8px;
+	display:flex;
+	align-items:center;
+}
+
+.registerBtn >img {
+	margin-left:0.3em;
+	margin-top:0.1em;
+}
+
+.regBtn_rightArrow {
+	height:0.5em;
+	width:auto;
+}
+/* header end */
