@@ -1,0 +1,16 @@
+:root {
+	
+}
+
+.stage {
+	width:100vw;
+	overflow:hidden;
+	position:relative;	
+}
+.stage > span{
+	margin: 0 10em;
+	font-size:3rem;
+	color:white;
+}
+
+
