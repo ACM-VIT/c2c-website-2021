@@ -13,7 +13,7 @@
   width: fit-content;
   display: flex;
   position: relative;
-  animation: marquee 15s linear infinite;
+  animation: marquee 18s linear infinite;
   /* animation-play-state: paused; */
   /* animation-play-state: running; */
 }
