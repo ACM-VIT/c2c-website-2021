@@ -28,6 +28,12 @@
   -webkit-text-fill-color: var(--color-bg);
 }
 
+@media screen and (max-width: 425px) {
+  .marquee__inner > span {
+    font-size: 7rem;
+  }
+}
+
 /* .letter:hover {
   /* animation: colorchange 5s cubic-bezier(0.8, 0, 1, 1); */
 
