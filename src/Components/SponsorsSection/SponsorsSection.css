@@ -156,8 +156,8 @@
     grid-gap: 0;
   }
   .sponsor {
-    width: 150px;
-    padding: 0.5rem 0em;
+    width: 120px;
+    padding: 1em 0em;
   }
   .sponsor:nth-last-child(1) {
     grid-column-start: 0;
