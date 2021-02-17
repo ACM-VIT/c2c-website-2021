@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect} from "react";
 /** Styles */
 import "./MarqueeSection.css";
 const MarqueeSection = () => {
@@ -10,9 +10,20 @@ const MarqueeSection = () => {
         .split("")
         .map((ele) => `<span class="letter">${ele}</span>`)
         .reduce(reducer);
-      console.log(letters);
-      console.log(typeof letters);
       span.innerHTML = letters;
+    }
+
+    const l = document.getElementsByClassName("letter");
+    if(!l) return;
+    for(let letter of l) {
+      letter.addEventListener("mouseover",(ele)=>{
+        ele.target.style = `-webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: var(--color-bg);
+        -webkit-text-fill-color: var(--color-highlightStroke);`
+        setTimeout(()=>{
+          ele.target.style ="";
+        },1200)
+      })
     }
     return () => {
       return;
@@ -22,6 +33,7 @@ const MarqueeSection = () => {
   return (
     <div className="marquee">
       <div className="marquee__inner" aria-hidden="true">
+        <span>CREATION</span>
         <span>COMPUTING</span>
         <span>CHANGE</span>
         <span>CHALLENGING</span>
