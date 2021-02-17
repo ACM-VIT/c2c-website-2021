@@ -1,16 +1,3 @@
-/* .sponsorsinner{
-    @apply grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-6 w-full content-center items-center;
-}
-.sponsorhead{
-    @apply flex justify-center text-c2cTextgreen font-black text-3xl pb-24;
-}
-.sponsor{
-    @apply flex justify-center;
-}
-.sponsorsection{
-    @apply mr-48 ml-48;
-} */
-
 .sponsorsection {
   display: flex;
   justify-content: center;
