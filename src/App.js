@@ -11,7 +11,7 @@ function App() {
       <LandingSection/>
       <MarqueeSection />
       <SponsorsSection/>
-      <VideoSection />
+      {/*<VideoSection />*/}
       <CarouselSection/>
     </div>
   );

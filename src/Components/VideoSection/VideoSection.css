@@ -1,4 +1,4 @@
-.videosection{
+/*.videosection{
 @apply px-36;
 height:100vh;
 display: flex;
@@ -47,4 +47,4 @@ background-color: #F2C94C;
 .containerheader{
     @apply flex flex-row justify-between px-4 py-2;
     height:30px;
-}
+}*/

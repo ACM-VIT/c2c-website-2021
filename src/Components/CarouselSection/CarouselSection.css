@@ -1,5 +1,46 @@
+@media screen and (max-width: 464px){
+    .cs-container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media screen and (min-width: 462px) and (max-width: 1024px){
+    .cs-container{
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .cs-container{
+        padding-left: calc(50vw - 400px);
+        padding-right: calc(50vw - 400px);
+    }
+    .carousel-text2{
+        margin: 1rem;
+        margin-left: -86px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .cs-container{
+        padding-left: 18vw;
+        padding-right: 18vw;
+    }
+    .carousel-image{
+        width: 31vw;
+        height: auto;
+    }
+    .carousel-text2{
+        font-size: 1.6vw!important;
+        margin: 1.5vw!important;
+        margin-left: -86px!important;
+    }
+    .carousel-text1{
+        font-size: 2.5vw!important;
+    }
+}
+
 .carousel-image{
-    width: 25rem;
+    width: 86vw;
     height: auto;
 }
 
@@ -7,6 +48,8 @@
     font-size: 2rem;
     font-weight: 600;
     color: white;
+    margin-bottom: 2rem;
+    display: table;
 }
 
 .carousel-text2{
@@ -14,8 +57,8 @@
     font-weight: 600;
     font-style: normal;
     color: white;
-    margin: 1rem;
-    margin-left: -86px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1rem;

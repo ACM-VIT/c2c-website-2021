@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+/*import { useState, useEffect } from "react";
 import Tilt from "react-tilt"
 /** Styles */
-import "./VideoSection.css";
+/*import "./VideoSection.css";
 import ReactPlayer from "react-player";
 import c2c from "../../assets/c2caftermovie.mp4";
 import Plyr from "react-plyr";
@@ -49,7 +49,7 @@ const VideoSection = () => {
                 "play",
               ],
             }}
-          /> */}
+          /> *//*}
           {/* <Plyr
           className="youtubeplayer"
             type="vimeo" // or "vimeo"
@@ -57,12 +57,12 @@ const VideoSection = () => {
             autoplay
             muted
             style={{display:"flex"}}
-          /> */}
+          /> *//*}
           {/* <ReactPlayer
             style={{borderRadius:"16px"}}
             url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             playing
-          /> */}
+          /> *//*}
           <video className="flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop="true" muted src={c2c} type="video/mp4" />
 
           {/* <video width="100%" controls autoPlay muted playsInline>
@@ -70,11 +70,11 @@ const VideoSection = () => {
               src={c2c}
               type="video/mp4"
             />
-          </video> */}
-        </div>
+          </video> *//*}
+        /*</div>
       </Tilt>
     </article>
   );
 };
 
-export default VideoSection;
+export default VideoSection;*/
