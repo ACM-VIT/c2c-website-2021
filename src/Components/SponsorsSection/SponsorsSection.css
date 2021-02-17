@@ -34,6 +34,7 @@
   align-items: center;
   width: 250px;
   flex-direction: column;
+  padding: 2rem 2em;
 }
 
 /* seletcts the last two eleemnts */
@@ -49,6 +50,8 @@
   filter: invert(0.3) sepia(1) saturate(1) hue-rotate(175deg);
   margin-bottom: 1em;
   transform: translateY(5px);
+  /* takes care of the logo moving up */
+  transition: all 1s ease-out;
 }
 
 .sponsor > p {
@@ -56,9 +59,10 @@
   display: none;
 }
 
-.sponsor:hover > span {
-  padding: 2em;
+.sponsor:hover {
   background: var(--color-sponserHighlightBg);
+  border-radius: 8px;
+  z-index: 10;
 }
 
 .sponsor:hover > img {
@@ -75,9 +79,9 @@
   gap: 5rem 0rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .sponsorsinner {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem 3rem;
   }
 
@@ -85,7 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 200px;
   }
 
   .sponsor:nth-last-child(1) {
@@ -98,19 +102,32 @@
   .sponsorhead {
     font-size: 2.5rem;
   }
+  .sponsor > p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 545px) {
   .sponsorsinner {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 3.3rem;
+    gap: 2rem 3rem;
   }
 
   .sponsor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100px;
+    padding: 1rem 0em;
+  }
+
+  .sponsor:hover {
+    transition: transform 1s ease-out;
+  }
+
+  .sponsor:hover > img {
+    transform: scale(3);
+  }
+
+  .sponsor:hover > p {
+    font-size: 1rem;
   }
 
   .sponsor:nth-last-child(1) {
