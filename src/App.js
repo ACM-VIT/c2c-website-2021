@@ -10,8 +10,8 @@ function App() {
       <LandingSection/>
       
       <MarqueeSection />
-      <VideoSection />
     <SponsorsSection/>
+      <VideoSection />
     </div>
   );
 }
