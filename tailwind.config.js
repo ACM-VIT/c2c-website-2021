@@ -9,6 +9,7 @@ module.exports = {
       },
       lineHeight: {
         14: "4.5rem",
+        13:"3rem",
       },
       backgroundColor: {
         websiteBackground: "#121212",

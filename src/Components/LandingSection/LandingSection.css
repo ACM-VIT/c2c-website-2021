@@ -6,11 +6,11 @@
   background-size: auto 800px;
 }
   .header {
-    @apply px-12 md:px-44 py-6 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
+    @apply px-12 md:px-44 py-6 flex justify-between md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
   
   }
   .navigate{
-    @apply text-graydark flex flex-row;
+    @apply text-graydark hidden md:flex flex-row ;
   }
   .navigatetitle{
     @apply text-lg mx-4 font-bold;
@@ -19,21 +19,21 @@
       @apply h-10;
     }
     .shadow {
-    @apply px-12 md:px-44 py-6 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
+    @apply px-12 md:px-44 py-6 flex justify-between items-center md:fixed md:w-full bg-websiteBackground shadow-xl  md:top-0 md:left-0 md:z-50;
     }
     .registerbutton {
-      @apply h-12;
+      @apply h-12 px-4;
     }
     .greentext{
       @apply text-c2cTextgreen font-black;
     }
   .titlecontainer {
     
-    @apply sm:flex flex-col items-center text-center text-graydark justify-center min-h-screen mx-auto w-6/12;
+    @apply sm:flex flex-col items-start md:items-center md:text-center text-graydark justify-center min-h-screen mx-4 md:mx-auto md:w-6/12;
 
   }
     .title {
-      @apply text-5xl px-4 text-graylight font-semibold mb-8 leading-14 tracking-tight w-11/12;
+      @apply text-4xl md:text-5xl px-4 text-graylight font-semibold mb-8 leading-13 md:leading-14 tracking-tight w-11/12;
     }
     .subtitle {
       @apply flex justify-center text-xl mb-8 items-center px-4 md:p-0 mx-auto;
