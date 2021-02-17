@@ -29,7 +29,7 @@ const LandingSection = ()=>{
           target="_blank"
           rel="noreferrer noopener"
         >
-          <img className="acmlogo" src={c2clogo} alt="C2C Logo" />
+          <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
         </a>
         <div className="navigate">
           <div className="navigatetitle">About</div>
