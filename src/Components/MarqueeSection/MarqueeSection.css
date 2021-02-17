@@ -19,12 +19,13 @@
 }
 
 .marquee__inner > span {
-  font-size: 10vw;
+  font-size: 9rem;
   padding: 0 2vw;
+  font-weight: 700;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 .letter:hover {
