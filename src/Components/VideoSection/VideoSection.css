@@ -1,0 +1,52 @@
+.videosection{
+@apply px-36;
+height:100vh;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.videoplayer{
+    background: rgba(19, 131, 80, 0.5);
+    height:60vh;
+    border-radius: 16px;
+    z-index: 100;
+    height:calc(80vw*9/16);
+    width: 80vw;
+}
+.bar{
+    width:80%;
+    height:1rem;
+    background-color: #121212;
+    border-radius: 16px;
+    @apply mx-1;
+}
+.videocontainer{
+    padding:20px;
+}
+.circle{
+    width:1rem;
+    height:1rem;
+    background-color: #121212;
+    border-radius: 50%;
+    @apply mx-1;
+}
+.youtubeplayer{
+    @apply mx-4;
+    width:100% !important;
+    border-radius: 16px;
+}
+.green{
+ background-color: #6FCF97;
+}
+.red{
+background-color: #EB5757 ;
+}
+.yellow{
+background-color: #F2C94C;
+}
+.containerheader{
+    @apply flex flex-row justify-between px-4 py-2;
+    height:30px;
+}

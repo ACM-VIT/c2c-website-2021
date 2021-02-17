@@ -31,6 +31,11 @@ const LandingSection = ()=>{
         >
           <img className="acmlogo" src={c2clogo} alt="C2C Logo" />
         </a>
+        <div className="navigate">
+          <div className="navigatetitle">About</div>
+          <div className="navigatetitle">Organisers</div>
+          <div className="navigatetitle">Sponsors</div>
+        </div>
         <a
           href="https://devfolio.co"
           className="text-white"
@@ -49,11 +54,7 @@ const LandingSection = ()=>{
           Experience the fifth edition of Code2Create now, right from the
           comfort of your home
         </div>
-        <a
-          href="https://devfolio.co"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+        <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener">
           <img className="registerbutton" src={register} alt="Register Now" />
         </a>
       </section>
