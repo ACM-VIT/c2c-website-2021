@@ -6,6 +6,7 @@ const Sponser = ({name,imgsrc}) => {
   return(
     <div className="sponsor">
       <img className={name} src={imgsrc} alt={`${name} logo`}/>
+      <p>{name}</p>
     </div>
   )
 }
