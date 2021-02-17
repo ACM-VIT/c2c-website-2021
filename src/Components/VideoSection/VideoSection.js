@@ -40,7 +40,7 @@ const VideoSection = () => {
           </div>
         </div>
         <div className="videocontainer container">
-          <video className="flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop={true} muted src={c2c} type="video/mp4" />
+          <video className="flex items-center justify-center" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop={true} muted src={c2c} type="video/mp4" />
         </div>
       </Tilt>
     </article>

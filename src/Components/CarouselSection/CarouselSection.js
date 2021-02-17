@@ -3,11 +3,24 @@ import "./CarouselSection.css";
 import register from "../../assets/register.svg";
 import Carousel, { autoplayPlugin, slidesToShowPlugin, Dots } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import { useRef, useEffect, useState } from "react";
 const CarouselSection = () => {
+    const editorRef = useRef();
+const [width,setWidth]=useState(0);
+  useEffect(() => {
+    setTimeout(() => {
+      let rect = editorRef.current.getBoundingClientRect().width; 
+      setWidth(rect);
+    }, 300);
+  }, []);
+  console.log(width);
   return (
     <article className="carouselsection">
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto py-28">
-        <div className="carousel-image flex items-center justify-center">
+        <div
+          ref={editorRef}
+          className="carousel-image flex items-center justify-center"
+        >
           <Carousel
             infinite
             animationSpeed={3000}

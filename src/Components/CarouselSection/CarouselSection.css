@@ -22,3 +22,12 @@
     border-radius: 3rem;
     display: table;
 }
+.cursor-prev {
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-prev.cur), auto;
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-prev.svg) 16 16, auto;
+}
+
+.cursor-next {
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-next.cur), auto;
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-next.svg) 16 16, auto;
+}
