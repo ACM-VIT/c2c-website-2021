@@ -19,7 +19,7 @@
       @apply h-10;
     }
     .shadow {
-    @apply px-12 md:px-44 py-6 flex justify-center md:justify-between items-center md:fixed md:w-full  md:top-0 md:left-0 md:z-50;
+    @apply px-12 md:px-44 py-6 flex justify-center md:justify-between items-center md:fixed md:w-full bg-websiteBackground  md:top-0 md:left-0 md:z-50;
     }
     .registerbutton {
       @apply h-12;
