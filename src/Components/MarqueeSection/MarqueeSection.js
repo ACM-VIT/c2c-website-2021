@@ -22,7 +22,7 @@ const MarqueeSection = () => {
         -webkit-text-fill-color: var(--color-highlightStroke);`
         setTimeout(()=>{
           ele.target.style ="";
-        },1500)
+        },1200)
       })
     }
     console.log(l);
