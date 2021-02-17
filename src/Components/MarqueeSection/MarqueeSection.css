@@ -5,7 +5,8 @@
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
   background: #121212;
-  --color-stroke: #48ba86;
+  --color-highlightStroke: #48ba86;
+  --color-stroke: rgba(72, 186, 134, 0.25);
   --color-bg: #121212;
 }
 
@@ -27,16 +28,10 @@
   -webkit-text-fill-color: var(--color-bg);
 }
 
-.letter {
-  opacity: 0.25;
-}
+/* .letter:hover {
+  /* animation: colorchange 5s cubic-bezier(0.8, 0, 1, 1); */
 
-.letter:hover {
-  animation: colorchange 5s cubic-bezier(0.8, 0, 1, 1);
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--color-bg);
-  -webkit-text-fill-color: var(--color-stroke);
-}
+/*}*/
 
 @keyframes colorchange {
   0% {

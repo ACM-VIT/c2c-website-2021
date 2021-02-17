@@ -12,6 +12,20 @@ const MarqueeSection = () => {
         .reduce(reducer);
       span.innerHTML = letters;
     }
+
+    const l = document.getElementsByClassName("letter");
+    if(!l) return;
+    for(let letter of l) {
+      letter.addEventListener("mouseover",(ele)=>{
+        ele.target.style = `-webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: var(--color-bg);
+        -webkit-text-fill-color: var(--color-highlightStroke);`
+        setTimeout(()=>{
+          ele.target.style ="";
+        },1500)
+      })
+    }
+    console.log(l);
     return () => {
       return;
     };
