@@ -40,35 +40,7 @@ const VideoSection = () => {
           </div>
         </div>
         <div className="videocontainer container">
-          {/* <Plyr
-            source={videoSrc}
-            options={{
-              controls: [
-                "play",
-              ],
-            }}
-          /> */}
-          {/* <Plyr
-          className="youtubeplayer"
-            type="vimeo" // or "vimeo"
-            videoId="512983481"
-            autoplay
-            muted
-            style={{display:"flex"}}
-          /> */}
-          {/* <ReactPlayer
-            style={{borderRadius:"16px"}}
-            url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-            playing
-          /> */}
           <video className="flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop={true} muted src={c2c} type="video/mp4" />
-
-          {/* <video width="100%" controls autoPlay muted playsInline>
-            <source
-              src={c2c}
-              type="video/mp4"
-            />
-          </video> */}
         </div>
       </Tilt>
     </article>
