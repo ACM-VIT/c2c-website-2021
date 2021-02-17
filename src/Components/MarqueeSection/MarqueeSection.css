@@ -25,7 +25,10 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
-  opacity: 0.4;
+}
+
+.letter {
+  opacity: 0.25;
 }
 
 .letter:hover {

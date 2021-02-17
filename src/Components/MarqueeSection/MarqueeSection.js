@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect} from "react";
 /** Styles */
 import "./MarqueeSection.css";
 const MarqueeSection = () => {
@@ -10,8 +10,6 @@ const MarqueeSection = () => {
         .split("")
         .map((ele) => `<span class="letter">${ele}</span>`)
         .reduce(reducer);
-      console.log(letters);
-      console.log(typeof letters);
       span.innerHTML = letters;
     }
     return () => {
@@ -22,6 +20,7 @@ const MarqueeSection = () => {
   return (
     <div className="marquee">
       <div className="marquee__inner" aria-hidden="true">
+        <span>CREATION</span>
         <span>COMPUTING</span>
         <span>CHANGE</span>
         <span>CHALLENGING</span>
