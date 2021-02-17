@@ -1,7 +1,6 @@
 .videosection{
 @apply px-36;
 height:100vh;
-margin: auto;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -9,11 +8,13 @@ justify-content: center;
 
 .videoplayer{
     background: rgba(19, 131, 80, 0.5);
-    height:60vh;
     border-radius: 16px;
     z-index: 100;
-    height:calc(80vw*9/16);
-    width: 80vw;
+    height:calc(60vw*9/16+40px);
+    width: calc(60vw+40px);
+}
+.videocontainer{
+    padding: 20px;
 }
 .bar{
     width:80%;
@@ -21,9 +22,6 @@ justify-content: center;
     background-color: #121212;
     border-radius: 16px;
     @apply mx-1;
-}
-.videocontainer{
-    padding:20px;
 }
 .circle{
     width:1rem;

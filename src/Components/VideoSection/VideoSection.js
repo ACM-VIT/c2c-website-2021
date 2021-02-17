@@ -63,7 +63,7 @@ const VideoSection = () => {
             url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             playing
           /> */}
-          <video className="container mx-auto flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop="true" muted src={c2c} type="video/mp4" />
+          <video className="flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop="true" muted src={c2c} type="video/mp4" />
 
           {/* <video width="100%" controls autoPlay muted playsInline>
             <source
