@@ -1,3 +1,8 @@
+@font-face {
+  font-family: displayFont;
+  src: url("../../assets/fonts/impact.ttf");
+}
+
 .marquee {
   position: relative;
   overflow: hidden;
@@ -5,7 +10,7 @@
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
   background: #121212;
-  --color-highlightStroke: #48ba86;
+  --color-highlightStroke: #1f3c2f;
   --color-stroke: rgba(72, 186, 134, 0.25);
   --color-bg: #121212;
 }
@@ -22,7 +27,9 @@
 .marquee__inner > span {
   font-size: 9rem;
   padding: 0 2vw;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: displayFont, sans-serif;
+  letter-spacing: 5px;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
