@@ -7,20 +7,16 @@
     font-size: 2rem;
     font-weight: 600;
     color: white;
+    @apply mx-2 px-6
 }
 
 .carousel-text2{
-    font-size: 1.25rem;
     font-weight: 600;
     font-style: normal;
     color: white;
-    margin: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     border-radius: 3rem;
     display: table;
+    @apply text-sm md:text-xl p-4 mx-2 my-4;
 }
 .cursor-prev {
   cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/cursor-prev.cur), auto;
