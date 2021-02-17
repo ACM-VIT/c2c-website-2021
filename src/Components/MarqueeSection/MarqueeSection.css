@@ -14,7 +14,7 @@
   width: fit-content;
   display: flex;
   position: relative;
-  animation: marquee 60s linear infinite;
+  animation: marquee 20s linear infinite;
   /* animation-play-state: paused; */
   /* animation-play-state: running; */
 }
@@ -61,6 +61,6 @@
   }
 
   100% {
-    transform: translatex(100%);
+    transform: translatex(40%);
   }
 }
