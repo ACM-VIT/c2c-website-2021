@@ -1,10 +1,8 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Tilt from "react-tilt"
 /** Styles */
 import "./VideoSection.css";
-import ReactPlayer from "react-player";
 import c2c from "../../assets/c2caftermovie.mp4";
-import Plyr from "react-plyr";
 import "plyr-react/dist/plyr.css";
 const VideoSection = () => {
 
@@ -63,7 +61,7 @@ const VideoSection = () => {
             url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             playing
           /> */}
-          <video className="flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop="true" muted src={c2c} type="video/mp4" />
+          <video className="flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop={true} muted src={c2c} type="video/mp4" />
 
           {/* <video width="100%" controls autoPlay muted playsInline>
             <source

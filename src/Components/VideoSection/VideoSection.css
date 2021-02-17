@@ -1,9 +1,16 @@
 .videosection {
-  @apply px-36;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0em 2px;
+}
+
+@media screen and (max-width: 545px) {
+  .videosection {
+    height: 35vh;
+    padding: 0em 0.5rem;
+  }
 }
 
 .videoplayer {
@@ -14,7 +21,7 @@
   width: calc(60vw+40px);
 }
 .videocontainer {
-  padding: 20px;
+  padding: 10px;
 }
 .bar {
   width: 80%;
