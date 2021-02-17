@@ -25,14 +25,13 @@
 }
 .bar {
   width: 80%;
-  height: 1rem;
+  @apply h-3 md:h-4;
   background-color: #121212;
   border-radius: 16px;
   @apply mx-1;
 }
 .circle {
-  width: 1rem;
-  height: 1rem;
+  @apply w-3 md:w-4 h-3 md:h-4;
   background-color: #121212;
   border-radius: 50%;
   @apply mx-1;
