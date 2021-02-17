@@ -4,8 +4,8 @@ import data from './sponserdata'
 
 const Sponser = ({name,imgsrc}) => {
   return(
-    <div className="sponser">
-      <img src={imgsrc} alt={`${name} logo`}/>
+    <div className="sponsor">
+      <img className={name} src={imgsrc} alt={`${name} logo`}/>
     </div>
   )
 }
@@ -14,14 +14,14 @@ const Sponser = ({name,imgsrc}) => {
 
 const SponsorsSection = ()=>{
   return (
-    <div className="sponsorsection">
-      <div className="sponsorhead">Previous Sponsors</div>
+    <article className="sponsorsection">
+      <h1 className="sponsorhead">Previous Sponsors</h1>
         <div className="sponsorsinner">
            {data.map((sponser,_)=>(
              <Sponser name={sponser.name} imgsrc={sponser.src}/>
            ))}
         </div>
-    </div>
+    </article>
   );
 }
 

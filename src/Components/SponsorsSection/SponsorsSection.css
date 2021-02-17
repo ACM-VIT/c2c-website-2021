@@ -1,4 +1,4 @@
-.sponsorsinner{
+/* .sponsorsinner{
     @apply grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-6 w-full content-center items-center;
 }
 .sponsorhead{
@@ -9,4 +9,108 @@
 }
 .sponsorsection{
     @apply mr-48 ml-48;
+} */
+
+.sponsorsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10em;
+  flex-direction: column;
+}
+
+.sponsorhead {
+  color: #48ba86;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2em;
+}
+
+.sponsorsinner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem 0rem;
+}
+
+.geeksforgeeks {
+  transform: scale(0.6);
+}
+
+.sponsor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+/* seletcts the last two eleemnts */
+.sponsor:nth-last-child(1) {
+  grid-column-start: 3;
+}
+/* seletcts the last two eleemnts */
+.sponsor:nth-last-child(2) {
+  grid-column-start: 2;
+}
+
+.sponser > img {
+  object-fit: cover;
+}
+.sponsorsinner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem 0rem;
+}
+
+@media screen and (max-width: 768px) {
+  .sponsorsinner {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 3rem;
+  }
+
+  .sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+  }
+
+  .sponsor:nth-last-child(1) {
+    grid-column-start: 2;
+  }
+  /* seletcts the last two eleemnts */
+  .sponsor:nth-last-child(2) {
+    grid-column-start: 1;
+  }
+  .sponsorhead {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .sponsorsinner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 3.3rem;
+  }
+
+  .sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+  }
+
+  .sponsor:nth-last-child(1) {
+    grid-column-start: 2;
+  }
+  /* seletcts the last two eleemnts */
+  .sponsor:nth-last-child(2) {
+    grid-column-start: 1;
+  }
+  .sponsorhead {
+    font-size: 2rem;
+  }
 }
