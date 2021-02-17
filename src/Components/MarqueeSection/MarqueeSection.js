@@ -25,7 +25,6 @@ const MarqueeSection = () => {
         },1200)
       })
     }
-    console.log(l);
     return () => {
       return;
     };
