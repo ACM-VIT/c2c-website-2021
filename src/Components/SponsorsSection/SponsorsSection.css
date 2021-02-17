@@ -150,10 +150,10 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   .sponsorsinner {
     grid-template-columns: 1fr;
-    grid-gap: 0;
+    grid-gap: 0 2em;
   }
   .sponsor {
     width: 120px;
