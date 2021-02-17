@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 250px;
   }
 
   .sponsor:nth-last-child(1) {
@@ -110,20 +110,28 @@
 @media screen and (max-width: 545px) {
   .sponsorsinner {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 3rem;
+    gap: 2rem 2rem;
   }
 
   .sponsor {
-    width: 100px;
-    padding: 1rem 0em;
+    width: 150px;
+    padding: 1.3rem 0em;
   }
 
-  .sponsor:hover {
+  .sponsor > img {
+    transform: scale(0.8) translateY(5px);
+  }
+  .sponsor:hover > img {
+    transform: scale(0.8) translateY(-5px);
     transition: transform 1s ease-out;
   }
 
-  .sponsor:hover > img {
-    transform: scale(3);
+  .geeksforgeeks {
+    transform: scale(1.1);
+  }
+
+  .geeksforgeeks_p {
+    font-size: 0.8rem !important;
   }
 
   .sponsor:hover > p {
@@ -139,5 +147,23 @@
   }
   .sponsorhead {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .sponsorsinner {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  .sponsor {
+    width: 150px;
+    padding: 0.5rem 0em;
+  }
+  .sponsor:nth-last-child(1) {
+    grid-column-start: 0;
+  }
+  /* seletcts the last two eleemnts */
+  .sponsor:nth-last-child(2) {
+    grid-column-start: 0;
   }
 }
