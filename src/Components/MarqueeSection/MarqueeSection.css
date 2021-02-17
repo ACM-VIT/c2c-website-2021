@@ -4,7 +4,7 @@
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
-  background: black;
+  background: #121212;
   --color-stroke: #48ba86;
   --color-bg: #121212;
 }
@@ -19,20 +19,29 @@
 }
 
 .marquee__inner > span {
-  font-size: 10vw;
+  font-size: 9rem;
   padding: 0 2vw;
+  font-weight: 700;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
-  opacity: 0.8;
+  opacity: 0.4;
 }
 
 .letter:hover {
-  /* animation: glow 5s cubic-bezier(0.8, 0, 1, 1); */
+  animation: colorchange 5s cubic-bezier(0.8, 0, 1, 1);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-bg);
   -webkit-text-fill-color: var(--color-stroke);
-  opacity: 1;
+}
+
+@keyframes colorchange {
+  0% {
+    -webkit-text-stroke: 2px var(--color-stroke);
+  }
+  100% {
+    -webkit-text-stroke: 3px var(--color-stroke);
+  }
 }
 
 @keyframes glow {

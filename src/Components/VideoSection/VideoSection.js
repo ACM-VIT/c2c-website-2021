@@ -41,7 +41,7 @@ const VideoSection = () => {
             <div className="circle"></div>
           </div>
         </div>
-        <div className="container">
+        <div className="videocontainer container">
           {/* <Plyr
             source={videoSrc}
             options={{
@@ -56,13 +56,14 @@ const VideoSection = () => {
             videoId="512983481"
             autoplay
             muted
+            style={{display:"flex"}}
           /> */}
           {/* <ReactPlayer
             style={{borderRadius:"16px"}}
             url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             playing
           /> */}
-          <video style={{borderRadius:"16px", width:"750px", textDecoration:"none", height:"400px", overflow:"hidden" }} controls autostart="true" autoPlay muted src={c2c} type="video/mp4" />
+          <video className="container mx-auto flex" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop="true" muted src={c2c} type="video/mp4" />
 
           {/* <video width="100%" controls autoPlay muted playsInline>
             <source
