@@ -47,7 +47,7 @@ const [classa,setClass]=useState(" carousel-image flex items-center justify-cent
           </Carousel>
         </div>
 
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start pt-6 md:pt-0">
           <div className="carousel-text1 lg:px-8">
             We're back with a bang,
             <br />
@@ -56,7 +56,7 @@ const [classa,setClass]=useState(" carousel-image flex items-center justify-cent
               let's flex first!
             </span>
           </div>
-          <div className="lg:-ml-20 px-0 z-50">
+          <div className="lg:-ml-20 z-50">
             <div className="carousel-text2" style={{ background: "#6695D3" }}>
               5000+ participants
             </div>
