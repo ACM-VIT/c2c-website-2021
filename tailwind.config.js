@@ -2,6 +2,9 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontSize: {
+      '3xl': '2rem'
+    },
     extend: {
       screen: { "2xl": "1244px" },
       screens: {
