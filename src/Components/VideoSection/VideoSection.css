@@ -17,8 +17,8 @@
   background: rgba(19, 131, 80, 0.5);
   border-radius: 16px;
   z-index: 100;
-  height: calc(60vw * 9 / 16+40px);
-  width: calc(60vw+40px);
+  height: calc(70vw * 9 / 16+40px);
+  width: calc(70vw+40px);
 }
 .videocontainer {
   padding: 10px;
