@@ -7,6 +7,7 @@ import { useRef, useEffect, useState } from "react";
 const CarouselSection = () => {
     const editorRef = useRef();
 const [width,setWidth]=useState(0);
+const [classa,setClass]=useState(" carousel-image flex items-center justify-center cursor-prev");
   useEffect(() => {
     setTimeout(() => {
       let rect = editorRef.current.getBoundingClientRect().width; 
@@ -14,15 +15,28 @@ const [width,setWidth]=useState(0);
     }, 300);
   }, []);
   console.log(width);
+    const [MousePosition, setMousePosition] = useState({
+      left: 0,
+      top: 0,
+    });
+
+    function handleMouseMove(ev) {
+      setMousePosition({ left: ev.pageX, top: ev.pageY });
+      setClass("carousel-image flex items-center justify-center cursor-prev");
+      console.log(MousePosition);
+
+    }
   return (
     <article className="carouselsection">
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto py-28">
         <div
           ref={editorRef}
-          className="carousel-image flex items-center justify-center"
+          onMouseMove={(ev) => handleMouseMove(ev)}
+          className={classa}
         >
           <Carousel
             infinite
+            onMouseMove={(ev) => handleMouseMove(ev)}
             animationSpeed={3000}
             autoPlay={3000}
             clickToChange

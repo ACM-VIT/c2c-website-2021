@@ -1,5 +1,5 @@
 .carousel-image{
-    width: 25rem;
+    @apply w-72 lg:w-96;
     height: auto;
 }
 
