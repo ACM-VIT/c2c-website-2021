@@ -1,16 +1,54 @@
 import image from "../../assets/Rectangle 5.svg";
 import "./CarouselSection.css";
-
+import register from "../../assets/register.svg";
+import Carousel, { autoplayPlugin, slidesToShowPlugin, Dots } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+import { useRef, useEffect, useState } from "react";
 const CarouselSection = () => {
+    const editorRef = useRef();
+const [width,setWidth]=useState(0);
+const [classa,setClass]=useState(" carousel-image flex items-center justify-center cursor-prev");
+  useEffect(() => {
+    setTimeout(() => {
+      let rect = editorRef.current.getBoundingClientRect().width; 
+      setWidth(rect);
+    }, 300);
+  }, []);
+  console.log(width);
+    const [MousePosition, setMousePosition] = useState({
+      left: 0,
+      top: 0,
+    });
+
+    function handleMouseMove(ev) {
+      setMousePosition({ left: ev.pageX, top: ev.pageY });
+      setClass("carousel-image flex items-center justify-center cursor-prev");
+      console.log(MousePosition);
+
+    }
   return (
     <article className="carouselsection">
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto py-28">
-        <div className="carousel-image">
-          <img style={{ display: "flex" }} src={image} alt="Carousel" />{" "}
+        <div
+          ref={editorRef}
+          onMouseMove={(ev) => handleMouseMove(ev)}
+          className={classa}
+        >
+          <Carousel
+            infinite
+            onMouseMove={(ev) => handleMouseMove(ev)}
+            animationSpeed={3000}
+            autoPlay={3000}
+            clickToChange
+            arrowLeft
+          >
+            <img src={image} alt="carousel-1" />
+            <img src={image} alt="carousel-1" />
+          </Carousel>
         </div>
 
-        <div className="flex flex-col">
-          <div className="carousel-text1 px-8">
+        <div className="flex flex-col items-start pt-6 md:pt-0">
+          <div className="carousel-text1 lg:px-8">
             We're back with a bang,
             <br />
             but{" "}
@@ -18,7 +56,7 @@ const CarouselSection = () => {
               let's flex first!
             </span>
           </div>
-          <div className="lg:-ml-20">
+          <div className="lg:-ml-20 z-50">
             <div className="carousel-text2" style={{ background: "#6695D3" }}>
               5000+ participants
             </div>
