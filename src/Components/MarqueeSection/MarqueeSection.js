@@ -1,3 +1,4 @@
+/* eslint-disable no-loop-func */
 import { useEffect} from "react";
 /** Styles */
 import "./MarqueeSection.css";
@@ -22,7 +23,7 @@ const MarqueeSection = () => {
         -webkit-text-fill-color: var(--color-highlightStroke);`
         setTimeout(()=>{
           ele.target.style ="";
-        },1200)
+        },1200);
       })
     }
     return () => {
