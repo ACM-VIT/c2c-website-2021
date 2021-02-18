@@ -9,7 +9,7 @@
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
   background: #121212;
-  --color-highlightStroke: #48ba86;
+  --color-highlightStroke: #1f3c2f;
   --color-stroke: rgba(72, 186, 134, 0.25);
   --color-bg: #121212;
 }
@@ -27,7 +27,7 @@
   font-size: 9rem;
   padding: 0 2vw;
   font-weight: 900;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   font-family: displayFont, sans-serif;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
