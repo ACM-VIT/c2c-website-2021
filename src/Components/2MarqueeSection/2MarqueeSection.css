@@ -4,7 +4,7 @@
   src: url("../../assets/fonts/impact.ttf");
 }
 
-.marquee {
+.marquee2 {
   position: relative;
   overflow: hidden;
   --offset: 20vw;
@@ -16,7 +16,7 @@
   --color-bg: #121212;
 }
 
-.marquee__inner {
+.marquee__inner2 {
   width: fit-content;
   display: flex;
   position: relative;
@@ -25,7 +25,7 @@
   /* animation-play-state: running; */
 }
 
-.marquee__inner > span {
+.marquee__inner2 > span {
   font-size: 12rem;
   padding: 0 2vw;
   font-weight: 700;
@@ -46,7 +46,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .marquee__inner > span {
+  .marquee__inner2 > span {
     font-size: 7rem;
   }
 }
