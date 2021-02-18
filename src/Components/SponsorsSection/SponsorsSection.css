@@ -79,6 +79,34 @@
   gap: 5rem 0rem;
 }
 
+@media screen and (max-width: 900px) {
+  .sponsorsinner {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem 1.5rem;
+  }
+
+  .sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+  }
+
+  .sponsor:nth-last-child(1) {
+    grid-column-start: 0;
+  }
+  /* seletcts the last two eleemnts */
+  .sponsor:nth-last-child(2) {
+    grid-column-start:1;
+  }
+  .sponsorhead {
+    font-size: 2.5rem;
+  }
+  .sponsor > p {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .sponsorsinner {
     grid-template-columns: repeat(2, 1fr);
