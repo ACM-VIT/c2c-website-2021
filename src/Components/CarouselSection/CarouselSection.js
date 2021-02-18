@@ -34,7 +34,7 @@ const CarouselSection = () => {
               let's flex first!
             </span>
           </div>
-          <div className="lg:-ml-20 px-0 z-50">
+          <div className="lg:-ml-20 z-50">
             <div className="carousel-text2" style={{ background: "#6695D3" }}>
               5000+ participants
             </div>

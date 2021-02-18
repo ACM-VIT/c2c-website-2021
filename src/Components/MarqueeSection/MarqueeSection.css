@@ -1,3 +1,7 @@
+@font-face {
+  font-family: displayFont;
+  src: url("../../assets/fonts/impact.ttf");
+}
 .marquee {
   position: relative;
   overflow: hidden;
@@ -5,7 +9,8 @@
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
   background: #121212;
-  --color-stroke: #48ba86;
+  --color-highlightStroke: #1f3c2f;
+  --color-stroke: rgba(72, 186, 134, 0.25);
   --color-bg: #121212;
 }
 
@@ -13,7 +18,7 @@
   width: fit-content;
   display: flex;
   position: relative;
-  animation: marquee 60s linear infinite;
+  animation: marquee 20s linear infinite;
   /* animation-play-state: paused; */
   /* animation-play-state: running; */
 }
@@ -21,19 +26,24 @@
 .marquee__inner > span {
   font-size: 9rem;
   padding: 0 2vw;
-  font-weight: 700;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family: displayFont, sans-serif;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
-  opacity: 0.4;
 }
 
-.letter:hover {
-  animation: colorchange 5s cubic-bezier(0.8, 0, 1, 1);
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--color-bg);
-  -webkit-text-fill-color: var(--color-stroke);
+@media screen and (max-width: 425px) {
+  .marquee__inner > span {
+    font-size: 7rem;
+  }
 }
+
+/* .letter:hover {
+  /* animation: colorchange 5s cubic-bezier(0.8, 0, 1, 1); */
+
+/*}*/
 
 @keyframes colorchange {
   0% {
@@ -63,6 +73,6 @@
   }
 
   100% {
-    transform: translatex(100%);
+    transform: translatex(40%);
   }
 }

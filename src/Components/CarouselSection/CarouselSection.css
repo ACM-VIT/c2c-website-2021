@@ -1,5 +1,5 @@
 .carousel-image{
-    width: 25rem;
+    @apply w-72 lg:w-96;
     height: auto;
 }
 
@@ -7,10 +7,10 @@
     font-size: 2rem;
     font-weight: 600;
     color: white;
+    @apply mx-2 px-6
 }
 
 .carousel-text2{
-    font-size: 1.25rem;
     font-weight: 600;
     font-style: normal;
     color: white;
@@ -21,6 +21,7 @@
     padding-bottom: 1rem;
     border-radius: 3rem;
     display: table;
+    @apply text-sm md:text-xl p-4 mx-6 my-4;
 }
 
 #leftArr{
