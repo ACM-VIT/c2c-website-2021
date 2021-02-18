@@ -19,7 +19,7 @@
       @apply h-8 md:h-10;
     }
     .shadow {
-    @apply px-6 md:px-44 py-3 flex justify-between items-center fixed w-full bg-websiteBackground shadow-xl  top-0 left-0 z-50;
+    @apply px-6 md:px-44 py-3 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
     }
     .registerbutton {
       @apply h-10 md:h-10 px-4 hover:opacity-25;
