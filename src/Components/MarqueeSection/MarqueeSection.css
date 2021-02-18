@@ -1,3 +1,7 @@
+@font-face {
+  font-family: displayFont;
+  src: url("../../assets/fonts/impact.ttf");
+}
 .marquee {
   position: relative;
   overflow: hidden;
@@ -22,7 +26,9 @@
 .marquee__inner > span {
   font-size: 9rem;
   padding: 0 2vw;
-  font-weight: 700;
+  font-weight: 900;
+  letter-spacing: 7px;
+  font-family: displayFont, sans-serif;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
