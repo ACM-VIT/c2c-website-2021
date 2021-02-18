@@ -30,10 +30,15 @@
 
 .geeksforgeeks_p {
   font-size: 0.9rem !important;
+  white-space: normal !important;
 }
 
 .rosenfeld_p {
   font-size: 0.9rem !important;
+}
+
+.sponsor:hover > .rosenfeld {
+  margin: -0.2em;
 }
 
 .sponsor {
@@ -68,6 +73,7 @@
   display: none;
   font-size: 1rem;
   text-align: center;
+  white-space: nowrap;
 }
 
 .sponsor:hover {
@@ -136,6 +142,10 @@
   .sponsor:hover > img {
     transform: scale(0.8) translateY(-5px);
     transition: transform 1s ease-out;
+  }
+
+  .sponsor:hover > p {
+    white-space: normal;
   }
 
   .geeksforgeeks {
