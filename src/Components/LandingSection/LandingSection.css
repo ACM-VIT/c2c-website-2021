@@ -3,7 +3,7 @@
   background-image:url("../../assets/map1.gif") ;
     background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 800px;
+  background-size: cover;
 }
   .header {
     @apply px-6 md:px-44 py-6 flex justify-between md:justify-between items-center fixed w-full top-0 left-0 z-50;
