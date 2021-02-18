@@ -5,7 +5,7 @@
   width: 100%;
   margin-top: 10em;
   flex-direction: column;
-  --color-sponserHighlightBg: #56565d;
+  --color-sponserHighlightBg: #252528;
 }
 
 .sponsorhead {
@@ -48,7 +48,7 @@
 }
 
 .sponsor > img {
-  filter: invert(0.3) sepia(1) saturate(1) hue-rotate(175deg);
+  /* filter: invert(0.3) sepia(1) saturate(1) hue-rotate(175deg); */
   margin-bottom: 1em;
   transform: translateY(5px);
   /* takes care of the logo moving up */
@@ -58,6 +58,7 @@
 .sponsor > p {
   color: white;
   display: none;
+  font-size: 0.9rem;
 }
 
 .sponsor:hover {
