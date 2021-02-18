@@ -4,6 +4,7 @@ import CarouselSection from './Components/CarouselSection/CarouselSection';
 import SponsorsSection from './Components/SponsorsSection/SponsorsSection';
 import MarqueeSection from './Components/MarqueeSection/MarqueeSection';
 import VideoSection from './Components/VideoSection/VideoSection';
+import SecondMarqueeSection from './Components/2MarqueeSection/2MarqueeSection'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SponsorsSection/>
       <VideoSection />
       <CarouselSection/>
+      <SecondMarqueeSection /> 
     </div>
   );
 }
