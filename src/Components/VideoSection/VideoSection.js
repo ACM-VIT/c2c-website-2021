@@ -23,8 +23,9 @@ const VideoSection = () => {
 
 
   return (
-    <article className="window__frame__container">
-      {/* <Tilt
+    <Tilt options={{ scale: 1, perspective: 1000, max: 15 }}>
+      <article className="window__frame__container">
+        {/* <Tilt
         className="videoplayer"
         options={{ scale: 1, perspective: 1000, max: 15 }}
       >
@@ -57,8 +58,7 @@ const VideoSection = () => {
               height: "100%",
               borderRadius: "16px",
               boxSizing: "border-box",
-              textDecoration:"none",
-
+              textDecoration: "none",
             }}
             controls
             autostart="true"
@@ -70,7 +70,8 @@ const VideoSection = () => {
           />
         </div>
         <script src="https://player.vimeo.com/api/player.js" />
-    </article>
+      </article>
+    </Tilt>
   );
 };
 
