@@ -22,7 +22,7 @@
     @apply px-6 md:px-44 py-4 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
     }
     .registerbutton {
-      @apply h-10 md:h-10 px-4 hover:opacity-25;
+      @apply h-10 md:h-10 px-4 opacity-25 hover:opacity-100;
     }
     .greentext{
       @apply text-c2cTextgreen font-black;
