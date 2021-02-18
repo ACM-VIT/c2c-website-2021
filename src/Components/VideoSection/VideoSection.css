@@ -111,6 +111,11 @@
     padding-top: 44px;
   }
 }
+@media screen and (min-width: 780px) {
+  .video-border{
+    border-radius: 16px;
+  }
+}
 
 @media screen and (max-width: 1580px) {
   .window__frame__container {
