@@ -2,10 +2,11 @@ import './SponsorsSection.css';
 import data from './sponserdata'
 
 
-const Sponser = ({name,imgsrc}) => {
+const Sponser = ({name,imgsrc,info}) => {
   return(
     <div className="sponsor">
       <img className={name} src={imgsrc} alt={`${name} logo`}/>
+      <p className={`${name}_p`}>{info}</p>
     </div>
   )
 }
@@ -18,7 +19,7 @@ const SponsorsSection = ()=>{
       <h1 className="sponsorhead">Previous Sponsors</h1>
         <div className="sponsorsinner">
            {data.map((sponser,_)=>(
-             <Sponser name={sponser.name} imgsrc={sponser.src}/>
+             <Sponser name={sponser.name} imgsrc={sponser.src} info={sponser.info}/>
            ))}
         </div>
     </article>

@@ -18,58 +18,72 @@ const sponsers = [
     {
       name:"github",
       src:githublogo,
+      info:"56+ Million developers"
     },
     {
       name: "slack",
       src:slacklogo,
+      info:"Leading workplace hub"
     },
     {
       name:"devfolio",
       src:devfoliologo,
+      info: "India’s #1 developer ecosystem"
     },
     {
       name:"fold",
       src:foldlogo,
+      info:"Transparent digital-only bank"
     },
     {
       name:"matic",
       src:maticlogo,
+      info:"Blockchain scalability platform"
     },
     {
       name:"geeksforgeeks",
       src:geeksforgeekslogo,
+      info:"Your friendly neighbourhood assignment helper"
     },
     {
       name:"codingblocks",
-      src:codingblockslogo
+      src:codingblockslogo,
+      info:"#1 bootcamp for developers"
     },
     {
       name:"jetbrains",
       src:jetbrainslogo,
+      info:"Vendor of development tools"
     },
     {
       name:"wolfram",
       src:wolframlogo,
+      info:"Creator of Mathematica"
     },
     {
       name:"digitalocean",
       src:digitaloceanlogo,
+      info:"Simplify cloud computing"
     },
     {
       name:"cloudsploit",
       src:cloudsploitlogo,
+      info:"Cloud Security as a Service"
     },
     {
       name:"rosenfeld",
       src:rosenfeldlogo,
+      info:"Educating future designers"
     },
     {
       name:"hackerrank",
       src:hackerranklogo,
+      info:"Hiring developers made easy."
     },
     {
       name:"hackerearth",
-      src:hackerearthlogo
+      src:hackerearthlogo,
+      info:"Remote hiring platform"
     }
  ]
 
