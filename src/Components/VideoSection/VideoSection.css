@@ -62,7 +62,7 @@
   border-radius: 16px;
   box-sizing: border-box;
   padding-top: 48px;
-  padding-bottom: 14px;
+  padding-bottom: 6px;
   padding-left: 14px;
   padding-right: 14px;
 }
@@ -82,15 +82,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  .course__nav__links__container {
-    width: 95%;
-  }
-  .course__nav__links {
-    font-size: 14px;
-  }
-  .course__nav__links div {
-    padding: 31px 20px;
-  }
   .window__frame__image {
     padding-top: 0;
     border-radius: 6px;
@@ -101,6 +92,7 @@
   .window__frame__container {
     background-size: 60vw, 100%;
     padding: 10px;
+    padding-bottom: 4px;
     padding-top: 20px;
     border-radius: 6px;
   }
