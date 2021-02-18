@@ -7,7 +7,7 @@ import { useRef, useEffect, useState } from "react";
 const CarouselSection = () => {
     const editorRef = useRef();
 const [width,setWidth]=useState(0);
-const [classa,setClass]=useState(" carousel-image flex items-center justify-center cursor-prev");
+const [classa,setClass]=useState(" carousel-image flex items-center justify-center z-50 cursor-prev");
   useEffect(() => {
     setTimeout(() => {
       let rect = editorRef.current.getBoundingClientRect().width; 
@@ -33,9 +33,11 @@ const [classa,setClass]=useState(" carousel-image flex items-center justify-cent
           ref={editorRef}
           onMouseMove={(ev) => handleMouseMove(ev)}
           className={classa}
+          style={{position:"relative"}}
         >
           <Carousel
             infinite
+            className="cursor-prev"
             onMouseMove={(ev) => handleMouseMove(ev)}
             animationSpeed={3000}
             autoPlay={3000}
