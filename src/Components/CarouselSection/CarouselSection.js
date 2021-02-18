@@ -1,48 +1,24 @@
 import image from "../../assets/Rectangle 5.svg";
 import "./CarouselSection.css";
 import register from "../../assets/register.svg";
-import Carousel, { autoplayPlugin, slidesToShowPlugin, Dots } from '@brainhubeu/react-carousel';
+import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-import { useRef, useEffect, useState } from "react";
 const CarouselSection = () => {
-    const editorRef = useRef();
-const [width,setWidth]=useState(0);
-const [classa,setClass]=useState(" carousel-image flex items-center justify-center z-50 cursor-prev");
-  useEffect(() => {
-    setTimeout(() => {
-      let rect = editorRef.current.getBoundingClientRect().width; 
-      setWidth(rect);
-    }, 300);
-  }, []);
-  console.log(width);
-    const [MousePosition, setMousePosition] = useState({
-      left: 0,
-      top: 0,
-    });
 
-    function handleMouseMove(ev) {
-      setMousePosition({ left: ev.pageX, top: ev.pageY });
-      setClass("carousel-image flex items-center justify-center cursor-prev");
-      console.log(MousePosition);
-
-    }
   return (
     <article className="carouselsection">
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto py-28">
         <div
-          ref={editorRef}
-          onMouseMove={(ev) => handleMouseMove(ev)}
-          className={classa}
-          style={{position:"relative"}}
+          className="carousel-image flex items-center justify-center z-20"
         >
           <Carousel
             infinite
-            className="cursor-prev"
-            onMouseMove={(ev) => handleMouseMove(ev)}
-            animationSpeed={3000}
-            autoPlay={3000}
+            animationSpeed={1000}
+            autoPlay={4000}
             clickToChange
-            arrowLeft
+            arrowLeft={<button id="leftArr"></button>}
+            arrowRight={<button id="rightArr"></button>}
+            addArrowClickHandler
           >
             <img src={image} alt="carousel-1" />
             <img src={image} alt="carousel-1" />
