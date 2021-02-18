@@ -5,7 +5,7 @@
   width: 100%;
   margin-top: 10em;
   flex-direction: column;
-  --color-sponserHighlightBg: #1f1f1f;
+  --color-sponserHighlightBg: #56565d;
 }
 
 .sponsorhead {
@@ -35,6 +35,7 @@
   width: 250px;
   flex-direction: column;
   padding: 2rem 2em;
+  transition: transform 1s ease-out;
 }
 
 /* seletcts the last two eleemnts */
@@ -63,6 +64,7 @@
   background: var(--color-sponserHighlightBg);
   border-radius: 8px;
   z-index: 10;
+  transform: scale(1.1);
 }
 
 .sponsor:hover > img {
