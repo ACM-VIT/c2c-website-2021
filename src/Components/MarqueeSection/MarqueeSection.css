@@ -80,10 +80,10 @@
 }
 @keyframes marquee {
   0% {
-    transform: translatex(-80%);
+    transform: translatex(200%);
   }
 
   100% {
-    transform: translatex(40%);
+    transform: translatex(0%);
   }
 }

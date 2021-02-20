@@ -18,6 +18,7 @@
     "react-player": "^2.8.2",
     "react-plyr": "^2.2.0",
     "react-scripts": "4.0.2",
+    "react-ticker": "^1.2.2",
     "react-tilt": "^0.1.4",
     "react-tilted": "^1.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
