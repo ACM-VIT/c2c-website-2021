@@ -48,3 +48,7 @@
     width: 0px!important;
     height: 440px!important;
 }
+
+.BrainhubCarousel__container{
+    border-radius: 8px;
+}
