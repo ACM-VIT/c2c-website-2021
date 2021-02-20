@@ -1,17 +1,18 @@
-.footer{
-    width: 100vw;
-    padding: 1em 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.footer {
+  width: 100vw;
+  padding: 1em 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5em;
 }
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.icons > img{
-    margin: 0 0.5em; 
+.mainIcon > img {
+  margin: 0 0.5em;
 }

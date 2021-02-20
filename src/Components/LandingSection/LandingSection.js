@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from "react";
 
 import c2clogo from "../../assets/c2clogo.svg";
@@ -38,7 +39,7 @@ const LandingSection = ()=>{
         </div>
         <a
           href="https://devfolio.co"
-          className="text-white"
+          className="text-white disabled"
           target="_blank"
           rel="noreferrer noopener"
         >
@@ -54,7 +55,8 @@ const LandingSection = ()=>{
           Experience the fifth edition of Code2Create now, right from the
           comfort of your home
         </div>
-        <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener">
+        {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
+        <a className="disabled" href="#" target="_blank" rel="noreferrer noopener">
           <img className="registerbutton" src={register} alt="Register Now" />
         </a>
       </section>

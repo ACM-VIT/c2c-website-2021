@@ -14,6 +14,11 @@
   margin-bottom: 5.5em;
 }
 
+.facArticle {
+  margin-top: 3em;
+  margin-bottom: 8em;
+}
+
 .facContainer::-webkit-scrollbar {
   display: none;
 }
@@ -22,7 +27,7 @@
   font-size: 2.5rem;
   color: #48ba86;
   font-weight: 900;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -67,7 +72,7 @@
 
 .faculty > img {
   width: 144px;
-  height: 154px;
+  height: 144px;
   border-radius: 100px;
 }
 

@@ -4,9 +4,6 @@ import organisers from './oragnisersdata'
 import './OrganisersSection.css'
 
 const Organiser = ({pic,name,position})=>{
-    useEffect(()=>{
-        console.log(pic,name,position)
-    },[])
     return (
     <section className="board_member">
         <img src={pic} alt={name}/>
@@ -21,7 +18,7 @@ const OrganisersSection = () => {
     },[]);
     return (
         <>
-        <h1 className="orgTitle">Organisers</h1>
+        <h1 className="orgTitle">Student Organisers</h1>
         <article className="orgContainer">
            
             <section className="slider" ref={slider}>

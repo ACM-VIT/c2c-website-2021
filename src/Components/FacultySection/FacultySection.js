@@ -4,9 +4,6 @@ import faculty from './facultydata'
 import './FacultySection.css'
 
 const Organiser = ({pic,name,position})=>{
-    useEffect(()=>{
-        console.log(pic,name,position)
-    },[])
     return (
     <section className="faculty">
         <img src={pic} alt={name}/>
@@ -20,8 +17,8 @@ const FacultySection = () => {
     useEffect(()=>{
     },[]);
     return (
-        <>
-        <h1 className="facTitle">Organisers</h1>
+        <article className="facArticle">
+        <h1 className="facTitle">Faculty Organisers</h1>
         <article className="facContainer">
            
             <section className="facSlider" ref={slider}>
@@ -30,7 +27,7 @@ const FacultySection = () => {
             ))}
             </section>
         </article>
-        </>
+        </article>
     )
 }
 

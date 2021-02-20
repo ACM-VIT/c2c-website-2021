@@ -27,13 +27,14 @@
 }
 
 .slider {
-  width: 100vw;
   scrollbar-width: none; /*firefox*/
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
-  animation: loop 10s linear infinite;
+  animation: loop 4s linear infinite;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   position: relative;
 }
@@ -61,14 +62,15 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-20%);
+    transform: translateX(-100%);
   }
 }
 
 .board_member > img {
   width: 144px;
-  height: 154px;
+  height: 144px;
   border-radius: 100px;
+  margin-bottom: 0.5em;
 }
 
 .board_member > h3 {
