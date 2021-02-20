@@ -1,31 +1,31 @@
 import React, { useEffect,useRef } from 'react'
-import organisers from './oragnisersdata'
+import faculty from './facultydata'
 
-import './OrganisersSection.css'
+import './FacultySection.css'
 
 const Organiser = ({pic,name,position})=>{
     useEffect(()=>{
         console.log(pic,name,position)
     },[])
     return (
-    <section className="board_member">
+    <section className="faculty">
         <img src={pic} alt={name}/>
         <h3>{name}</h3>
         <p>{position}</p>
     </section>
     );
 }
-const OrganisersSection = () => {
+const FacultySection = () => {
     const slider = useRef(null);
     useEffect(()=>{
     },[]);
     return (
         <>
-        <h1 className="orgTitle">Organisers</h1>
-        <article className="orgContainer">
+        <h1 className="facTitle">Organisers</h1>
+        <article className="facContainer">
            
-            <section className="slider" ref={slider}>
-            {organisers.map((organiser,key) => (
+            <section className="facSlider" ref={slider}>
+            {faculty.map((organiser,key) => (
                 <Organiser key={key} pic={organiser.pic} name={organiser.name} position={organiser.position}/>
             ))}
             </section>
@@ -34,4 +34,4 @@ const OrganisersSection = () => {
     )
 }
 
-export default OrganisersSection;
+export default FacultySection

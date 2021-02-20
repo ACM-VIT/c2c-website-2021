@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+.facContainer {
+  width: 100vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background: #121212;
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scrollbar-width: none; /*firefox*/
+  margin-bottom: 5.5em;
+}
+
+.facContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.facTitle {
+  font-size: 2.5rem;
+  color: #48ba86;
+  font-weight: 900;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.facSlider {
+  width: 100vw;
+  scrollbar-width: none; /*firefox*/
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* animation: loop 10s linear infinite; */
+  width: fit-content;
+  position: relative;
+}
+
+.facSlider:hover {
+  animation-play-state: paused;
+}
+
+.facSlider::-webkit-scrollbar {
+  display: none;
+}
+
+/* start of board member  */
+.faculty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  margin: 0 2em;
+  min-width: 200px;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.faculty > img {
+  width: 144px;
+  height: 154px;
+  border-radius: 100px;
+}
+
+.faculty > h3 {
+  color: #bababa;
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  white-space: nowrap;
+}
+
+.faculty > p {
+  font-family: "Roboto", sans-serif;
+  color: #86ccac;
+  font-size: 1.3rem;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+/* end of board member  */
