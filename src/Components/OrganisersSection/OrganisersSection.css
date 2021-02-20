@@ -31,6 +31,14 @@
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
+  animation: loop 60s linear infinite;
+  width: fit-content;
+  display: flex;
+  position: relative;
+}
+
+.slider:hover {
+  animation-play-state: paused;
 }
 
 .slider::-webkit-scrollbar {
@@ -45,6 +53,15 @@
   font-family: "DM Sans", sans-serif;
   margin: 0 2em;
   min-width: 200px;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .board_member > img {

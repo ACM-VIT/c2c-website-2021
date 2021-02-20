@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect,useRef } from 'react'
 import organisers from './oragnisersdata'
+import Ticker from 'react-ticker'
 
 import './OrganisersSection.css'
 
@@ -16,10 +17,13 @@ const Organiser = ({pic,name,position})=>{
     );
 }
 export const OrganisersSection = () => {
+    const slider = useRef(null);
+    useEffect(()=>{
+    },[]);
     return (
         <article className="orgContainer">
             <h1>Organisers</h1>
-            <section className="slider">
+            <section className="slider" ref={slider}>
             {organisers.map((organiser,key) => (
                 <Organiser key={key} pic={organiser.pic} name={organiser.name} position={organiser.position}/>
             ))}
