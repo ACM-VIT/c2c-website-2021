@@ -1,0 +1,17 @@
+.footer{
+    width: 100vw;
+    padding: 1em 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons > img{
+    margin: 0 0.5em; 
+}

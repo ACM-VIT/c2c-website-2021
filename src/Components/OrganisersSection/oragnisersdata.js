@@ -67,13 +67,13 @@ const organisers  = [
    },
    {
     pic:jerelyn,
-    name:"Jerelyn",
+    name:"Jerelyn Preeja",
     position:"ACM-W Lead"
    },
    {
     pic:garima,
-    name:"Jerelyn Preeja",
-    position:"ACM-W Lead"
+    name:"Garima Bothra",
+    position:"App Guide"
    },
    {
     pic:elio,

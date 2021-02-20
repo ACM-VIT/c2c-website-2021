@@ -1,0 +1,24 @@
+.aboutHead {
+    color: #48ba86;
+    white-space: nowrap;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .aboutContent{
+      color: white;
+      text-align: center;
+      padding: 0 4em;
+  }
+
+  .aboutSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
