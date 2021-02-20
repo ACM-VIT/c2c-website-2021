@@ -5,6 +5,8 @@ import SponsorsSection from './Components/SponsorsSection/SponsorsSection';
 import MarqueeSection from './Components/MarqueeSection/MarqueeSection';
 import VideoSection from './Components/VideoSection/VideoSection';
 import SecondMarqueeSection from './Components/2MarqueeSection/2MarqueeSection'
+import OrganisersSection from './Components/OrganisersSection/OrganisersSection';
+import FacultySection from './Components/FacultySection/FacultySection';
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <LandingSection/>
       <MarqueeSection />
       <SponsorsSection/>
+      <FacultySection/>
       <VideoSection />
       <CarouselSection/>
+      <OrganisersSection/>
       <SecondMarqueeSection /> 
     </div>
   );

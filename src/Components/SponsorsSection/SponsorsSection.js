@@ -18,8 +18,8 @@ const SponsorsSection = ()=>{
     <article className="sponsorsection">
       <h1 className="sponsorhead">Previous Sponsors</h1>
         <div className="sponsorsinner">
-           {data.map((sponser,_)=>(
-             <Sponser name={sponser.name} imgsrc={sponser.src} info={sponser.info}/>
+           {data.map((sponser,key)=>(
+             <Sponser key={key} name={sponser.name} imgsrc={sponser.src} info={sponser.info}/>
            ))}
         </div>
     </article>
