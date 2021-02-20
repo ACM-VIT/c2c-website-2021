@@ -22,11 +22,12 @@ const CarouselSection = () => {
           >
             <img src={image} alt="carousel-1" />
             <img src={image} alt="carousel-1" />
+            <img src={image} alt="carousel-1" />
           </Carousel>
         </div>
 
-        <div className="flex flex-col items-start pt-6 md:pt-0">
-          <div className="carousel-text1 lg:px-8">
+        <div className="flex flex-col items-start">
+          <div style={{cursor: "arrowLeft" }} className="carousel-text1 lg:px-8">
             We're back with a bang,
             <br />
             but{" "}

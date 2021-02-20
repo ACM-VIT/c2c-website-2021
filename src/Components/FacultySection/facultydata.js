@@ -1,7 +1,7 @@
 import fac1 from '../../assets/boardAndFaculty/Faculty1.png'
 import fac2 from '../../assets/boardAndFaculty/Faculty2.png'
 import fac3 from '../../assets/boardAndFaculty/Faculty3.jpeg'
-// import fac4 from '../../assets/boardAndFaculty/Faculty4.png'
+import fac4 from '../../assets/boardAndFaculty/Faculty4.png'
 
 
 const organisers  = [
@@ -20,11 +20,11 @@ const organisers  = [
      name:"Prof. H.R. Vishwakarma",
      position:"Faculty Coordinator"
    },
-  //  {
-  //    pic:fac4,
-  //    name:"Dr. Divya Udayan J.",
-  //    position:"Faculty Coordinator"
-  //  }
+    {
+      pic:fac4,
+      name:"Dr. Divya Udayan J.",
+      position:"Faculty Coordinator"
+    }
 ]
 
 export default organisers;

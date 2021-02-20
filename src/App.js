@@ -7,18 +7,22 @@ import VideoSection from './Components/VideoSection/VideoSection';
 import SecondMarqueeSection from './Components/2MarqueeSection/2MarqueeSection'
 import OrganisersSection from './Components/OrganisersSection/OrganisersSection';
 import FacultySection from './Components/FacultySection/FacultySection';
+import FooterSection from './Components/FooterSection/FooterSection';
+import AboutVITSection from './Components/AboutVITSection/AboutVITSection'
 
 function App() {
   return (
     <div className="landing">
       <LandingSection/>
       <MarqueeSection />
+      <AboutVITSection />
       <SponsorsSection/>
       <FacultySection/>
       <VideoSection />
       <CarouselSection/>
       <OrganisersSection/>
       <SecondMarqueeSection /> 
+      <FooterSection />
     </div>
   );
 }
