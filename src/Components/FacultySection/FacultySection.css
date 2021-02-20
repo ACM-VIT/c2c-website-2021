@@ -94,3 +94,13 @@
   opacity: 0.8;
 }
 /* end of board member  */
+
+@media screen and (max-width: 500px) {
+  .facSlider {
+    flex-direction: column;
+  }
+
+  .faculty {
+    margin-bottom: 3em;
+  }
+}
