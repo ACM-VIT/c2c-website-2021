@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   scrollbar-width: none; /*firefox*/
+  margin-bottom: 5.5em;
 }
 
 .orgContainer::-webkit-scrollbar {
@@ -31,9 +32,8 @@
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
-  animation: loop 60s linear infinite;
+  animation: loop 10s linear infinite;
   width: fit-content;
-  display: flex;
   position: relative;
 }
 
@@ -60,7 +60,7 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-20%);
   }
 }
 
