@@ -37,10 +37,8 @@
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-y: scroll;
   /* animation: loop 10s linear infinite; */
-  width: fit-content;
-  position: relative;
 }
 
 .facSlider:hover {
@@ -58,7 +56,7 @@
   align-items: center;
   font-family: "DM Sans", sans-serif;
   margin: 0 2em;
-  min-width: 200px;
+  min-width: 100px;
 }
 
 @keyframes loop {
@@ -81,7 +79,8 @@
   font-size: 1.7rem;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
-  white-space: nowrap;
+  white-space: wrap;
+  text-align: center;
 }
 
 .faculty > p {
@@ -92,6 +91,7 @@
   letter-spacing: 0.2px;
   font-weight: 400;
   opacity: 0.8;
+  text-align: center;
 }
 /* end of board member  */
 
