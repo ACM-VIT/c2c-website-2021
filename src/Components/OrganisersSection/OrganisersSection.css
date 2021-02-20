@@ -18,11 +18,12 @@
   display: none;
 }
 
-.orgContainer > h1 {
+.orgTitle {
   font-size: 2.5rem;
   color: #48ba86;
   font-weight: 900;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .slider {

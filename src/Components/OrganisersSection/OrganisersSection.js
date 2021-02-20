@@ -21,13 +21,16 @@ export const OrganisersSection = () => {
     useEffect(()=>{
     },[]);
     return (
+        <>
+        <h1 className="orgTitle">Organisers</h1>
         <article className="orgContainer">
-            <h1>Organisers</h1>
+           
             <section className="slider" ref={slider}>
             {organisers.map((organiser,key) => (
                 <Organiser key={key} pic={organiser.pic} name={organiser.name} position={organiser.position}/>
             ))}
             </section>
         </article>
+        </>
     )
 }
