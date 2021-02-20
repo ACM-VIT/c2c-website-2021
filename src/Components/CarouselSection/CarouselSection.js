@@ -1,15 +1,16 @@
 import image from "../../assets/Rectangle 5.svg";
 import "./CarouselSection.css";
 import register from "../../assets/register.svg";
-import Carousel, { autoplayPlugin, slidesToShowPlugin, Dots } from '@brainhubeu/react-carousel';
+import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
-
 const CarouselSection = () => {
 
   return (
     <article className="carouselsection">
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto py-28">
-        <div className="carousel-image flex items-center justify-center">
+        <div
+          className="carousel-image flex items-center justify-center z-20"
+        >
           <Carousel
             infinite
             animationSpeed={1000}

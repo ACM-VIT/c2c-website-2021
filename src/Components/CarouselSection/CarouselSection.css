@@ -23,7 +23,6 @@
     display: table;
     @apply text-sm md:text-xl p-4 mx-6 my-4;
 }
-
 #leftArr{
     cursor: url('../../assets/left-arrow.svg'), auto;
     width: 200px;

@@ -1,3 +1,4 @@
 .landing {
   @apply cursor-default bg-websiteBackground;
+  overflow-x: hidden;
 }

@@ -23,8 +23,9 @@ const VideoSection = () => {
 
 
   return (
-    <article className="videosection">
-      <Tilt
+    <Tilt options={{ scale: 1, perspective: 1000, max: 15 }}>
+      <article className="window__frame__container">
+        {/* <Tilt
         className="videoplayer"
         options={{ scale: 1, perspective: 1000, max: 15 }}
       >
@@ -42,8 +43,34 @@ const VideoSection = () => {
         <div className="videocontainer container">
           <video className="flex items-center justify-center" style={{borderRadius:"16px", overflow:"hidden" }} controls autostart="true" autoPlay loop={true} muted src={c2c} type="video/mp4" />
         </div>
-      </Tilt>
-    </article>
+      </Tilt> */}
+        {/* <Player /> */}
+        <div
+          className="window__frame__image"
+          style={{ padding: "56.25% 0 0 0", position: "relative" }}
+        >
+          <video
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              boxSizing: "border-box",
+              textDecoration: "none",
+            }}
+            className="video-border"
+            controls
+            autostart="true"
+            autoPlay
+            loop={true}
+            muted
+            src={c2c}
+            type="video/mp4"
+          />
+        </div>
+        <script src="https://player.vimeo.com/api/player.js" />
+      </article>
+    </Tilt>
   );
 };
 
