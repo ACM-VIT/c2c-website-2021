@@ -17,10 +17,10 @@ function App() {
       <LandingSection/>
       <MarqueeSection />
       <AboutVITSection />
+      <CarouselSection/>
       <SponsorsSection/>
       <FacultySection/>
       <VideoSection />
-      <CarouselSection/>
       <FaqSection />
       <OrganisersSection/>
       <SecondMarqueeSection /> 
