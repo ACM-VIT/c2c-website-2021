@@ -48,7 +48,7 @@ const LandingSection = ()=>{
       </section>
       <section className="titlecontainer">
         <h1 className="title">
-          <span className="greentext">We are</span> the Hackathon everyone’s
+          <span className="greentext">The Hackathon </span>everyone’s
           been <span className="greentext"> waiting for</span>
         </h1>
         <div className="subtitle">

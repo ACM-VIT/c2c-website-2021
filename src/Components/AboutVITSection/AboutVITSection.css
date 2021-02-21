@@ -11,8 +11,10 @@
 .aboutContent {
   color: grey;
   text-align: center;
-  padding: 0 4em;
+  padding: 0.5em 4em;
   line-height: 160%;
+  font-size: 1.2rem;
+
 }
 
 .aboutSection {

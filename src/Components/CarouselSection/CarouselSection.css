@@ -1,6 +1,17 @@
 .carousel-image{
-    @apply w-72 lg:w-96;
     height: auto;
+}
+
+@media screen and (max-width:420px){
+    .carousel-image{
+        width: 95vw;
+    }
+}
+
+@media screen and (min-width:420px){
+    .carousel-image{
+        width: 25rem;
+    }
 }
 
 .carousel-text1{
