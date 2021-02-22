@@ -19,10 +19,10 @@ function App() {
       <AboutVITSection />
       <CarouselSection/>
       <SponsorsSection/>
-      <FacultySection/>
       <VideoSection />
-      <FaqSection />
+      <FacultySection/>    
       <OrganisersSection/>
+      <FaqSection />
       <SecondMarqueeSection /> 
       <FooterSection />
     </div>

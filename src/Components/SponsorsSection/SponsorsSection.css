@@ -24,6 +24,9 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 5rem 0rem;
 }
+.rosenfeld, .jetbrains{
+  transform: scale(0.3);
+}
 
 .geeksforgeeks {
   transform: scale(0.6);
@@ -48,7 +51,7 @@
   align-items: center;
   width: 250px;
   flex-direction: column;
-  padding: 2rem 2em;
+  padding:1.5rem 2rem 0.25rem 2rem;
   transition: transform 1s ease-out;
 }
 
