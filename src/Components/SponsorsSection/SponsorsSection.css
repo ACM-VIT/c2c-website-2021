@@ -31,8 +31,8 @@
 }
 
 .geeksforgeeks_p {
-  font-size: 0.7rem !important;
-  white-space: normal !important;
+  font-size: 0.75rem !important;
+  white-space: pre-line !important;
 }
 
 .rosenfeld {
