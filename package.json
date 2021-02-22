@@ -9,6 +9,8 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/lodash": "^4.14.168",
+    "@types/styled-components": "^5.1.7",
     "autoprefixer": "^9.8.6",
     "lodash": "^4.17.21",
     "plyr-react": "^3.0.7",
