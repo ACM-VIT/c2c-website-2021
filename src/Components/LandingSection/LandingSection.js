@@ -49,15 +49,7 @@ const LandingSection = ({scrollToAbout, scrollToFAQ, scrollToOrganizers, scrollT
             <div className="navigatetitle">FAQ</div>
           </a>
         </div>
-        <a
-          href="https://devfolio.co"
-          className="text-white disabled"
-          target="_blank"
-          rel="noreferrer noopener"
-          id="headerRg"
-        >
           <img className="registerbutton" src={register} alt="Register Now" />
-        </a>
       </section>
       <section className="titlecontainer">
         <h1 className="title">
@@ -69,14 +61,9 @@ const LandingSection = ({scrollToAbout, scrollToFAQ, scrollToOrganizers, scrollT
           comfort of your home
         </div>
         {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
-        <a
-          className="disabled"
-          href="#"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+
           <img className="registerbutton" src={register} alt="Register Now" />
-        </a>
+
         <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
         <div
           className="apply-button"
