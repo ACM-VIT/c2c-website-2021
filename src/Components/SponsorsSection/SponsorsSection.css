@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 10em;
-  margin-bottom: 6em;
+  margin-top: 8rem;
+  margin-bottom: 0px;
   flex-direction: column;
   --color-sponserHighlightBg: #252528;
 }
@@ -16,7 +16,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: 900;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 .sponsorsinner {
