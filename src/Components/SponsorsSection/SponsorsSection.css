@@ -31,8 +31,8 @@
 }
 
 .geeksforgeeks_p {
-  font-size: 0.7rem !important;
-  white-space: normal !important;
+  font-size: 0.79rem !important;
+  white-space: pre-line !important;
 }
 
 .rosenfeld {
@@ -124,7 +124,7 @@
     font-size: 2.5rem;
   }
   .sponsor > p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
