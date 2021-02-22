@@ -41,7 +41,7 @@
 }
 .rosenfeld_p {
   font-size: 1rem !important;
-  white-space: nowrap !important;
+  white-space: normal !important;
 }
 
 .sponsor {
@@ -77,6 +77,8 @@
   font-size: 1rem;
   text-align: center;
   white-space: nowrap;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 .sponsor:hover {
