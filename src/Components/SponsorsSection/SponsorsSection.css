@@ -35,6 +35,15 @@
   white-space: normal !important;
 }
 
+.rosenfeld {
+  margin-bottom: 0.5em !important;
+  transform: scale(1.2) translateY(5px) !important;
+}
+.rosenfeld_p {
+  font-size: 1rem !important;
+  white-space: nowrap !important;
+}
+
 .sponsor {
   display: flex;
   justify-content: center;
