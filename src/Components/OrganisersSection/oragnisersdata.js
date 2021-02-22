@@ -94,6 +94,7 @@ let organisers  = [
 
 
 organisers = organisers.concat(organisers);
+organisers = organisers.concat(organisers);
 console.log(organisers.length);
 
 export default organisers;
