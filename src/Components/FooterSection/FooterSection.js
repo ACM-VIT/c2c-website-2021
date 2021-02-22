@@ -15,16 +15,31 @@ const IconComponent = ({src,link}) => {
 
 const FooterSection = () => {
   return (
-      <article className="footer">
-          <img src={ACMLogo} className="acmlogo" alt="logo"/>
-          <div className="icons">
-              {icons.map((icon,key)=>(
-                  <IconComponent key={key} src={icon.src} link={icon.link}/>
-              ))}
-          </div>
-          <img src={VITLogo} className="vitlogo" alt="logo"/>
-      </article>
-  
+    <article className="footer">
+      <a
+        className="logos"
+        href="https://acmvit.in/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img src={ACMLogo} className="acmlogo" alt="logo" />
+      </a>
+
+      <div className="icons">
+        {icons.map((icon, key) => (
+          <IconComponent key={key} src={icon.src} link={icon.link} />
+        ))}
+      </div>
+
+      <a
+        className="logos"
+        href="https://vit.ac.in/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img src={VITLogo} className="vitlogo" alt="logo" />
+      </a>
+    </article>
   );
 };
 

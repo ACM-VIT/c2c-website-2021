@@ -22,10 +22,18 @@ p{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-}
 
+}
+.tabscontainer{
+        margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .tab-content{
-    font-size: 0.75em;
+    font-size: 0.75rem;
     max-height: 0;
     -webkit-transition: max-height .35s;
     -o-transition: max-height .35s;

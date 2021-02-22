@@ -13,26 +13,30 @@
   flex-direction: row;
   justify-content: space-around;
 }
+  .acmlogo, .vitlogo {
+    width: 150px;
+    height: auto;
+  }
 
 .mainIcon > img {
   margin: 0 0.5em;
 }
-.vitlogo, .acmlogo{
-  transform: scale(1.4);
-}
+  .logos {
+    transform: scale(1);
+  }
 
 @media screen and (max-width: 400px) {
   .mainIcon > img {
-    height: 20px;
-    width: 20px;
-    margin: 0 0.1em;
+    height: 16px;
+    width: 16px;
+    margin: 0 0.1rem;
   }
 
   .footer {
-    padding: 0em;
+    padding: 1rem;
   }
 
-  .footer > img {
+  .footer > a {
     transform: scale(0.8);
   }
 }

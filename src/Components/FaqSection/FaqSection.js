@@ -1,3 +1,4 @@
+import Accordion from '../Accordion/Accordion'
 import './FaqSection.css'
 import data from './FaqSectiondata'
 
@@ -15,15 +16,23 @@ const Question = ({id, question, answer}) => {
 
 const FaqSection = () => {
     return (
-    <article className="faqcontainer">
+      <article className="faqcontainer">
         <h1 className="faqheading">Frequently Asked Questions</h1>
-         <div className="tabscontainer">
-            {data.map((ques, key) => (
-               <Question key={key} id={ques.id} question={ques.question} answer={ques.answer} />
-            ))}
-            </div>
-         
-    </article>
+        <div className="tabscontainer">
+          {data.map((ques, key) => (
+            <Accordion
+              key={key}
+              id={ques.id}
+              title={ques.question}
+              content={ques.answer}
+            />
+          ))}
+          <Accordion
+            title="How do I track my order?"
+            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          />
+        </div>
+      </article>
     );
 }
 
