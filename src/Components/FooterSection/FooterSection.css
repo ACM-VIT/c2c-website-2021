@@ -1,6 +1,6 @@
 .footer {
   width: 100vw;
-  padding: 1em 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,6 +16,9 @@
 
 .mainIcon > img {
   margin: 0 0.5em;
+}
+.vitlogo, .acmlogo{
+  transform: scale(1.4);
 }
 
 @media screen and (max-width: 400px) {
