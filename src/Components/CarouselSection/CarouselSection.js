@@ -1,4 +1,16 @@
-import image from "../../assets/Rectangle 5.svg";
+import image1 from "../../assets/carousel-images/img1.jpg";
+import image2 from "../../assets/carousel-images/img2.JPG";
+import image3 from "../../assets/carousel-images/img3.JPG";
+import image4 from "../../assets/carousel-images/img4.JPG";
+import image5 from "../../assets/carousel-images/img5.JPG";
+import image6 from "../../assets/carousel-images/img6.jpg";
+import image7 from "../../assets/carousel-images/img7.jpg";
+import image8 from "../../assets/carousel-images/img8.jpg";
+import image9 from "../../assets/carousel-images/img9.jpg";
+import image10 from "../../assets/carousel-images/img10.JPG";
+import image16 from "../../assets/carousel-images/img16.JPG";
+import image17 from "../../assets/carousel-images/img17.JPG";
+
 import "./CarouselSection.css";
 import register from "../../assets/register.svg";
 import Carousel from '@brainhubeu/react-carousel';
@@ -20,9 +32,19 @@ const CarouselSection = () => {
             arrowRight={<button id="rightArr"></button>}
             addArrowClickHandler
           >
-            <img src={image} alt="carousel-1" />
-            <img src={image} alt="carousel-1" />
-            <img src={image} alt="carousel-1" />
+            <img src={image1} alt="carousel-img-1" />
+            <img src={image2} alt="carousel-img-1" />
+            <img src={image3} alt="carousel-img-3" />
+            <img src={image4} alt="carousel-img-4" />
+            <img src={image5} alt="carousel-img-5" />
+            <img src={image6} alt="carousel-img-6" />
+            <img src={image7} alt="carousel-img-7" />
+            <img src={image8} alt="carousel-img-8" />
+            <img src={image9} alt="carousel-img-9" />
+            <img src={image10} alt="carousel-img-10" />
+            <img src={image16} alt="carousel-img-11" />
+            <img src={image17} alt="carousel-img-12" />
+            
           </Carousel>
         </div>
 
