@@ -34,11 +34,9 @@ const SecondMarqueeSection = () => {
   return (
     <div className="marquee2">
       <div className="marquee__inner2" aria-hidden="true">
-        <span>CREATION</span>
-        <span>COMPUTING</span>
-        <span>CHANGE</span>
-        <span>CHALLENGING</span>
-        <span>CREATIVITY</span>
+        <span>BECAUSE</span>
+        <span>TECHNOLOGY</span>
+        <span>MATTERS</span>
       </div>
     </div>
   );
