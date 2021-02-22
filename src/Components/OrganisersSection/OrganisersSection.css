@@ -33,7 +33,7 @@
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
-  animation: ticker 30s linear infinite;
+  animation: ticker 90s linear infinite;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

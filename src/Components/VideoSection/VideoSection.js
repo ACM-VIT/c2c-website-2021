@@ -68,6 +68,7 @@ const VideoSection = () => {
             type="video/mp4"
           />
         </div>
+        <div id="orgLink"></div>
         <script src="https://player.vimeo.com/api/player.js" />
       </article>
     </Tilt>

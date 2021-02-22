@@ -3,7 +3,9 @@ import "./AboutVITSection.css";
 const AboutVITSection = () => {
 
   return (
-      <article className="aboutSection">
+      <>
+        <div id="aboutLink"></div>
+         <article className="aboutSection">
           <div>
               <div className="aboutHead">
                   About VIT
@@ -22,9 +24,8 @@ const AboutVITSection = () => {
               Code2Create'19 saw more than 500 participants. The judges were renowned experts in their respective fields. Participants from across the country indulge in 36 hours of intense brainstorming, designing, creating and testing, along with some engaging and very enjoyable side quests.
               Code2Create is ACM-VIT’s flagship event and one of the grandest annual events hosted in VIT.</p>
           </div>
-
       </article>
-  
+      </>
   );
 };
 
