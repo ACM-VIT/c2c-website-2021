@@ -34,7 +34,7 @@ const MarqueeSection = () => {
   return (
     <div className="marquee">
       <div className="marquee__inner" aria-hidden="true">
-        <span>CREATION</span>
+        {/* <span>CREATION</span> */}
         <span>COMPUTING</span>
         <span>CHANGE</span>
         <span>CHALLENGING</span>
