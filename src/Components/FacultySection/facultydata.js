@@ -12,7 +12,7 @@ const organisers  = [
    },
    {
       pic:fac1,
-      name:"Dr. Aswani Kumar Cherukuri",
+      name:"Dr. Aswani K Cherukuri",
       position:"Faculty Coordinator"
    },
    {

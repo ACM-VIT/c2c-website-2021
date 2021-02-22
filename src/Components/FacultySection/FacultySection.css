@@ -34,10 +34,11 @@
 .facSlider {
   width: 100vw;
   scrollbar-width: none; /*firefox*/
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   overflow-x: scroll;
   overflow-y: scroll;
+  justify-content: center;
   /* animation: loop 10s linear infinite; */
 }
 
@@ -76,11 +77,12 @@
 
 .faculty > h3 {
   color: #bababa;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
   white-space: wrap;
   text-align: center;
+  margin-top: 0.5em;
 }
 
 .faculty > p {
@@ -95,12 +97,31 @@
 }
 /* end of board member  */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
+  .facTitle {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
   .facSlider {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .faculty {
     margin-bottom: 3em;
+  }
+
+  .faculty > img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.3em;
+  }
+
+  .faculty > h3 {
+    font-size: 0.8rem;
+  }
+
+  .faculty > p {
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 }

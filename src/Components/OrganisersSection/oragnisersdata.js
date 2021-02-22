@@ -14,7 +14,7 @@ import elio from '../../assets/boardAndFaculty/Elio.png'
 import siddharth from '../../assets/boardAndFaculty/Siddharth.jpg'
 import sriya from '../../assets/boardAndFaculty/Sriya.jpg'
 
-const organisers  = [
+let organisers  = [
    {
        pic: sarthak,
        name:"Sarthak Gupta",
@@ -91,5 +91,9 @@ const organisers  = [
     position:"Operations Head"
    },
 ]
+
+
+organisers = organisers.concat(organisers);
+console.log(organisers.length);
 
 export default organisers;
