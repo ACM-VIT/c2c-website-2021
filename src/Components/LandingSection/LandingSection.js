@@ -34,7 +34,7 @@ const LandingSection = ()=>{
         </a>
         <div className="navigate">
           <a href="#aboutLink">
-          <div className="navigatetitle">About</div>
+            <div className="navigatetitle">About</div>
           </a>
           <a href="#orgLink">
           <div className="navigatetitle">Organisers</div>
