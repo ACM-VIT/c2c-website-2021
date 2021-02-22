@@ -21,7 +21,7 @@
   @apply px-6 md:px-44 py-4 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
 }
 .registerbutton {
-  @apply h-10 md:h-10 px-4 opacity-50 hover:opacity-100;
+  @apply ml-5 h-10 md:h-10 px-4 opacity-50 hover:opacity-100;
 }
 .greentext {
   @apply text-c2cTextgreen font-black;
@@ -37,10 +37,4 @@
 }
 .motto {
   @apply flex items-center justify-center mb-36 px-4;
-}
-
-@media screen and (max-width: 370px) {
-  .header {
-    padding-right: 0.3em;
-  }
 }
