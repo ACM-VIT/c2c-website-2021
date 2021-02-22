@@ -33,8 +33,11 @@ const LandingSection = ()=>{
           <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
         </a>
         <div className="navigate">
+         
           <div className="navigatetitle">About</div>
+          <a href="#orgLink">
           <div className="navigatetitle">Organisers</div>
+          </a>
           <div className="navigatetitle">Sponsors</div>
         </div>
         <a
