@@ -1,43 +1,40 @@
 .landsection {
   @apply cursor-default w-full md:pt-16;
-  background-image:url("../../assets/map1.gif") ;
-    background-repeat: no-repeat;
+  background-image: url("../../assets/map1.gif");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-  .header {
-    @apply px-6 md:px-44 py-4 flex justify-between md:justify-between items-center fixed w-full top-0 left-0 z-50;
-  
-  }
-  .navigate{
-    @apply text-graydark hidden md:flex flex-row ;
-  }
-  .navigatetitle{
-    @apply text-lg mx-4 font-bold;
-  }
-    .acmlogo {
-      @apply h-8 md:h-10;
-    }
-    .shadow {
-    @apply px-6 md:px-44 py-4 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
-    }
-    .registerbutton {
-      @apply h-10 md:h-10 px-4 opacity-50 hover:opacity-100;
-    }
-    .greentext{
-      @apply text-c2cTextgreen font-black;
-    }
-  .titlecontainer {
-    
-    @apply flex flex-col items-start md:items-center md:text-center text-graydark justify-center h-screen mx-4 md:mx-auto md:w-6/12;
-
-  }
-    .title {
-      @apply text-4xl md:text-5xl px-4 text-graylight font-semibold mb-4 leading-13 md:leading-14 tracking-tight w-11/12 max-w-2xl;
-    }
-    .subtitle {
-      @apply flex justify-center text-xl mb-8 items-center px-4 md:p-0 mx-auto;
-    }
-    .motto {
-      @apply flex items-center justify-center mb-36 px-4;
-    }
+.header {
+  @apply px-6 md:px-44 py-4 flex justify-between md:justify-between items-center fixed w-full top-0 left-0 z-50;
+}
+.navigate {
+  @apply text-graydark hidden md:flex flex-row;
+}
+.navigatetitle {
+  @apply text-lg mx-4 font-bold;
+}
+.acmlogo {
+  @apply h-8 md:h-10;
+}
+.shadow {
+  @apply px-6 md:px-44 py-4 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
+}
+.registerbutton {
+  @apply ml-5 h-10 md:h-10 px-4 opacity-50 hover:opacity-100;
+}
+.greentext {
+  @apply text-c2cTextgreen font-black;
+}
+.titlecontainer {
+  @apply flex flex-col items-start md:items-center md:text-center text-graydark justify-center h-screen mx-4 md:mx-auto md:w-6/12;
+}
+.title {
+  @apply text-4xl md:text-5xl px-4 text-graylight font-semibold mb-4 leading-13 md:leading-14 tracking-tight w-11/12 max-w-2xl;
+}
+.subtitle {
+  @apply flex justify-center text-xl mb-8 items-center px-4 md:p-0 mx-auto;
+}
+.motto {
+  @apply flex items-center justify-center mb-36 px-4;
+}
