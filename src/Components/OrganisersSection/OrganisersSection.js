@@ -1,5 +1,8 @@
 import React, { useEffect,useRef } from 'react'
+import Ticker from "react-ticker";
 import organisers from './oragnisersdata'
+import Marquee from "react-fast-marquee";
+
 
 import './OrganisersSection.css'
 
@@ -17,7 +20,7 @@ const OrganisersSection = () => {
     useEffect(()=>{
     },[]);
     return (
-        <>
+      <>
         <h1 className="orgTitle">Student Organisers</h1>
         <article className="orgContainer">
            
@@ -27,8 +30,14 @@ const OrganisersSection = () => {
             ))}
             </section>
         </article>
-        </>
-    )
+        {/* <Marquee play={true} direction="left" speed={20} className="bg-gray">
+          <h1 className="bg-blue">
+            I can be a React component, multiple React components, or just some
+            text.
+          </h1>
+        </Marquee> */}
+      </>
+    );
 }
 
 export default OrganisersSection;
