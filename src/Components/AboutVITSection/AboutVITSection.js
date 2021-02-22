@@ -4,6 +4,7 @@ const AboutVITSection = () => {
 
   return (
       <article className="aboutSection">
+          <div id="aboutLink"></div>
           <div>
               <div className="aboutHead">
                   About VIT
