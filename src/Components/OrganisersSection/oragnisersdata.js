@@ -67,7 +67,7 @@ const organisers  = [
    },
    {
     pic:jerelyn,
-    name:"Jerelyn Preeja",
+    name:"Jerelyn Premjit",
     position:"ACM-W Lead"
    },
    {

@@ -1,17 +1,35 @@
-.footer{
-    width: 100vw;
-    padding: 1em 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.footer {
+  width: 100vw;
+  padding: 1em 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5em;
 }
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.icons > img{
-    margin: 0 0.5em; 
+.mainIcon > img {
+  margin: 0 0.5em;
+}
+
+@media screen and (max-width: 400px) {
+  .mainIcon > img {
+    height: 20px;
+    width: 20px;
+    margin: 0 0.1em;
+  }
+
+  .footer {
+    padding: 0em;
+  }
+
+  .footer > img {
+    transform: scale(0.8);
+  }
 }

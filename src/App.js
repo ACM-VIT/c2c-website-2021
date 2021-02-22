@@ -9,6 +9,7 @@ import OrganisersSection from './Components/OrganisersSection/OrganisersSection'
 import FacultySection from './Components/FacultySection/FacultySection';
 import FooterSection from './Components/FooterSection/FooterSection';
 import AboutVITSection from './Components/AboutVITSection/AboutVITSection'
+import FaqSection from './Components/FaqSection/FaqSection'
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <LandingSection/>
       <MarqueeSection />
       <AboutVITSection />
+      <CarouselSection/>
       <SponsorsSection/>
       <FacultySection/>
       <VideoSection />
-      <CarouselSection/>
+      <FaqSection />
       <OrganisersSection/>
       <SecondMarqueeSection /> 
       <FooterSection />

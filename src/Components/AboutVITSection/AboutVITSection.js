@@ -8,8 +8,10 @@ const AboutVITSection = () => {
               <div className="aboutHead">
                   About VIT
               </div>
-              <p className="aboutContent">Vellore Institute of Technology, Vellore is one of the most revered and distinguished engineering institution which holds the rare distinction of being one of the few colleges to impart world-class education along with encouragement towards co-curricular activities which help in overall development and transform students into responsible adults with a strong ethical core.
-             Vellore Institute of Technology was the birth-child of the tireless and relentless perseverance of our respected Chancellor, Dr. G. Viswanathan, whose objective since the very inception of this institution has been to provide an environment that would help foster intellectual aptitude, enhance human perception and create a society of extra-ordinary professionals capable of thinking new, out-of-the-box ideas and having the skills to implement them, in order to help the entire society as a whole.</p>
+              <p className="aboutContent">
+                Vellore Institute of Technology, Vellore is one of the most revered and distinguished engineering institutions. It holds the rare distinction of being one among the few colleges to impart world-class education. Furthermore, encouragement towards co-curricular activities helps in the overall development and transforms students into responsible adults with a strong ethical core.</p>
+                <p className="aboutContent">Vellore Institute of Technology was the birth-child of the tireless and relentless perseverance of our respected Chancellor, Dr. G. Viswanathan. The ultimate objective of this institution has been to provide an environment that would help foster intellectual aptitude, enhance human perception and create a society of extraordinary professionals. It moulds individuals capable of thinking new, out-of-the-box ideas and having the skills to implement them, to help the entire society as a whole.
+              </p>
           </div>
 
           <div>

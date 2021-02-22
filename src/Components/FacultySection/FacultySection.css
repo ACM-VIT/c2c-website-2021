@@ -14,6 +14,11 @@
   margin-bottom: 5.5em;
 }
 
+.facArticle {
+  margin-top: 3em;
+  margin-bottom: 8em;
+}
+
 .facContainer::-webkit-scrollbar {
   display: none;
 }
@@ -22,7 +27,7 @@
   font-size: 2.5rem;
   color: #48ba86;
   font-weight: 900;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -32,10 +37,8 @@
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-y: scroll;
   /* animation: loop 10s linear infinite; */
-  width: fit-content;
-  position: relative;
 }
 
 .facSlider:hover {
@@ -53,7 +56,7 @@
   align-items: center;
   font-family: "DM Sans", sans-serif;
   margin: 0 2em;
-  min-width: 200px;
+  min-width: 100px;
 }
 
 @keyframes loop {
@@ -67,7 +70,7 @@
 
 .faculty > img {
   width: 144px;
-  height: 154px;
+  height: 144px;
   border-radius: 100px;
 }
 
@@ -76,7 +79,8 @@
   font-size: 1.7rem;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
-  white-space: nowrap;
+  white-space: wrap;
+  text-align: center;
 }
 
 .faculty > p {
@@ -87,5 +91,16 @@
   letter-spacing: 0.2px;
   font-weight: 400;
   opacity: 0.8;
+  text-align: center;
 }
 /* end of board member  */
+
+@media screen and (max-width: 500px) {
+  .facSlider {
+    flex-direction: column;
+  }
+
+  .faculty {
+    margin-bottom: 3em;
+  }
+}

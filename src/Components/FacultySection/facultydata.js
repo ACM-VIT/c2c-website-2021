@@ -6,13 +6,13 @@ import fac4 from '../../assets/boardAndFaculty/Faculty4.png'
 
 const organisers  = [
    {
-       pic: fac3,
+       pic: fac4,
        name:"Prof. Balkrishna Tripathy",
        position:"Dean of SITE"
    },
    {
       pic:fac1,
-      name:"Dr. Aswani Kumar Chreuki",
+      name:"Dr. Aswani Kumar Cherukuri",
       position:"Faculty Coordinator"
    },
    {
@@ -21,7 +21,7 @@ const organisers  = [
      position:"Faculty Coordinator"
    },
     {
-      pic:fac4,
+      pic:fac3,
       name:"Dr. Divya Udayan J.",
       position:"Faculty Coordinator"
     }

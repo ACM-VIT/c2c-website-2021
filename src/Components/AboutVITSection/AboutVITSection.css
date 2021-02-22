@@ -1,24 +1,31 @@
 .aboutHead {
-    color: #48ba86;
-    white-space: nowrap;
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    text-align: center;
-  }
+  color: #48ba86;
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
 
-  .aboutContent{
-      color: white;
-      text-align: center;
-      padding: 0 4em;
-  }
+.aboutContent {
+  color: grey;
+  text-align: center;
+  padding: 0.5em 4em;
+  line-height: 160%;
+  font-size: 1.2rem;
 
-  .aboutSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 2rem;
-    flex-direction: column;
-  }
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.aboutSection > div:nth-child(1) {
+  margin-bottom: 2em;
+}
