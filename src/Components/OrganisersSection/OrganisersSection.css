@@ -12,7 +12,7 @@
   align-items: center;
   scrollbar-width: none; /*firefox*/
   margin-bottom: 5.5em;
-  --speed-marquee: -65%;
+  --speed-marquee: -40%;
 }
 
 .orgContainer::-webkit-scrollbar {
