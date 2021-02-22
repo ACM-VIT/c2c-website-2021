@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5em;
+  margin-top: 2rem;
 }
 
 .icons {
@@ -19,13 +19,21 @@
   }
 
 .mainIcon > img {
-  margin: 0 0.5em;
+  margin: 1.5vw;
 }
   .logos {
     transform: scale(1);
   }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .mainIcon > img {
+    height: 16px;
+    width: 16px;
+    margin: 0 0.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .mainIcon > img {
     height: 16px;
     width: 16px;

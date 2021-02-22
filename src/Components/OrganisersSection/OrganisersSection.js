@@ -1,7 +1,7 @@
 import React, { useEffect,useRef } from 'react'
-import Ticker from "react-ticker";
+//import Ticker from "react-ticker";
 import organisers from './oragnisersdata'
-import Marquee from "react-fast-marquee";
+//import Marquee from "react-fast-marquee";
 
 
 import './OrganisersSection.css'
@@ -20,7 +20,7 @@ const OrganisersSection = () => {
     useEffect(()=>{
     },[]);
     return (
-      <>
+      <article className="orgSection">
         <h1 className="orgTitle">Student Organisers</h1>
         <article className="orgContainer">
            
@@ -36,7 +36,7 @@ const OrganisersSection = () => {
             text.
           </h1>
         </Marquee> */}
-      </>
+      </article>
     );
 }
 
