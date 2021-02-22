@@ -9,7 +9,7 @@ const AboutVITSection = ({scrollAbout}) => {
       <article className="aboutSection" ref={scrollAbout}>
         <div>
           <div className="aboutHead">About VIT</div>
-          <p className="aboutContent w-8/12 m-auto">
+          <p className="aboutContent w-7/12 m-auto">
             Vellore Institute of Technology, Vellore is one of the most revered
             and distinguished engineering institutions. It holds the rare
             distinction of being one among the few colleges to impart
@@ -18,7 +18,7 @@ const AboutVITSection = ({scrollAbout}) => {
             transforms students into responsible adults with a strong ethical
             core.
           </p>
-          <p className="aboutContent w-8/12 m-auto">
+          <p className="aboutContent w-7/12 m-auto">
             Vellore Institute of Technology was the birth-child of the tireless
             and relentless perseverance of our respected Chancellor, Dr. G.
             Viswanathan. The ultimate objective of this institution has been to
@@ -32,7 +32,7 @@ const AboutVITSection = ({scrollAbout}) => {
 
         <div>
           <div className="aboutHead">About C2C</div>
-          <p className="aboutContent w-8/12 m-auto">
+          <p className="aboutContent w-7/12 m-auto">
             Code2Create is ACM-VIT's flagship event, and it is among the biggest
             hackathons hosted in VIT.
             <br /> Code2Create is a platform where designers and developers
