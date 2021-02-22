@@ -54,6 +54,7 @@ const LandingSection = ({scrollToAbout, scrollToFAQ, scrollToOrganizers, scrollT
           className="text-white disabled"
           target="_blank"
           rel="noreferrer noopener"
+          id="headerRg"
         >
           <img className="registerbutton" src={register} alt="Register Now" />
         </a>
