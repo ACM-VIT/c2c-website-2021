@@ -12,12 +12,12 @@ const Organiser = ({pic,name,position})=>{
     </section>
     );
 }
-const FacultySection = () => {
+const FacultySection = ({scrollOrganizers}) => {
     const slider = useRef(null);
     useEffect(()=>{
     },[]);
     return (
-        <article className="facArticle">
+        <article className="facArticle" ref={scrollOrganizers}>
         <h1 className="facTitle">Faculty Organisers</h1>
         <article className="facContainer">
            

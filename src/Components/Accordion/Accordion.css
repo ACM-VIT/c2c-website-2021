@@ -8,7 +8,7 @@
   border: none;
   outline: none !important;
  border-radius: 4px;
-  @apply w-9/12 mb-12;
+  @apply w-6/12 mb-12;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */

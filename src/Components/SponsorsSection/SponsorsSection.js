@@ -13,9 +13,9 @@ const Sponser = ({name,imgsrc,info}) => {
 
 
 
-const SponsorsSection = ()=>{
+const SponsorsSection = ({scrollSponsors})=>{
   return (
-    <article className="sponsorsection">
+    <article className="sponsorsection" ref={scrollSponsors}>
       <h1 className="sponsorhead">Previous Sponsors</h1>
         <div className="sponsorsinner">
            {data.map((sponser,key)=>(

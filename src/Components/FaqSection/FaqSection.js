@@ -14,9 +14,9 @@ const Question = ({id, question, answer}) => {
    )
 }
 
-const FaqSection = () => {
+const FaqSection = ({scrollFAQ}) => {
     return (
-      <article className="faqcontainer">
+      <article className="faqcontainer" ref={scrollFAQ}>
         <h1 className="faqheading">Frequently Asked Questions</h1>
         <div className="tabscontainer">
           {data.map((ques, key) => (
@@ -27,10 +27,6 @@ const FaqSection = () => {
               content={ques.answer}
             />
           ))}
-          <Accordion
-            title="How do I track my order?"
-            content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          />
         </div>
       </article>
     );
