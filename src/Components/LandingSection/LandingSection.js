@@ -76,6 +76,13 @@ const LandingSection = ({scrollToAbout, scrollToFAQ, scrollToOrganizers, scrollT
         >
           <img className="registerbutton" src={register} alt="Register Now" />
         </a>
+        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+        <div
+          className="apply-button"
+          data-hackathon-slug="YOUR-HACKATHON-SLUG"
+          data-button-theme="light"
+          style={{"height": "44px", "width": "312px"}}
+        ></div>
       </section>
     </article>
   );
