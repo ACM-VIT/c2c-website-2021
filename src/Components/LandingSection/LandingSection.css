@@ -22,6 +22,7 @@
 }
 .registerbutton {
   @apply ml-5 h-10 md:h-10 px-4 opacity-50 hover:opacity-100;
+  pointer-events:none;
 }
 .greentext {
   @apply text-c2cTextgreen font-black;
