@@ -68,7 +68,7 @@ const CarouselSection = () => {
               10,000+ stickers distributed
             </div>
             <div className="carousel-text2" style={{ background: "#6695D3" }}>
-              10,000+ stickers distributed
+              25+ sponsors
             </div>
           </div>
         </div>
