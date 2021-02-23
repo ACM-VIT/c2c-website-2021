@@ -3,9 +3,10 @@ import { useState, useEffect, useRef } from "react";
 
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
+import {Link} from 'react-router-dom'
 /** Styles */
 import './LandingSection.css';
-const LandingSection = ({scrollToAbout, scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
+const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
   const [offset, setOffset] = useState(0)
   const [header, setHeader] = useState('header')
 
@@ -35,9 +36,11 @@ const LandingSection = ({scrollToAbout, scrollToFAQ, scrollToOrganizers, scrollT
           <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
         </a>
         <div className="navigate">
-          <a onClick={() => scrollToAbout()}>
-            <div className="navigatetitle">About</div>
-          </a>
+          <Link to={"/about"}>
+             <a> 
+                <div className="navigatetitle">About</div>
+             </a> 
+          </Link>
           <a onClick={() => scrollToSponsors()}>
             <div className="navigatetitle">Sponsors</div>
           </a>
