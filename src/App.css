@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #124b31;
+  background-color: rgba(18,75,49,0.5);
   outline: 1px solid #222222;
   border-radius: 10px;
 }
