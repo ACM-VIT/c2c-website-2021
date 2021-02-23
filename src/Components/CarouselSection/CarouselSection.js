@@ -19,7 +19,7 @@ const CarouselSection = () => {
 
   return (
     <article className="carouselsection">
-      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto py-28">
+      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-32 mb-0">
         <div
           className="carousel-image flex items-center justify-center z-20"
         >

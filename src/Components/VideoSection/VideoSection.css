@@ -54,7 +54,7 @@
 }
 .window__frame__container {
   width: 60%;
-  margin: 80px auto;
+  margin: 5.5rem auto 0px auto;
   background-image: url('../../assets/video.svg');
   background-repeat: no-repeat;
   /* background-position: center center; */

@@ -6,17 +6,17 @@
   overflow-x: scroll;
   overflow-y: hidden;
   background: #121212;
-  padding: 1em 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   scrollbar-width: none; /*firefox*/
-  margin-bottom: 5.5em;
+  margin-bottom: 0px;
 }
 
 .facArticle {
-  margin-top: 3em;
-  margin-bottom: 8em;
+  margin-top: 8rem;
+  margin-bottom: 0px;
 }
 
 .facContainer::-webkit-scrollbar {
@@ -27,7 +27,7 @@
   font-size: 2.5rem;
   color: #48ba86;
   font-weight: 900;
-  margin-bottom: 2em;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 
