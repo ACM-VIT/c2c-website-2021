@@ -12,6 +12,7 @@
   --color-bg: #121212;
   overflow-y: scroll;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
