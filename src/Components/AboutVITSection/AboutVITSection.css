@@ -1,3 +1,16 @@
+.aboutSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000000000;
+  background: #121212;
+}
+
 .aboutHead {
   color: #48ba86;
   white-space: nowrap;
@@ -14,16 +27,6 @@
   padding: 0.5em 4em;
   line-height: 160%;
   font-size: 1.2rem;
-
-}
-
-.aboutSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 2rem;
-  flex-direction: column;
 }
 
 .aboutSection > div:nth-child(1) {

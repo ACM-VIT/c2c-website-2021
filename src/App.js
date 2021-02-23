@@ -10,13 +10,12 @@ import SecondMarqueeSection from './Components/2MarqueeSection/2MarqueeSection'
 import OrganisersSection from './Components/OrganisersSection/OrganisersSection';
 import FacultySection from './Components/FacultySection/FacultySection';
 import FooterSection from './Components/FooterSection/FooterSection';
-import AboutVITSection from './Components/AboutVITSection/AboutVITSection'
 import FaqSection from './Components/FaqSection/FaqSection'
 
 function App() {
   const scrollFAQ = useRef(null);
   const scrollOrganizers = useRef(null);
-  const scrollAbout = useRef(null);
+  // const scrollAbout = useRef(null);
   const scrollSponsors = useRef(null);
   
     const scrollToFAQ = () => {
@@ -29,17 +28,17 @@ function App() {
         window.scrollTo({ behavior: "smooth", top: offsetPosition });
       }
     }
-    const scrollToAbout = () => {
-      if (scrollAbout.current) {
-        console.log(scrollAbout);
-        const headerOffset = 60;
-        const bodyRect = document.body.getBoundingClientRect().top;
-        const elemRect = scrollAbout.current.getBoundingClientRect().top;
-        const elemPosition = elemRect - bodyRect;
-        const offsetPosition = elemPosition - headerOffset;
-        window.scrollTo({ behavior: "smooth", top: offsetPosition });
-      }
-    }
+    // const scrollToAbout = () => {
+    //   if (scrollAbout.current) {
+    //     console.log(scrollAbout);
+    //     const headerOffset = 60;
+    //     const bodyRect = document.body.getBoundingClientRect().top;
+    //     const elemRect = scrollAbout.current.getBoundingClientRect().top;
+    //     const elemPosition = elemRect - bodyRect;
+    //     const offsetPosition = elemPosition - headerOffset;
+    //     window.scrollTo({ behavior: "smooth", top: offsetPosition });
+    //   }
+    // }
     const scrollToSponsors = () => {
       if (scrollSponsors) {
         const headerOffset = 60;
@@ -63,13 +62,12 @@ function App() {
   return (
     <div className="landing">
       <LandingSection
-        scrollToAbout={scrollToAbout}
+        // scrollToAbout={scrollToAbout}
         scrollToFAQ={scrollToFAQ}
         scrollToOrganizers={scrollToOrganizers}
         scrollToSponsors={scrollToSponsors}
       />
       <MarqueeSection />
-      <AboutVITSection scrollAbout={scrollAbout} />
       <CarouselSection />
       <SponsorsSection scrollSponsors={scrollSponsors} />
       <VideoSection />

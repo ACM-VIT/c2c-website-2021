@@ -4,9 +4,7 @@ import { useEffect, useRef, useState } from "react";
 const AboutVITSection = ({scrollAbout}) => {
 
   return (
-    <>
-      <div id="aboutLink"></div>
-      <article className="aboutSection" ref={scrollAbout}>
+      <article className="aboutSection">
         <div>
           <div className="aboutHead">About VIT</div>
           <p className="aboutContent lg:w-7/12 m-auto">
@@ -47,7 +45,6 @@ const AboutVITSection = ({scrollAbout}) => {
           </p>
         </div>
       </article>
-    </>
   );
 };
 
