@@ -19,47 +19,9 @@ import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import Plx from "react-plx";
 
 
-const parallaxData  = [
-  {
-    start: '.StickyText-trigger',
-    duration: '30vh',
-    properties: [
-      {
-        startValue: 0,
-        endValue: -50,
-        unit: 'vh',
-        property: 'translateY',
-      },
-      {
-        startValue: 0,
-        endValue: 1,
-        property: 'opacity',
-      },
-    ],
-  },
-  {
-    start: '.StickyText-trigger',
-    startOffset: '60vh',
-    duration: '30vh',
-    properties: [
-      {
-        startValue: -50,
-        endValue: -100,
-        unit: 'vh',
-        property: 'translateY',
-      },
-      {
-        startValue: 1,
-        endValue: 0,
-        property: 'opacity',
-      },
-    ],
-  },
-];
 const CarouselSection = () => {
 
   return (
-    <Plx className="StickyText" parallaxData={parallaxData}>
       <article className="carouselsection">
         <div className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-32 mb-0">
           <div className="carousel-image flex items-center justify-center z-20">
@@ -114,7 +76,6 @@ const CarouselSection = () => {
         </div>
         <div id="sLink"></div>
       </article>
-    </Plx>
   );
 };
 
