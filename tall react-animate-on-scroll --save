@@ -1,0 +1,537 @@
+[33mcommit d41ebf6faa710823208d6a7a6e04c8ddc8565ffa[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: eb450d2 9b8bb6e
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Tue Feb 23 10:15:53 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021
+
+[33mcommit eb450d2389c3c65033907a1c38371d56a676beee[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Tue Feb 23 10:15:49 2021 +0530
+
+    feat: sponsors
+
+[33mcommit 9b8bb6ed4aabf4cdd325e42fd548045a8cfb2005[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Tue Feb 23 07:08:45 2021 +0530
+
+    removed opacity from sponsor logos
+
+[33mcommit e92d9dc0709b338f3ea1338583eee5291125f78e[m
+Merge: 4f42534 a449e0e
+Author: Malika01 <59484953+Malika01@users.noreply.github.com>
+Date:   Tue Feb 23 00:07:50 2021 +0530
+
+    Merge pull request #20 from ACM-VIT/feature/carousel
+    
+    dev: padding between all sections & footer padding updated
+
+[33mcommit a449e0e40b67dcfd222f9bca9b755eec584ad871[m[33m ([m[1;31morigin/feature/carousel[m[33m)[m
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Tue Feb 23 00:04:03 2021 +0530
+
+    dev: padding between all sections & footer padding updated
+
+[33mcommit 4f42534a53d31bcc2f72b523222411f5da1d0b20[m
+Merge: 53f0b88 e30f2ad
+Author: Gokul.J.Kurup <30615210+madrigal1@users.noreply.github.com>
+Date:   Mon Feb 22 22:54:40 2021 +0530
+
+    Merge pull request #19 from ACM-VIT/padding
+    
+    Padding
+
+[33mcommit e30f2add8ccd453df93fca9efd28be2c9336a8ad[m[33m ([m[1;31morigin/padding[m[33m)[m
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Mon Feb 22 22:40:28 2021 +0530
+
+    2nd marquee, sponsor logos
+
+[33mcommit 26d570bfdddfbb7bb0583a82d6b69caf95432979[m
+Merge: d0b03b7 53f0b88
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Mon Feb 22 22:39:10 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into padding
+
+[33mcommit 53f0b88b269ff9c2e583c9698da3674e32f7b8ec[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 22:25:14 2021 +0530
+
+    feat: student organisers fix
+
+[33mcommit 2d25247aa41a2d80b364db12299eeaec1e594ac3[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 22:11:23 2021 +0530
+
+    changed width
+
+[33mcommit d0b03b7a5b618184007bbd1074f4a11dbb29b0e6[m
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Mon Feb 22 22:01:47 2021 +0530
+
+    2nd marquee text
+
+[33mcommit ecc58dcfe990096a1b4b40ed14ad24f70cbd1989[m
+Merge: d29d24d 856d19b
+Author: Malika01 <59484953+Malika01@users.noreply.github.com>
+Date:   Mon Feb 22 20:11:49 2021 +0530
+
+    Merge pull request #18 from ACM-VIT/feature/carousel
+    
+    dev: added images to carousel section
+
+[33mcommit 856d19b91f51d0ff3ad0f1f7e61d386cb0cd095a[m
+Merge: e3b6a8b d29d24d
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Mon Feb 22 20:06:46 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into feature/carousel
+
+[33mcommit d29d24dad7bad841b5f532ef454850f148a117cd[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 20:04:55 2021 +0530
+
+    feat: font size
+
+[33mcommit 76900002d327f0c6472b785b14a19c1148c6494e[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 20:01:16 2021 +0530
+
+    disabl register
+
+[33mcommit 971f1a27b9bf5320555c51bb34dc4f37dbed3413[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 19:56:39 2021 +0530
+
+    feat: sponsers
+
+[33mcommit e3b6a8beeb0cd450cae105041033b2a65e0cc2e5[m
+Merge: acd5f63 999c104
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Mon Feb 22 19:56:21 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into feature/carousel
+
+[33mcommit 999c104c6ae67f0b4d4fa91d8a9d59bf0c5799f6[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 19:53:30 2021 +0530
+
+    feat: font size
+
+[33mcommit 2a3babf8dc94e67af7e1e1828ba13b79b3b39e49[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 19:51:23 2021 +0530
+
+    feat: gg font size change
+
+[33mcommit 02432df5123d253dfc600f668add784347f2431b[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 19:50:05 2021 +0530
+
+    feat: geeks for geeks
+
+[33mcommit acd5f63204592c0ad4b2b95c82d42c362dcd9981[m
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Mon Feb 22 19:48:42 2021 +0530
+
+    dev: images added to carousel section
+
+[33mcommit 06558d190b6d44b22cdae2b222f3a0e1f68cbd80[m
+Merge: 8c8408d 675c9ee
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 19:46:44 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021
+
+[33mcommit 8c8408d10a969c9a9f14c8f585c23724f4fddc6b[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 19:42:39 2021 +0530
+
+    updated about us
+
+[33mcommit 675c9ee8a86e99a53f6c9b930ff10963a3061f69[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 19:42:14 2021 +0530
+
+    sponser
+
+[33mcommit 66a844f76dec7f4d16bc09dd89632791b90b4d75[m
+Merge: 21df1a7 8e807bb
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 19:36:11 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021
+
+[33mcommit 21df1a73d00dfa444a327847e9406a9b8f253d60[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 19:35:57 2021 +0530
+
+    updated about c2c
+
+[33mcommit 8e807bb5bb5a74636e0d7848c12e016adc2cc877[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 19:35:33 2021 +0530
+
+    feat: sponsers
+
+[33mcommit 4e3c634654238c8a7a22f1c8f85a53847d4f5401[m
+Merge: 58fa739 dfcc0ca
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 19:09:07 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021
+
+[33mcommit 58fa7392d1c9e14325a1149029966464339d8d5b[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 19:08:51 2021 +0530
+
+    scroll nav links
+
+[33mcommit dfcc0cad94c11bef285ebe7857de128332aecaab[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 18:52:50 2021 +0530
+
+    feat
+
+[33mcommit bc467b584fd9653994321321da86ca1bd62dadac[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 18:46:43 2021 +0530
+
+    feat: rep header
+
+[33mcommit 28cfbdce6363e200a01f75ec32ee3f0c740cbbc9[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 18:31:45 2021 +0530
+
+    feat: smoother scroll on html body
+
+[33mcommit 5446843eea8382130b0d620fc77d822325ae2806[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 18:02:06 2021 +0530
+
+    scroll nav links
+
+[33mcommit dd58cfb7786cc5d08dbf3b0987e5753406ac37df[m
+Merge: cd17101 a5f1762
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 16:59:07 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021
+
+[33mcommit cd17101099cc0a5ba7f660faa915b19b9b8d581a[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 16:58:59 2021 +0530
+
+    changed FAQ
+
+[33mcommit a5f1762afe3d754891fb7476a23dc4342ea66886[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 16:36:04 2021 +0530
+
+    feat: internal link
+
+[33mcommit dff77cd48ba5f942ac83b279420e8c301dbb83da[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 16:26:32 2021 +0530
+
+    feat: internal links
+
+[33mcommit 651297d2fa6c7651547f727e19ffa0ee4d46d4c0[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 16:21:18 2021 +0530
+
+    feat: internal link
+
+[33mcommit 7f6a9d6062887fdd197ef80f7205a8cb2a159d66[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 15:50:12 2021 +0530
+
+    feat: timing
+
+[33mcommit d77a98ad3ad713093c8763822a7d825df0b36615[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 14:47:01 2021 +0530
+
+    fix: removed the debug statements
+
+[33mcommit 04010c71f946e935a23799476deb6295663c6d35[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 14:45:45 2021 +0530
+
+    feat: long student
+
+[33mcommit bbcb5a8bcfdb3d3ddfbb0cae6e93c21f550fc777[m
+Merge: ad2e53c 856e8a0
+Author: Gokul.J.Kurup <30615210+madrigal1@users.noreply.github.com>
+Date:   Mon Feb 22 14:35:24 2021 +0530
+
+    Merge pull request #17 from ACM-VIT/mcNew
+    
+    Mc new
+
+[33mcommit 856e8a0074d7542636b8cabb268fec462a560dd9[m[33m ([m[1;31morigin/mcNew[m[33m)[m
+Merge: b7d06ab ad2e53c
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 14:32:11 2021 +0530
+
+    Merge branch 'master' into mcNew
+
+[33mcommit b7d06ab0095646bbacbe9f4f186f7b3773f5892e[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 14:30:22 2021 +0530
+
+    feat: marquee timing
+
+[33mcommit ad2e53c5e293d86339a6227615d4ab1c31e9e84b[m
+Merge: f688c8b 3750b9e
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 14:07:25 2021 +0530
+
+    Merge remote-tracking branch 'origin/padding'
+
+[33mcommit 3750b9e9d480f35721f92dd20795e12830404578[m
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Mon Feb 22 14:04:53 2021 +0530
+
+    shifted organizers,footer logo size, rosenfeld padding below sponsors
+
+[33mcommit 7ede04d182684392c998aba2afeb9288ad1851e2[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:36:32 2021 +0530
+
+    fix scrollbar
+
+[33mcommit 2b72b50b92ab6253453b43de79a2db5c0e98e976[m
+Merge: b5f09a5 3842c78
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:33:06 2021 +0530
+
+    Merge branch 'mcNew' of https://github.com/ACM-VIT/c2c-website-2021 into mcNew
+
+[33mcommit b5f09a5eedab21b6403f6aea5375afbcd1a46222[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:32:06 2021 +0530
+
+    feat: faculty org
+
+[33mcommit f688c8b23a84d286a500ef7537bcb92f3efed903[m
+Merge: b48e73e 3842c78
+Author: Gokul.J.Kurup <30615210+madrigal1@users.noreply.github.com>
+Date:   Mon Feb 22 13:07:17 2021 +0530
+
+    Merge pull request #16 from ACM-VIT/mcNew
+    
+    feat: student organisers
+
+[33mcommit 76532b1061e2c984295549e183de6e44a6d2fc5c[m
+Merge: 130a5c3 b48e73e
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Mon Feb 22 13:07:00 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into padding
+
+[33mcommit 130a5c30c375406d58999d3d31c61718b364d6a7[m
+Merge: e68dea5 ef9047a
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Mon Feb 22 13:05:57 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into padding
+
+[33mcommit d5a8d9e2f653d0d77d433961f5d7e55084b179bc[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:05:14 2021 +0530
+
+    feat: studentor
+
+[33mcommit 8223abbda287defb335bb86c2a1df07fd328f5e0[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:04:47 2021 +0530
+
+    feat: stuendent org fix
+
+[33mcommit a721d8d41e9b733e63f0b3df63388a35e6e33a8d[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:01:38 2021 +0530
+
+    feat: student organisers
+
+[33mcommit 3842c786c3f444183cd378153d9d47b1eac9edb8[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Mon Feb 22 13:01:38 2021 +0530
+
+    feat: student organisers
+
+[33mcommit b48e73ea83cdaf8dc48ae900fc4c93f94630ed0b[m
+Author: rishabhkeshan <rishabh.keshan2019@vitstudent.ac.in>
+Date:   Mon Feb 22 12:58:34 2021 +0530
+
+    temp changes, added scrollbar
+
+[33mcommit ef9047ac67a4007ec3e15428511a72a96ca86f2d[m
+Merge: 5f01f47 96a89f7
+Author: Malika01 <59484953+Malika01@users.noreply.github.com>
+Date:   Sun Feb 21 13:12:03 2021 +0530
+
+    Merge pull request #15 from ACM-VIT/feature/carousel
+    
+    dev: pos of carousel changed, content of about changed, landing head
+
+[33mcommit 96a89f71aef6f348393a702c06f2a4efcefe6ab2[m
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Sun Feb 21 13:10:26 2021 +0530
+
+    dev: pos of carousel changed, content of about changed, landing head changed
+
+[33mcommit 5f01f47f6bc8956fe741927e0edc43bd760974e0[m
+Merge: 36864db 7e5d5a8
+Author: Malika01 <59484953+Malika01@users.noreply.github.com>
+Date:   Sun Feb 21 01:37:36 2021 +0530
+
+    Merge pull request #14 from ACM-VIT/feature/carousel
+    
+    feat: faq section added
+
+[33mcommit 7e5d5a81e919270f4e92ccef82daf81061cb5cec[m
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Sun Feb 21 01:33:11 2021 +0530
+
+    faq section added
+
+[33mcommit 36864dbd9e6596e6d5e85d8c224762b7a29f4073[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 22:04:54 2021 +0530
+
+    fix:faculty
+
+[33mcommit 45fc9a85b00799d03adb3a3a232e88c6e1307831[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 21:56:57 2021 +0530
+
+    fix:resp fix for faculty
+
+[33mcommit 38d5520599292b9b20c5788b6214ab758db989de[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 21:16:23 2021 +0530
+
+    fix: faculty name
+
+[33mcommit 8ef966492d5f50bd5670331c97d25429d7e27b37[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 21:11:22 2021 +0530
+
+    fixes: everywhere
+
+[33mcommit e68dea5fa1dd983aba224471ca590a788f44c722[m
+Merge: 8bc4af4 cc766ff
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Sat Feb 20 20:11:17 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into padding
+
+[33mcommit cc766ff067e850a342b830ac78a4ee2c01360c7f[m
+Merge: 13d0e58 917e23e
+Author: Malika01 <59484953+Malika01@users.noreply.github.com>
+Date:   Sat Feb 20 20:00:44 2021 +0530
+
+    Merge pull request #13 from ACM-VIT/feature/carousel
+    
+    added footer and about section && added one more faculty
+
+[33mcommit 917e23e3321581e04a93a5fd58ebe1508049e084[m
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Sat Feb 20 19:53:41 2021 +0530
+
+    feature:about and footer section added
+
+[33mcommit 8bc4af4de3e487d62077c15779735fe53d330b7d[m
+Merge: c7e579d 13d0e58
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Sat Feb 20 18:33:17 2021 +0530
+
+    Merge branch 'master' of https://github.com/ACM-VIT/c2c-website-2021 into padding
+
+[33mcommit a9caa4619eb5a7a7c9122fe2ea1fb2fd18ac9b88[m
+Merge: 2afdcd2 13d0e58
+Author: Malika01 <malika.chikara@gmail.com>
+Date:   Sat Feb 20 18:27:24 2021 +0530
+
+    updated with master
+
+[33mcommit 13d0e58fab0c0f9aa9a4d9917219c2f4468dd426[m
+Merge: f53c009 71e4aca
+Author: Gokul.J.Kurup <30615210+madrigal1@users.noreply.github.com>
+Date:   Sat Feb 20 17:57:06 2021 +0530
+
+    Merge pull request #12 from ACM-VIT/organisers
+    
+    feat: faculty
+
+[33mcommit 71e4acabce513c26e7375e51070cbe0bf31a68a9[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 17:54:21 2021 +0530
+
+    feat: faculty
+
+[33mcommit f53c009843e6798444339296ee4f36f1c76f29d9[m
+Merge: cec4cfd 3e32b3f
+Author: Gokul.J.Kurup <30615210+madrigal1@users.noreply.github.com>
+Date:   Sat Feb 20 17:27:55 2021 +0530
+
+    Merge pull request #11 from ACM-VIT/organisers
+    
+    Organisers data
+
+[33mcommit 3e32b3f359449f750c39bd19fa0806a250f324df[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 17:26:33 2021 +0530
+
+    feat: oragnisers data
+
+[33mcommit e2aab1933dfd2fce4ed2c3ff7262fd6c795ce2a5[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 16:50:58 2021 +0530
+
+    dev: organisers
+
+[33mcommit a14de8b8d746e6466ce21fd5aa749d7c90c95e2f[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 16:11:23 2021 +0530
+
+    feat: organisers
+
+[33mcommit d18f4aa7efcfe7960d07585b34833b7102def43e[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 15:47:52 2021 +0530
+
+    feat: organisers
+
+[33mcommit 5f4d616446f2574afbeb165cc9afeb7b6825e54a[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Sat Feb 20 15:06:15 2021 +0530
+
+    feat: organisers
+
+[33mcommit c7e579d340694e415534edc81a75a32c20328405[m
+Author: AritriBasu <AritriBasu@users.noreply.github.com>
+Date:   Fri Feb 19 00:38:44 2021 +0530
+
+    sponsor padding
+
+[33mcommit cec4cfdacb528ff0980febad633e4054468c9f5a[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Thu Feb 18 19:46:01 2021 +0530
+
+    feat: letter spacing
+
+[33mcommit 4a96551200404b0b65719094209275fc42398e51[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Thu Feb 18 19:42:17 2021 +0530
+
+    feat: font-size of 2 marquee
+
+[33mcommit 177db34c182aea87ebef4342c480db833fb804bb[m
+Author: madrigal1 <kurupgokul11@gmail.com>
+Date:   Thu Feb 18 19:42:02 2021 +0530
+
+    feat: marquee font-size of second
