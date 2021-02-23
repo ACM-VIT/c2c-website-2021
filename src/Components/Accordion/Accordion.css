@@ -47,11 +47,12 @@ opacity: 0.5;
 .accordion__icon {
   margin-left: auto;
   transition: transform 0.3s ease;
+  transform: rotate(90deg);
 }
 
 /* Style to rotate icon when state is active */
 .rotate {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 
 /* Style the accordion content panel. Note: hidden by default */
