@@ -15,9 +15,9 @@
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .page::-webkit-scrollbar {
   width: 0.625rem;
