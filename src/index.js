@@ -3,13 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { ParallaxProvider } from "react-scroll-parallax";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom'
+import AboutVITSection from './Components/AboutVITSection/AboutVITSection';
 
 ReactDOM.render(
-  <ParallaxProvider>
-    <App />
-  </ParallaxProvider>,
-  document.getElementById("root")
+  <>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={App} />
+        <Route exact path="/about" component={AboutVITSection} />
+      </Switch>
+    </Router>
+  </>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
