@@ -4,7 +4,8 @@ import { slide as Menu } from "react-burger-menu";
 import RBN from "react-burger-nav";
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import gsap from 'gsap'
 /** Styles */
 import './LandingSection.css';
 import {
@@ -34,6 +35,14 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
     return () => {}
   }, [])
 
+  const animation = ()=> {
+    gsap.from(".menu_items",{
+      opacity:0,
+      stagger:0.3,
+      duration:2,
+  })
+  }
+
   useEffect(()=>{
     const hamburger = document.querySelector(".hamburger");
     const menu = document.querySelector(".menu");
@@ -43,6 +52,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
        console.log(menu.style.display,menu.style.opacity)
         menu.style.display = menu.style.display === "block"?"none":"block";
         menu.style.opacity = menu.style.opacity === "1" ? "0":"1";
+        animation();
     })
 
 
@@ -54,6 +64,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         menu.style.opacity = menu.style.opacity === "0" ? "1":"0";
       })
     }
+    
   });
 
 
