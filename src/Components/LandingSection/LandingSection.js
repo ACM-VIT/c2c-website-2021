@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect, useRef } from "react";
-import { slide as Menu } from "react-burger-menu";
 import RBN from "react-burger-nav";
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
@@ -18,10 +17,53 @@ import {
   Roll,
   LightSpeed,
 } from "react-reveal";
+
+const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSponsors,menuTop}) => {
+  const menuRef = useRef(null);
+
+  useEffect(() => {
+    console.log(menuTop)
+    menuRef.current.style = `top:${menuTop}px;position:fixed;left:0`;
+    return () => {
+      return
+    }
+  }, [])
+
+  return (
+      <div className="menu" ref={menuRef}>
+          <div className="menu_nav">
+                    <div className="menu_items" onClick={()=> setHActive(!hActive)}>
+                        <Link to={"/about"}>
+                            About
+                        </Link>
+                    </div>
+                    <div className="menu_items">
+                        <a onClick={() => scrollToSponsors()}>
+                        Sponsors
+                        </a>
+                    </div>
+                    <div className="menu_items">
+                    <a onClick={() => scrollToOrganizers()}>
+                    Organisers
+                    </a>
+                    </div>
+                    <div className="menu_items">
+                        <a onClick={() => scrollToFAQ()}>
+                          FAQ
+                        </a>
+                    </div>
+          </div>
+    </div>
+  );
+
+}
+
 const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
   const [offset, setOffset] = useState(0)
-  const [header, setHeader] = useState('header')
-
+  const [header, setHeader] = useState('header');
+  const [hActive,setHActive] = useState(false);
+  const [menuTop,setMenuTop] = useState(0);
+  const headerRef = useRef(null);
 
   useEffect(() => {
     window.onscroll = () => {
@@ -32,6 +74,8 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
           : 'shadow'
       )
     }
+    if(headerRef)
+      setMenuTop(headerRef.current.getBoundingClientRect().bottom);
     return () => {}
   }, [])
 
@@ -43,38 +87,11 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
     })
   }
 
-  useEffect(()=>{
-    const hamburger = document.querySelector(".hamburger");
-    const menu = document.querySelector(".menu");
-
-  
-    hamburger.addEventListener("click",(e)=>{
-       console.log(menu.style.display,menu.style.opacity)
-        menu.style.display = menu.style.display === "block"?"none":"block";
-        menu.style.opacity = menu.style.opacity === "1" ? "0":"1";
-        if(menu.style.display === "block") {
-          console.log("olaaaa");
-          animation();
-        }
-    })
-
-
-
-    const menu_items = document.querySelectorAll(".menu_items");
-    for(let btn of menu_items) {
-      btn.addEventListener("click",(e)=>{
-        menu.style.display = menu.style.display === "block"?"none":"block";
-        menu.style.opacity = menu.style.opacity === "0" ? "1":"0";
-      })
-    }
-    
-  });
-
+ 
 
   return (
     <article className="landsection">
-      <section className="headerNav">
-          <section className={header}>
+        <section ref={headerRef} className={header}>
                 <a href="https://c2c.acmvit.in" className="text-white">
                   <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
                 </a>
@@ -95,7 +112,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
                         <div className="navigatetitle">FAQ</div>
                       </a>
                     </div>
-                 <div className="hamburger">
+                 <div className="hamburger" onClick={()=>setHActive(!hActive)}>
                     <div className="hamburgerLine"></div>
                     <div className="hamburgerLine"></div>
                     <div className="hamburgerLine"></div>
@@ -111,26 +128,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
                     ></div>
                   </div> */}
            </section>
-           <section className="menu">
-                <div className="menu_nav">
-                        <Link to={"/about"}>
-                          <a>
-                            <div className="menu_items">About</div>
-                          </a>
-                        </Link>
-                        <a onClick={() => scrollToSponsors()}>
-                          <div className="menu_items">Sponsors</div>
-                        </a>
-                        <a onClick={() => scrollToOrganizers()}>
-                          <div className="menu_items">Organisers</div>
-                        </a>
-
-                        <a onClick={() => scrollToFAQ()}>
-                          <div className="menu_items">FAQ</div>
-                        </a>
-                  </div>
-           </section>
-       </section>
+       {hActive && <Menu menuTop={menuTop} hActive={hActive} setHActive={setHActive} scrollToFAQ={scrollToFAQ} scrollToOrganizers={scrollToOrganizers} scrollToSponsors={scrollToSponsors}/>}
       <section className="titlecontainer flex flex-row items-center justify-center">
         <h1 className="title">
           <span className="greentext">The Hackathon </span>everyone’s been{" "}
