@@ -37,7 +37,6 @@ const CarouselSection = () => {
           start ,
           end: "+=40%",
           scrub:true,
-          markers: true
         },
       },0);
   }, [])
