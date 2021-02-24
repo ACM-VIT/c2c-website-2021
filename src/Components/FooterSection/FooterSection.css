@@ -48,3 +48,87 @@
     transform: scale(0.8);
   }
 }
+.social-box {border-style: solid;
+border-color: black;
+color: black;
+margin-right: 4px;
+background-size: 200% 200%;
+background-image: 
+linear-gradient(to top, #A72424 50%, transparent 50%);
+-webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+-moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+-ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+-o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+
+}
+
+.social-box:hover {color: white;
+border-color: #A72424;
+background-image: 
+linear-gradient(to top, #A72424 51%, transparent 50%);
+background-position: 0 100%;
+-webkit-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+-moz-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+-ms-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+-o-transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+transition: background-position 300ms, color 300ms ease, border-color 300ms ease;
+}
+
+.fb{
+background-image: 
+linear-gradient(to top, #60d9fe 50%, transparent 50%);
+
+}
+.fb:hover{
+border-color: #60d9fe;
+background-image: 
+linear-gradient(to top, #60d9fe 51%, transparent 50%);
+}
+
+.twitter{
+background-image: 
+linear-gradient(to top, #c13584 50%, transparent 50%);
+
+}
+.twitter:hover{
+  border-color: #c13584;
+background-image: 
+linear-gradient(to top, #c13584 51%, transparent 50%);
+
+}
+
+.insta{
+  background-image: 
+linear-gradient(to top, red 50%, transparent 50%);
+
+}
+
+.insta:hover{
+  border-color: red;
+background-image: 
+linear-gradient(to top, red 51%, transparent 50%);
+
+}
+.linkedin{
+  background-image: 
+linear-gradient(to top, #1769ff 50%, transparent 50%);
+
+}
+.linkedin:hover{
+  border-color: #1769ff;
+background-image: 
+linear-gradient(to top, #1769ff 51%, transparent 50%);
+
+}
+.medium{
+  background-image: 
+linear-gradient(to top, #1db954 50%, transparent 50%);
+
+}
+.medium:hover{
+  border-color: #1db954;
+background-image: 
+linear-gradient(to top, #1db954 51%, transparent 50%);
+
+}

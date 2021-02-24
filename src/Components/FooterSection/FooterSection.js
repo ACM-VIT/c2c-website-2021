@@ -5,11 +5,11 @@ import "./FooterSection.css";
 import icons from './footerdata'
 
 
-const IconComponent = ({src,link}) => {
+const IconComponent = ({src,link, name}) => {
     return (
-        <a className="mainIcon" href={link} rel="noreferrer" target="_blank" >
-             <img src={src} alt="icon"/>
-        </a>
+      <a className={`${name} mainIcon social-box w-inline-block`} href={link} rel="noreferrer" target="_blank">
+        <img className="z-10 fimg" src={src} alt="icon" />
+      </a>
     );
 }
 
@@ -27,7 +27,7 @@ const FooterSection = () => {
 
       <div className="icons">
         {icons.map((icon, key) => (
-          <IconComponent key={key} src={icon.src} link={icon.link} />
+          <IconComponent key={key} src={icon.src} name={icon.name} link={icon.link} />
         ))}
       </div>
 
@@ -39,6 +39,7 @@ const FooterSection = () => {
       >
         <img src={VITLogo} className="vitlogo" alt="logo" />
       </a>
+
     </article>
   );
 };
