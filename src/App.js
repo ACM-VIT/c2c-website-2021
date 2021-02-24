@@ -20,7 +20,7 @@ function App() {
   
     const scrollToFAQ = () => {
       if (scrollFAQ) {
-        const headerOffset = 60;
+        const headerOffset = 90;
         const bodyRect = document.body.getBoundingClientRect().top;
         const elemRect = scrollFAQ.current.getBoundingClientRect().top;
         const elemPosition = elemRect - bodyRect;
@@ -41,7 +41,7 @@ function App() {
     // }
     const scrollToSponsors = () => {
       if (scrollSponsors) {
-        const headerOffset = 60;
+        const headerOffset = 90;
         const bodyRect = document.body.getBoundingClientRect().top;
         const elemRect = scrollSponsors.current.getBoundingClientRect().top;
         const elemPosition = elemRect - bodyRect;
@@ -51,7 +51,7 @@ function App() {
     }
     const scrollToOrganizers = () => {
       if (scrollOrganizers) {
-        const headerOffset = 60;
+        const headerOffset = 90;
         const bodyRect = document.body.getBoundingClientRect().top;
         const elemRect = scrollOrganizers.current.getBoundingClientRect().top;
         const elemPosition = elemRect - bodyRect;

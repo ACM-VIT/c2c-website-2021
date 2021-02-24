@@ -55,8 +55,10 @@ const VideoSection = () => {
               top: 0,
               left: 0,
               width: "100%",
-              boxSizing: "border-box",
               textDecoration: "none",
+              border:"none",
+              outline: "none"
+
             }}
             className="video-border"
             controls
