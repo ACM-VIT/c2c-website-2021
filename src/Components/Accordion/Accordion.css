@@ -30,10 +30,11 @@
 /* Style the accordion content title */
 .accordion__title {
   font-weight: 600;
-  font-size: 16px;
+  @apply text-sm md:text-base pr-2;
   text-align: left;
   color: #FFFFFF;
 opacity: 0.5;
+
 }
 
 .accordion:hover,
@@ -47,6 +48,8 @@ opacity: 0.5;
   margin-left: auto;
   transition: transform 0.3s ease;
   transform: rotate(90deg);
+  width: 18px;
+  height:14px;
 }
 
 /* Style to rotate icon when state is active */

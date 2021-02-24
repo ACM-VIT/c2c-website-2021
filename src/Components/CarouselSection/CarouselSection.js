@@ -49,7 +49,7 @@ const CarouselSection = () => {
             </Carousel>
           </div>
 
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start mt-6 lg:mt-0">
             <div className="carousel-text1 lg:px-8">
               We're back with a bang,
               <br />
@@ -59,11 +59,11 @@ const CarouselSection = () => {
               </span>
             </div>
             <div className="lg:-ml-20 z-50">
-              <div className="carousel-text2" style={{ background: "#6695D3" }}>
-                5000+ participants
-              </div>
               <div className="carousel-text2" style={{ background: "#DE7979" }}>
                 1000+ teams
+              </div>
+              <div className="carousel-text2" style={{ background: "#6695D3" }}>
+                5000+ participants
               </div>
               <div className="carousel-text2" style={{ background: "#CC9463" }}>
                 10,000+ stickers distributed

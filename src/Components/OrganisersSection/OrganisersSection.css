@@ -26,7 +26,7 @@
 }
 
 .orgTitle {
-  font-size: 2.5rem;
+ @apply text-2xl md:text-4xl;
   color: #48ba86;
   font-weight: 900;
   margin-bottom: 2.5rem;

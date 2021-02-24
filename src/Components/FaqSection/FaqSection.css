@@ -7,9 +7,9 @@
     color: #48ba86;
     text-align: center;
     justify-content: center;
-    font-size: 2rem;
     font-weight: 900;
     margin-bottom: 2.5rem;
+ @apply text-2xl md:text-3xl;
 }
 
 p{

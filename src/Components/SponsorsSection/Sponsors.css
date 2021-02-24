@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   white-space: nowrap;
-  font-size: 3rem;
+   @apply text-2xl md:text-3xl;
   font-weight: 900;
   margin-bottom: 2em;
 }
@@ -126,9 +126,6 @@
   .sponsor:nth-last-child(2) {
     grid-column-start: 1;
   }
-  .sponsorhead {
-    font-size: 2.5rem;
-  }
   .sponsor > p {
     font-size: 1rem;
   }
@@ -171,9 +168,6 @@
   /* seletcts the last two eleemnts */
   .sponsor:nth-last-child(2) {
     grid-column-start: 1;
-  }
-  .sponsorhead {
-    font-size: 2rem;
   }
 }
 
