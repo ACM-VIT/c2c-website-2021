@@ -38,9 +38,9 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
   const animation = ()=> {
     gsap.from(".menu_items",{
       opacity:0,
-      stagger:0.3,
-      duration:2,
-  })
+      stagger:0.1,
+      duration:1,
+    })
   }
 
   useEffect(()=>{
@@ -52,7 +52,10 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
        console.log(menu.style.display,menu.style.opacity)
         menu.style.display = menu.style.display === "block"?"none":"block";
         menu.style.opacity = menu.style.opacity === "1" ? "0":"1";
-        animation();
+        if(menu.style.display === "block") {
+          console.log("olaaaa");
+          animation();
+        }
     })
 
 

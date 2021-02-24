@@ -32,8 +32,31 @@
 }
 
 .menu_items {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  z-index: 50;
+  position: relative;
+}
+
+.menu_items:hover::before {
+  width: 150px;
+  background: #1f3c2f;
+}
+
+.menu_items::before {
+  display: inline-block;
+  content: "\00a0";
+  height: 1px;
+  left: 200px;
+  top: 10px;
+  padding: 1em;
+  width: 0px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  z-index: -5;
 }
 
 .header {
