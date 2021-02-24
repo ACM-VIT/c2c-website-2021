@@ -5,7 +5,16 @@ import organisers from './oragnisersdata'
 
 
 import './OrganisersSection.css'
-
+import {
+  Fade,
+  Zoom,
+  Flip,
+  Rotate,
+  Bounce,
+  Slide,
+  Roll,
+  LightSpeed,
+} from "react-reveal";
 const Organiser = ({pic,name,position})=>{
     return (
     <section className="board_member">
@@ -21,14 +30,20 @@ const OrganisersSection = () => {
     },[]);
     return (
       <article className="orgSection">
-        <h1 className="orgTitle">Student Organisers</h1>
+        <Fade right>
+          <h1 className="orgTitle">Student Organisers</h1>
+        </Fade>
         <article className="orgContainer">
-           
-            <section className="slider" ref={slider}>
-            {organisers.map((organiser,key) => (
-                <Organiser key={key} pic={organiser.pic} name={organiser.name} position={organiser.position}/>
+          <section className="slider" ref={slider}>
+            {organisers.map((organiser, key) => (
+              <Organiser
+                key={key}
+                pic={organiser.pic}
+                name={organiser.name}
+                position={organiser.position}
+              />
             ))}
-            </section>
+          </section>
         </article>
         {/* <Marquee play={true} direction="left" speed={20} className="bg-gray">
           <h1 className="bg-blue">

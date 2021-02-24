@@ -2,6 +2,16 @@ import React, { useEffect,useRef } from 'react'
 import faculty from './facultydata'
 
 import './FacultySection.css'
+import {
+  Fade,
+  Zoom,
+  Flip,
+  Rotate,
+  Bounce,
+  Slide,
+  Roll,
+  LightSpeed,
+} from "react-reveal";
 
 const Organiser = ({pic,name,position})=>{
     return (
@@ -17,18 +27,24 @@ const FacultySection = ({scrollOrganizers}) => {
     useEffect(()=>{
     },[]);
     return (
-        <article className="facArticle" ref={scrollOrganizers}>
-        <h1 className="facTitle">Faculty Organisers</h1>
+      <article className="facArticle" ref={scrollOrganizers}>
+        <Fade left>
+          <h1 className="facTitle">Faculty Organisers</h1>
+        </Fade>
         <article className="facContainer">
-           
-            <section className="facSlider" ref={slider}>
-            {faculty.map((organiser,key) => (
-                <Organiser key={key} pic={organiser.pic} name={organiser.name} position={organiser.position}/>
+          <section className="facSlider" ref={slider}>
+            {faculty.map((organiser, key) => (
+              <Organiser
+                key={key}
+                pic={organiser.pic}
+                name={organiser.name}
+                position={organiser.position}
+              />
             ))}
-            </section>
+          </section>
         </article>
-        </article>
-    )
+      </article>
+    );
 }
 
 export default FacultySection

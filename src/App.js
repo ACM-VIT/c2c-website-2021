@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, Component } from "react";
 
 import './App.css';
 import LandingSection from './Components/LandingSection/LandingSection';
@@ -11,7 +11,7 @@ import OrganisersSection from './Components/OrganisersSection/OrganisersSection'
 import FacultySection from './Components/FacultySection/FacultySection';
 import FooterSection from './Components/FooterSection/FooterSection';
 import FaqSection from './Components/FaqSection/FaqSection'
-
+import {Fade, Zoom, Flip, Rotate, Bounce, Slide, Roll, LightSpeed } from "react-reveal";
 function App() {
   const scrollFAQ = useRef(null);
   const scrollOrganizers = useRef(null);
@@ -68,9 +68,13 @@ function App() {
         scrollToSponsors={scrollToSponsors}
       />
       <MarqueeSection />
-      <CarouselSection />
+      <Zoom>
+        <CarouselSection />
+      </Zoom>
       <SponsorsSection scrollSponsors={scrollSponsors} />
-      <VideoSection />
+      <LightSpeed>
+        <VideoSection />
+      </LightSpeed>
       <FacultySection scrollOrganizers={scrollOrganizers} />
       <OrganisersSection />
       <FaqSection scrollFAQ={scrollFAQ} />
@@ -79,5 +83,19 @@ function App() {
     </div>
   );
 }
+
+// export default App;
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <MarqueeSection />
+//         <Fade left>
+//           <h1 className="align-center">React Reveal</h1>
+//         </Fade>
+//       </div>
+//     );
+//   }
+// }
 
 export default App;
