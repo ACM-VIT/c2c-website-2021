@@ -23,6 +23,7 @@
 }
 
 .menu_items {
+  opacity: 0;
   width: 100vw;
   /* / border: 1px solid purple; */
   display: flex;

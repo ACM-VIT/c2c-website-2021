@@ -24,6 +24,12 @@ const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSpons
   useEffect(() => {
     console.log(menuTop)
     menuRef.current.style = `top:${menuTop}px;position:fixed;left:0`;
+    gsap.to(".menu_items",{
+      opacity:1,
+      stagger:0.1,
+      duration:1,
+      delay:0.3
+    })
     return () => {
       return
     }
@@ -38,17 +44,26 @@ const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSpons
                         </Link>
                     </div>
                     <div className="menu_items">
-                        <a onClick={() => scrollToSponsors()}>
+                        <a onClick={() => {
+                          scrollToSponsors();
+                          setHActive(!hActive);
+                        }}>
                         Sponsors
                         </a>
                     </div>
                     <div className="menu_items">
-                    <a onClick={() => scrollToOrganizers()}>
+                    <a onClick={() => {
+                          scrollToOrganizers();
+                          setHActive(!hActive);
+                        }}>
                     Organisers
                     </a>
                     </div>
                     <div className="menu_items">
-                        <a onClick={() => scrollToFAQ()}>
+                    <a onClick={() => {
+                          scrollToFAQ();
+                          setHActive(!hActive);
+                        }}>
                           FAQ
                         </a>
                     </div>
@@ -79,15 +94,6 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
     return () => {}
   }, [])
 
-  const animation = ()=> {
-    gsap.from(".menu_items",{
-      opacity:0,
-      stagger:0.1,
-      duration:1,
-    })
-  }
-
- 
 
   return (
     <article className="landsection">
