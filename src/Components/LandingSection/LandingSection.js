@@ -4,7 +4,8 @@ import { slide as Menu } from "react-burger-menu";
 import RBN from "react-burger-nav";
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Headroom from 'react-headroom';
 /** Styles */
 import './LandingSection.css';
 import {
@@ -37,25 +38,35 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
 
   return (
     <article className="landsection">
-      <section className={header}>
+      <Headroom
+        onPin={() => console.log("pinned")}
+        onUnpin={() => console.log("unpinned")}
+        wrapperStyle={{ marginBottom: "10px" }}
+        style={{
+          display:"flex",
+          justifyContent:"space-between",
+          alignItems:"center",
+          padding:"1.5rem",
+        }}
+      >
         <a href="https://c2c.acmvit.in" className="text-white">
           <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
         </a>
         <div className="navigate">
           {/* <Menu right> */}
-            <Link to={"/about"}>
-                <div className="navigatetitle">About</div>
-            </Link>
-            <a onClick={() => scrollToSponsors()}>
-              <div className="navigatetitle">Sponsors</div>
-            </a>
-            <a onClick={() => scrollToOrganizers()}>
-              <div className="navigatetitle">Organisers</div>
-            </a>
+          <Link to={"/about"}>
+            <div className="navigatetitle">About</div>
+          </Link>
+          <a onClick={() => scrollToSponsors()}>
+            <div className="navigatetitle">Sponsors</div>
+          </a>
+          <a onClick={() => scrollToOrganizers()}>
+            <div className="navigatetitle">Organisers</div>
+          </a>
 
-            <a onClick={() => scrollToFAQ()}>
-              <div className="navigatetitle">FAQ</div>
-            </a>
+          <a onClick={() => scrollToFAQ()}>
+            <div className="navigatetitle">FAQ</div>
+          </a>
           {/* </Menu> */}
         </div>
         {/* <div
@@ -68,7 +79,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
             style={{ height: "18px", width: "110px", transform: "scale(0.4)" }}
           ></div>
         </div> */}
-      </section>
+      </Headroom>
       <section className="titlecontainer flex flex-row items-center justify-center">
         <h1 className="title">
           <span className="greentext">The Hackathon </span>everyone’s been{" "}

@@ -1,12 +1,12 @@
 .landsection {
-  @apply cursor-default w-full md:pt-16;
+  @apply cursor-default w-full;
   background-image: url("../../assets/map1.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .header {
-  @apply px-6 md:px-44 py-4 flex justify-between md:justify-between items-center fixed w-full top-0 left-0 z-50;
+  @apply px-6 md:px-44 py-4 flex justify-between md:justify-between items-center ;
 }
 .navigate {
   @apply text-graydark hidden md:flex flex-row;
@@ -21,9 +21,9 @@
 .acmlogo {
   @apply h-8 md:h-10;
 }
-.shadow {
+/* .shadow {
   @apply px-6 md:px-44 py-4 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
-}
+} */
 .registerbutton {
   @apply  h-10 md:h-10 px-4 opacity-50 hover:opacity-100;
   pointer-events:none;
