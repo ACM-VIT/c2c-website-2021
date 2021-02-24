@@ -140,13 +140,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .hamburger {
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  margin-top: 0.3em;
+  display: none;
 }
 
 .hamburgerLine {
@@ -157,8 +151,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
   border-radius: 8px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
   .navigate {
     display: none;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 0.3em;
   }
 }
