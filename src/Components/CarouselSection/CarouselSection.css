@@ -4,11 +4,15 @@
 
 .cdiv {
   opacity: 0;
+  z-index: -1;
 }
 
 @media screen and (max-width: 420px) {
   .carousel-image {
     width: 95vw;
+  }
+  .cdiv:nth-child(1) {
+    margin-top: 4.5em;
   }
 }
 

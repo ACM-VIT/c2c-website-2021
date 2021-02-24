@@ -25,23 +25,26 @@ import Plx from "react-plx";
 const CarouselSection = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger); 
-      
+      const trigger = window.innerWidth >=700 ? ".marquee":"#cStart";  
+      const start = window.innerWidth >=700 ? "top top" :"top top+=100";  
+      console.log(trigger);
       gsap.to(".cdiv",{
         opacity:1,
         duration :3,
         stagger:0.8,
         scrollTrigger: {
-          trigger: ".marquee",
-          start: "top top",
+          trigger,
+          start ,
           end: "+=40%",
           scrub:true,
+          markers: true
         },
       },0);
   }, [])
 
   return (
       <article className="carouselsection">
-        <div id="cStart"  className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-32 mb-0">
+        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-32 mb-0">
           <div className="carousel-image flex items-center justify-center z-20">
             <Carousel
               infinite
@@ -67,13 +70,13 @@ const CarouselSection = () => {
             </Carousel>
           </div>
 
-          <div className="flex flex-col items-start mt-6 lg:mt-0">
+          <div id="cStart" className="flex flex-col items-start mt-6 lg:mt-0">
             <div className="carousel-text1 lg:px-8">
               We're back with a bang,
               <br />
               but{" "}
               <span style={{ fontWeight: "900", color: "#48BA86" }}>
-                let's flex first!
+                let's flex first! 
               </span>
             </div>
             <div className="lg:-ml-20 z-50">
