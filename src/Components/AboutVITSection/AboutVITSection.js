@@ -64,7 +64,7 @@ const AboutVITSection = ({scrollAbout}) => {
             />
           </a>
         </Link>
-        <div className="anavigate">
+        <div className="hnavigate">
           <Link to={"/"}>
             <a>
               <div className="navigatetitle">Home</div>

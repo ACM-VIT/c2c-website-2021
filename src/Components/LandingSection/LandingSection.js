@@ -44,9 +44,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         <div className="navigate">
           {/* <Menu right> */}
             <Link to={"/about"}>
-              <a>
                 <div className="navigatetitle">About</div>
-              </a>
             </Link>
             <a onClick={() => scrollToSponsors()}>
               <div className="navigatetitle">Sponsors</div>
