@@ -72,9 +72,7 @@ function App() {
         <CarouselSection />
       </Zoom>
       <SponsorsSection scrollSponsors={scrollSponsors} />
-      <LightSpeed>
         <VideoSection />
-      </LightSpeed>
       <FacultySection scrollOrganizers={scrollOrganizers} />
       <OrganisersSection />
       <FaqSection scrollFAQ={scrollFAQ} />
