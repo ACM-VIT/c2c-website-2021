@@ -29,7 +29,7 @@ const SponsorsSection = ({scrollSponsors})=>{
       <Fade left>
         <h1 className="sponsorhead">Previous Sponsors</h1>
       </Fade>
-      <Bounce bottom>
+      <Fade bottom>
         <div className="sponsorsinner">
           {data.map((sponser, key) => (
             <Sponser
@@ -40,7 +40,7 @@ const SponsorsSection = ({scrollSponsors})=>{
             />
           ))}
         </div>
-      </Bounce>
+      </Fade>
     </article>
   );
 }
