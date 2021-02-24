@@ -43,7 +43,7 @@ const sponsers = [
     {
       name:"geeksforgeeks",
       src:geeksforgeekslogo,
-      info:"Your friendly neighbourhood assignment helper"
+      info:"Your assignment helper"
     },
     {
       name:"codingblocks",
