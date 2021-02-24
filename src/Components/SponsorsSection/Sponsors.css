@@ -36,11 +36,11 @@
 }
 
 .rosenfeld {
-  margin-bottom: 0.5em !important;
+  transform: scale(0.6);
 }
 .rosenfeld_p {
   font-size: 1rem !important;
-  white-space: normal !important;
+  white-space: pre-line !important;
 }
 
 .sponsor {

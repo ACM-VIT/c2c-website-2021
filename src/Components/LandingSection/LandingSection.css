@@ -11,6 +11,10 @@
 .navigate {
   @apply text-graydark hidden md:flex flex-row;
 }
+.navreg{
+    @apply text-graydark hidden md:flex flex-row;
+
+}
 .navigatetitle {
   @apply text-lg mx-4 font-bold;
 }

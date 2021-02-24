@@ -35,12 +35,9 @@
   white-space: pre-line !important;
 }
 
-.rosenfeld {
-  margin-bottom: 0.5em !important;
-  transform: scale(1.2) translateY(5px) !important;
-}
 .rosenfeld_p {
-  white-space: normal !important;
+  font-size: 0.79rem !important;
+  white-space: pre-line !important;
 }
 
 .sponsor {
