@@ -77,58 +77,58 @@ transition: background-position 300ms, color 300ms ease, border-color 300ms ease
 
 .fb{
 background-image: 
-linear-gradient(to top, #60d9fe 50%, transparent 50%);
+linear-gradient(to top, #4267B2 50%, transparent 50%);
 
 }
 .fb:hover{
-border-color: #60d9fe;
+border-color: #4267B2;
 background-image: 
-linear-gradient(to top, #60d9fe 51%, transparent 50%);
+linear-gradient(to top, #4267B2 51%, transparent 50%);
 }
 
 .twitter{
 background-image: 
-linear-gradient(to top, #c13584 50%, transparent 50%);
+linear-gradient(to top, #1DA1F2 50%, transparent 50%);
 
 }
 .twitter:hover{
-  border-color: #c13584;
+  border-color: #1DA1F2;
 background-image: 
-linear-gradient(to top, #c13584 51%, transparent 50%);
+linear-gradient(to top, #1DA1F2 51%, transparent 50%);
 
 }
 
 .insta{
   background-image: 
-linear-gradient(to top, red 50%, transparent 50%);
+linear-gradient(to top, #D64785 50%, transparent 50%);
 
 }
 
 .insta:hover{
-  border-color: red;
+  border-color: #D64785;
 background-image: 
-linear-gradient(to top, red 51%, transparent 50%);
+linear-gradient(to top, #D64785 51%, transparent 50%);
 
 }
 .linkedin{
   background-image: 
-linear-gradient(to top, #1769ff 50%, transparent 50%);
+linear-gradient(to top, #007AB2 50%, transparent 50%);
 
 }
 .linkedin:hover{
-  border-color: #1769ff;
+  border-color: #007AB2;
 background-image: 
-linear-gradient(to top, #1769ff 51%, transparent 50%);
+linear-gradient(to top, #007AB2 51%, transparent 50%);
 
 }
 .medium{
   background-image: 
-linear-gradient(to top, #1db954 50%, transparent 50%);
+linear-gradient(to top, #3CB371 50%, transparent 50%);
 
 }
 .medium:hover{
-  border-color: #1db954;
+  border-color: #3CB371;
 background-image: 
-linear-gradient(to top, #1db954 51%, transparent 50%);
+linear-gradient(to top, #3CB371 51%, transparent 50%);
 
 }
