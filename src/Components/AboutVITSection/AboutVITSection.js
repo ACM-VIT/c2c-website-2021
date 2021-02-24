@@ -23,8 +23,8 @@ const AboutVITSection = ({scrollAbout}) => {
     }
 
     const tl = gsap.timeline();
-    tl.from(".aboutHead",{duration:1.1,opacity:0,delay:0.2,stagger:0.4},0);
-    tl.from(".aboutSection p",{duration:1.1,opacity:0,delay:0.6,stagger:0.4},+1);
+    tl.from(".aboutHead",{duration:0.4,opacity:0,delay:0.2,stagger:0.2},0);
+    tl.from(".aboutSection p",{duration:0.4,opacity:0,delay:0.3,stagger:0.2},+1);
 
     const ele = document.querySelectorAll(".aboutHead");
     for (let span of ele) {

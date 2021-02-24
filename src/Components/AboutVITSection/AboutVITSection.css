@@ -57,8 +57,8 @@
 .aboutHead {
   color: #48ba86;
   white-space: nowrap;
-  font-size: 6rem;
-  font-weight: 900;
+  font-size: 12rem;
+  font-weight: 700;
   margin-bottom: 3rem;
   margin-top: 2rem;
   text-align: left;
@@ -82,7 +82,7 @@ p.aboutContent {
 }
 
 .aboutContent {
-  color: #ffd;
+  color: #fff;
   text-align: left;
   line-height: 160%;
   font-size: 1.2rem;
