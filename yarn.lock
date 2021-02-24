@@ -1873,6 +1873,13 @@
   "resolved" "https://registry.npmjs.org/@types/q/-/q-1.5.4.tgz"
   "version" "1.5.4"
 
+"@types/react-burger-menu@^2.6.2":
+  "integrity" "sha512-P9ekrqS7VYzAuesfPFE86OnCfcJGvLtSGzVJHg5O+MxQo/v08X1i1my2OIuMERV1taZV/+uAFM0jI+xla1cV+g=="
+  "resolved" "https://registry.npmjs.org/@types/react-burger-menu/-/react-burger-menu-2.6.2.tgz"
+  "version" "2.6.2"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-router-dom@^5.1.7":
   "integrity" "sha512-D5mHD6TbdV/DNHYsnwBTv+y73ei+mMjrkGrla86HthE4/PVvL1J94Bu3qABU+COXzpL23T1EZapVVpwHuBXiUg=="
   "resolved" "https://registry.npmjs.org/@types/react-router-dom/-/react-router-dom-5.1.7.tgz"
