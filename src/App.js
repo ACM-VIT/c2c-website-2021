@@ -68,9 +68,7 @@ function App() {
         scrollToSponsors={scrollToSponsors}
       />
       <MarqueeSection />
-      <Zoom>
         <CarouselSection />
-      </Zoom>
       <SponsorsSection scrollSponsors={scrollSponsors} />
         <VideoSection />
       <FacultySection scrollOrganizers={scrollOrganizers} />

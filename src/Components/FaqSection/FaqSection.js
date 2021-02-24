@@ -26,10 +26,7 @@ const Question = ({id, question, answer}) => {
 const FaqSection = ({scrollFAQ}) => {
     return (
       <article className="faqcontainer" ref={scrollFAQ}>
-        <Fade left>
           <h1 className="faqheading">Frequently Asked Questions</h1>
-        </Fade>
-        <Bounce left cascade>
           <div className="tabscontainer">
             {data.map((ques, key) => (
               <Accordion
@@ -40,7 +37,6 @@ const FaqSection = ({scrollFAQ}) => {
               />
             ))}
           </div>
-        </Bounce>
       </article>
     );
 }

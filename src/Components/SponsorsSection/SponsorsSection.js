@@ -26,10 +26,7 @@ const Sponser = ({name,imgsrc,info}) => {
 const SponsorsSection = ({scrollSponsors})=>{
   return (
     <article className="sponsorsection" ref={scrollSponsors}>
-      <Fade left>
         <h1 className="sponsorhead">Previous Sponsors</h1>
-      </Fade>
-      <Fade bottom>
         <div className="sponsorsinner">
           {data.map((sponser, key) => (
             <Sponser
@@ -40,7 +37,6 @@ const SponsorsSection = ({scrollSponsors})=>{
             />
           ))}
         </div>
-      </Fade>
     </article>
   );
 }

@@ -30,9 +30,7 @@ const OrganisersSection = () => {
     },[]);
     return (
       <article className="orgSection">
-        <Fade right>
           <h1 className="orgTitle">Student Organisers</h1>
-        </Fade>
         <article className="orgContainer">
           <section className="slider" ref={slider}>
             {organisers.map((organiser, key) => (
