@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect, useRef } from "react";
+import { slide as Menu } from "react-burger-menu";
 
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
@@ -40,8 +41,6 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         <a
           href="https://c2c.acmvit.in"
           className="text-white"
-          target="_blank"
-          rel="noreferrer noopener"
         >
           <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
         </a>
@@ -62,7 +61,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
             <div className="navigatetitle">FAQ</div>
           </a>
         </div>
-        <img className="registerbutton" src={register} alt="Register Now" />
+        <img className="registerbutton navreg" src={register} alt="Register Now" />
       </section>
         <section className="titlecontainer">
           <h1 className="title">

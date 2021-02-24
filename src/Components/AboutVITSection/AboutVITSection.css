@@ -80,6 +80,9 @@ p.aboutContent {
   line-height: 32px;
   font-size: 1.2rem;
 }
+.hnavigate{
+    @apply text-graydark hidden md:flex flex-row;}
+
 
 .aboutContent {
   color: #fff;
