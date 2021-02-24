@@ -37,7 +37,7 @@
 .contentContainer {
   position: relative;
   top: 18vh;
-  margin: 0 min(10vw, 550px);
+  margin: 0 min(15vw, 550px);
 }
 
 .header {
@@ -57,7 +57,7 @@
 .aboutHead {
   color: #48ba86;
   white-space: nowrap;
-  font-size: 12rem;
+  font-size: 8rem;
   font-weight: 700;
   margin-bottom: 3rem;
   margin-top: 2rem;
@@ -77,8 +77,8 @@ p.aboutContent {
   padding: 0em !important;
   margin-bottom: 4em;
   font-weight: 600;
-  line-height: 43px;
-  font-size: 1.68rem;
+  line-height: 32px;
+  font-size: 1.2rem;
 }
 
 .aboutContent {

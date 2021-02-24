@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
 import { Link } from "react-router-dom";
+import FooterSection from "../FooterSection/FooterSection";
 
 import gsap from 'gsap'
 
@@ -58,11 +59,6 @@ const AboutVITSection = ({scrollAbout}) => {
            <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
          </a>
          <div className="navigate">
-           <Link to={"/about"}>
-             <a> 
-                <div className="navigatetitle">About</div>
-             </a> 
-          </Link>
           <Link to={"/"}>
           <a>
             <div className="navigatetitle">Home</div>
