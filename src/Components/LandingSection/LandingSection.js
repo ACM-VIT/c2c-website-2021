@@ -34,43 +34,85 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
     return () => {}
   }, [])
 
+  useEffect(()=>{
+    const hamburger = document.querySelector(".hamburger");
+    const menu = document.querySelector(".menu");
+    hamburger.addEventListener("click",(e)=>{
+       console.log(menu.style.display,menu.style.opacity)
+        menu.style.display = menu.style.display === "block"?"none":"block";
+        menu.style.opacity = menu.style.opacity === "1" ? "0":"1";
+    })
+
+    const menu_items = document.querySelectorAll(".menu_items");
+    for(let btn of menu_items) {
+      btn.addEventListener("click",(e)=>{
+        menu.style.display = menu.style.display === "block"?"none":"block";
+        menu.style.opacity = menu.style.opacity === "0" ? "1":"0";
+      })
+    }
+  });
+
 
   return (
     <article className="landsection">
-      <section className={header}>
-        <a href="https://c2c.acmvit.in" className="text-white">
-          <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
-        </a>
-        <div className="navigate">
-          {/* <Menu right> */}
-            <Link to={"/about"}>
-              <a>
-                <div className="navigatetitle">About</div>
-              </a>
-            </Link>
-            <a onClick={() => scrollToSponsors()}>
-              <div className="navigatetitle">Sponsors</div>
-            </a>
-            <a onClick={() => scrollToOrganizers()}>
-              <div className="navigatetitle">Organisers</div>
-            </a>
+      <section className="headerNav">
+          <section className={header}>
+                <a href="https://c2c.acmvit.in" className="text-white">
+                  <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
+                </a>
+                  <div className="navigate">
+                      <Link to={"/about"}>
+                        <a>
+                          <div className="navigatetitle">About</div>
+                        </a>
+                      </Link>
+                      <a onClick={() => scrollToSponsors()}>
+                        <div className="navigatetitle">Sponsors</div>
+                      </a>
+                      <a onClick={() => scrollToOrganizers()}>
+                        <div className="navigatetitle">Organisers</div>
+                      </a>
 
-            <a onClick={() => scrollToFAQ()}>
-              <div className="navigatetitle">FAQ</div>
-            </a>
-          {/* </Menu> */}
-        </div>
-        {/* <div
-          style={{ transform: "scale(0.6)" }}
-        >
-          <div
-            className="apply-button"
-            data-hackathon-slug="acm-c2c"
-            data-button-theme="dark-inverted"
-            style={{ height: "18px", width: "110px", transform: "scale(0.4)" }}
-          ></div>
-        </div> */}
-      </section>
+                      <a onClick={() => scrollToFAQ()}>
+                        <div className="navigatetitle">FAQ</div>
+                      </a>
+                    </div>
+                 <div className="hamburger">
+                    <div className="hamburgerLine"></div>
+                    <div className="hamburgerLine"></div>
+                    <div className="hamburgerLine"></div>
+                 </div>
+                  {/* <div
+                    style={{ transform: "scale(0.6)" }}
+                  >
+                    <div
+                      className="apply-button"
+                      data-hackathon-slug="acm-c2c"
+                      data-button-theme="dark-inverted"
+                      style={{ height: "18px", width: "110px", transform: "scale(0.4)" }}
+                    ></div>
+                  </div> */}
+           </section>
+           <section className="menu">
+                <div className="menu_nav">
+                        <Link to={"/about"}>
+                          <a>
+                            <div className="menu_items">About</div>
+                          </a>
+                        </Link>
+                        <a onClick={() => scrollToSponsors()}>
+                          <div className="menu_items">Sponsors</div>
+                        </a>
+                        <a onClick={() => scrollToOrganizers()}>
+                          <div className="menu_items">Organisers</div>
+                        </a>
+
+                        <a onClick={() => scrollToFAQ()}>
+                          <div className="menu_items">FAQ</div>
+                        </a>
+                  </div>
+           </section>
+       </section>
       <section className="titlecontainer flex flex-row items-center justify-center">
         <h1 className="title">
           <span className="greentext">The Hackathon </span>everyone’s been{" "}

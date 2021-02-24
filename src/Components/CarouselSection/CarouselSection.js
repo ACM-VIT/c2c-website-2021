@@ -27,6 +27,7 @@ const CarouselSection = () => {
     gsap.registerPlugin(ScrollTrigger); 
       const trigger = window.innerWidth >=700 ? ".marquee":"#cStart";  
       const start = window.innerWidth >=700 ? "top top" :"top top+=100";  
+      console.log(trigger);
       gsap.to(".cdiv",{
         opacity:1,
         duration :3,
