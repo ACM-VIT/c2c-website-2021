@@ -21,6 +21,7 @@
     "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-burger-menu": "^3.0.3",
+    "react-burger-nav": "^2.0.2",
     "react-dom": "^17.0.1",
     "react-fast-marquee": "^1.1.1",
     "react-locomotive-scroll": "^0.1.7",
