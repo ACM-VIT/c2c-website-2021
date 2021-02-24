@@ -28,9 +28,7 @@ const FacultySection = ({scrollOrganizers}) => {
     },[]);
     return (
       <article className="facArticle" ref={scrollOrganizers}>
-        <Fade left>
           <h1 className="facTitle">Faculty Organisers</h1>
-        </Fade>
         <article className="facContainer">
           <section className="facSlider" ref={slider}>
             {faculty.map((organiser, key) => (
