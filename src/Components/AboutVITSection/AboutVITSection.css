@@ -57,7 +57,7 @@
 .aboutHead {
   color: #48ba86;
   white-space: nowrap;
-  font-size: 8rem;
+  @apply sm:text-4xl md:text-6xl lg:text-9xl;
   font-weight: 700;
   margin-bottom: 3rem;
   margin-top: 2rem;
