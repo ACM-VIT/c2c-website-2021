@@ -10,6 +10,9 @@ import image9 from "../../assets/carousel-images/img9.jpg";
 import image10 from "../../assets/carousel-images/img10.JPG";
 import image16 from "../../assets/carousel-images/img16.JPG";
 import image17 from "../../assets/carousel-images/img17.JPG";
+import gsap from 'gsap';
+import ScrollTrigger from "gsap/ScrollTrigger";
+import {useEffect} from 'react'
 // import { Parallax } from 'react-scroll-parallax';
 
 import "./CarouselSection.css";
@@ -20,10 +23,25 @@ import Plx from "react-plx";
 
 
 const CarouselSection = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger); 
+      
+      gsap.to(".cdiv",{
+        opacity:1,
+        duration :3,
+        stagger:0.8,
+        scrollTrigger: {
+          trigger: ".marquee",
+          start: "top top",
+          end: "+=40%",
+          scrub:true,
+        },
+      },0);
+  }, [])
 
   return (
       <article className="carouselsection">
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-32 mb-0">
+        <div id="cStart"  className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-32 mb-0">
           <div className="carousel-image flex items-center justify-center z-20">
             <Carousel
               infinite
@@ -59,16 +77,16 @@ const CarouselSection = () => {
               </span>
             </div>
             <div className="lg:-ml-20 z-50">
-              <div className="carousel-text2" style={{ background: "#DE7979" }}>
+              <div className="cdiv carousel-text2" style={{ background: "#DE7979" }}>
                 1000+ teams
               </div>
-              <div className="carousel-text2" style={{ background: "#6695D3" }}>
+              <div className="cdiv carousel-text2" style={{ background: "#6695D3" }}>
                 5000+ participants
               </div>
-              <div className="carousel-text2" style={{ background: "#CC9463" }}>
+              <div className="cdiv carousel-text2" style={{ background: "#CC9463" }}>
                 10,000+ stickers distributed
               </div>
-              <div className="carousel-text2" style={{ background: "#6695D3" }}>
+              <div className="cdiv carousel-text2" style={{ background: "#6695D3" }}>
                 25+ sponsors
               </div>
             </div>
