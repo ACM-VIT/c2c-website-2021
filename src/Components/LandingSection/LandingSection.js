@@ -64,7 +64,6 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         </div>
         <img className="registerbutton" src={register} alt="Register Now" />
       </section>
-      <Slide bottom>
         <section className="titlecontainer">
           <h1 className="title">
             <span className="greentext">The Hackathon </span>everyone’s been{" "}
@@ -92,7 +91,6 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
             style={{ height: "44px", width: "312px" }}
           ></div>
         </section>
-      </Slide>
     </article>
   );
 }
