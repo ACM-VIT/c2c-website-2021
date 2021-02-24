@@ -38,8 +38,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
     const hamburger = document.querySelector(".hamburger");
     const menu = document.querySelector(".menu");
 
-    if(!hamburger)
-      return ;
+  
     hamburger.addEventListener("click",(e)=>{
        console.log(menu.style.display,menu.style.opacity)
         menu.style.display = menu.style.display === "block"?"none":"block";
@@ -47,7 +46,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
     })
 
 
-    
+
     const menu_items = document.querySelectorAll(".menu_items");
     for(let btn of menu_items) {
       btn.addEventListener("click",(e)=>{
