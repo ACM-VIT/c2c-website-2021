@@ -14,17 +14,10 @@ import {
 
 const Sponser = ({name,imgsrc,info,url}) => {
   return (
-      <a
-        className="logos"
-        href={url}
-        rel="noreferrer"
-        target="_blank"
-      >
-    <div className="sponsor">
+    <a className="logos sponsor" href={url} rel="noreferrer" target="_blank">
         <img className={name} src={imgsrc} alt={`${name} logo`} />
         <p className={`${name}_p`}>{info}</p>
-    </div>
-      </a>
+    </a>
   );
 }
 
