@@ -17,6 +17,7 @@ import {
   Roll,
   LightSpeed,
 } from "react-reveal";
+import ApplyButton from "../applyButton";
 
 const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSponsors,menuTop}) => {
   const menuRef = useRef(null);
@@ -27,8 +28,8 @@ const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSpons
     gsap.to(".menu_items",{
       opacity:1,
       stagger:0.1,
-      duration:1,
-      delay:0.3
+      duration:0.2,
+      delay:0.1
     })
     return () => {
       return
@@ -97,33 +98,31 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
 
   return (
     <article className="landsection">
-        <section ref={headerRef} className={header}>
-                <a href="https://c2c.acmvit.in" className="text-white">
-                  <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
-                </a>
-                  <div className="navigate">
-                      <Link to={"/about"}>
+      <section ref={headerRef} className={header}>
+        <a href="https://c2c.acmvit.in" className="text-white">
+          <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
+        </a>
+        <div className="navigate">
+          <Link to={"/about"}>
+            <div className="navigatetitle">About</div>
+          </Link>
+          <a onClick={() => scrollToSponsors()}>
+            <div className="navigatetitle">Sponsors</div>
+          </a>
+          <a onClick={() => scrollToOrganizers()}>
+            <div className="navigatetitle">Organisers</div>
+          </a>
 
-                          <div className="navigatetitle">About</div>
-
-                      </Link>
-                      <a onClick={() => scrollToSponsors()}>
-                        <div className="navigatetitle">Sponsors</div>
-                      </a>
-                      <a onClick={() => scrollToOrganizers()}>
-                        <div className="navigatetitle">Organisers</div>
-                      </a>
-
-                      <a onClick={() => scrollToFAQ()}>
-                        <div className="navigatetitle">FAQ</div>
-                      </a>
-                    </div>
-                 <div className="hamburger" onClick={()=>setHActive(!hActive)}>
-                    <div className="hamburgerLine"></div>
-                    <div className="hamburgerLine"></div>
-                    <div className="hamburgerLine"></div>
-                 </div>
-                  {/* <div
+          <a onClick={() => scrollToFAQ()}>
+            <div className="navigatetitle">FAQ</div>
+          </a>
+        </div>
+        <div className="hamburger" onClick={() => setHActive(!hActive)}>
+          <div className="hamburgerLine"></div>
+          <div className="hamburgerLine"></div>
+          <div className="hamburgerLine"></div>
+        </div>
+        {/* <div
                     style={{ transform: "scale(0.6)" }}
                   >
                     <div
@@ -133,8 +132,17 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
                       style={{ height: "18px", width: "110px", transform: "scale(0.4)" }}
                     ></div>
                   </div> */}
-           </section>
-       {hActive && <Menu menuTop={menuTop} hActive={hActive} setHActive={setHActive} scrollToFAQ={scrollToFAQ} scrollToOrganizers={scrollToOrganizers} scrollToSponsors={scrollToSponsors}/>}
+      </section>
+      {hActive && (
+        <Menu
+          menuTop={menuTop}
+          hActive={hActive}
+          setHActive={setHActive}
+          scrollToFAQ={scrollToFAQ}
+          scrollToOrganizers={scrollToOrganizers}
+          scrollToSponsors={scrollToSponsors}
+        />
+      )}
       <section className="titlecontainer flex flex-row items-center justify-center">
         <h1 className="title">
           <span className="greentext">The Hackathon </span>everyone’s been{" "}
@@ -147,12 +155,9 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         </div>
 
         {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
-        <div
-          className="apply-button"
-          data-hackathon-slug="acm-c2c"
-          data-button-theme="dark-inverted"
-          style={{ height: "18px", width: "110px" }}
-        ></div>
+        <div className="header_buttons">
+          <ApplyButton />
+        </div>
       </section>
     </article>
   );

@@ -72,6 +72,15 @@
 .motto {
   @apply flex items-center justify-center mb-36 px-4;
 }
+.header_buttons {
+  display: flex;
+}
+.header_buttons span {
+  margin: 0 1rem;
+  color: #fff;
+  align-self: center;
+}
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
