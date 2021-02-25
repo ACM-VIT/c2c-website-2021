@@ -136,11 +136,11 @@
 @media screen and (max-width: 545px) {
   .sponsorsinner {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem 2rem;
+    gap: 1rem 1rem;
   }
 
   .sponsor {
-    width: 200px;
+    width: 180px;
     height: 100px;
     padding: 1.3rem 0em;
   }

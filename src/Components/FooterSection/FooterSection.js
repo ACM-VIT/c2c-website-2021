@@ -13,9 +13,9 @@ const IconComponent = ({src,link, name}) => {
     );
 }
 
-const FooterSection = () => {
+const FooterSection = ({scrollFooter}) => {
   return (
-    <article className="footer">
+    <article id="footer" className="footer" ref={scrollFooter}>
       <a
         className="logos"
         href="https://acmvit.in/"

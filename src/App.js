@@ -17,6 +17,7 @@ function App() {
   const scrollOrganizers = useRef(null);
   // const scrollAbout = useRef(null);
   const scrollSponsors = useRef(null);
+  const scrollFooter = useRef(null);
   
     const scrollToFAQ = () => {
       if (scrollFAQ) {
@@ -59,6 +60,16 @@ function App() {
         window.scrollTo({ behavior: "smooth", top: offsetPosition });
       }
     };
+    const scrollToFooter = () => {
+      if (scrollFooter) {
+        const headerOffset = 90;
+        const bodyRect = document.body.getBoundingClientRect().top;
+        const elemRect = scrollFooter.current.getBoundingClientRect().top;
+        const elemPosition = elemRect - bodyRect;
+        const offsetPosition = elemPosition - headerOffset;
+        window.scrollTo({ behavior: "smooth", top: offsetPosition });
+      }
+    };
   return (
     <div className="landing">
       <LandingSection
@@ -68,14 +79,14 @@ function App() {
         scrollToSponsors={scrollToSponsors}
       />
       <MarqueeSection />
-        <CarouselSection />
+      <CarouselSection />
       <SponsorsSection scrollSponsors={scrollSponsors} />
-        <VideoSection />
+      <VideoSection />
       <FacultySection scrollOrganizers={scrollOrganizers} />
       <OrganisersSection />
-      <FaqSection scrollFAQ={scrollFAQ} />
+      <FaqSection scrollToFooter={scrollToFooter} scrollFAQ={scrollFAQ} />
       <SecondMarqueeSection />
-      <FooterSection />
+      <FooterSection scrollFooter={scrollFooter}/>
     </div>
   );
 }

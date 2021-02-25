@@ -23,7 +23,7 @@ const Question = ({id, question, answer}) => {
    )
 }
 
-const FaqSection = ({scrollFAQ}) => {
+const FaqSection = ({scrollFAQ, scrollToFooter}) => {
     return (
       <article className="faqcontainer" ref={scrollFAQ}>
           <h1 className="faqheading">Frequently Asked Questions</h1>
