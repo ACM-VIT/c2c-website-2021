@@ -81,7 +81,7 @@ p.aboutContent {
   font-size: 1.2rem;
 }
 .hnavigate{
-    @apply text-graydark hidden md:flex flex-row;}
+    @apply text-graydark flex flex-row;}
 
 
 .aboutContent {
