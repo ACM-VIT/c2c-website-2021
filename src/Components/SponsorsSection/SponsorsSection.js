@@ -12,13 +12,20 @@ import {
 } from "react-reveal";
 
 
-const Sponser = ({name,imgsrc,info}) => {
-  return(
+const Sponser = ({name,imgsrc,info,url}) => {
+  return (
+      <a
+        className="logos"
+        href={url}
+        rel="noreferrer"
+        target="_blank"
+      >
     <div className="sponsor">
-      <img className={name} src={imgsrc} alt={`${name} logo`}/>
-      <p className={`${name}_p`}>{info}</p>
+        <img className={name} src={imgsrc} alt={`${name} logo`} />
+        <p className={`${name}_p`}>{info}</p>
     </div>
-  )
+      </a>
+  );
 }
 
 
@@ -26,7 +33,7 @@ const Sponser = ({name,imgsrc,info}) => {
 const SponsorsSection = ({scrollSponsors})=>{
   return (
     <article className="sponsorsection" ref={scrollSponsors}>
-        <h1 className="sponsorhead">Previous Sponsors</h1>
+        <h1 className="sponsorhead">Sponsors</h1>
         <div className="sponsorsinner">
           {data.map((sponser, key) => (
             <Sponser
@@ -34,6 +41,7 @@ const SponsorsSection = ({scrollSponsors})=>{
               name={sponser.name}
               imgsrc={sponser.src}
               info={sponser.info}
+              url={sponser.url}
             />
           ))}
         </div>
