@@ -17,6 +17,7 @@ import meribachatlogo from "../../assets/meribachat.svg";
 import replitlogo from "../../assets/replit.svg";
 import tezoslogo from "../../assets/tezos.svg";
 import portislogo from "../../assets/portis.svg";
+import portiswhitelogo from '../../assets/portis_white.svg'
 import skilloxidelogo from "../../assets/skilloxide.svg";
 import eggheadlogo from "../../assets/egghead.svg";
 import stickermulelogo from "../../assets/stickermule.svg";
@@ -52,7 +53,7 @@ const sponsers = [
   },
   {
     name: "portis",
-    src: portislogo,
+    src: portiswhitelogo,
     info: "Non-custodial blockchain wallet",
     url: "https://www.portis.io/",
   },
