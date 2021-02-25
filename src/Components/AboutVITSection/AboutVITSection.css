@@ -59,7 +59,7 @@
   white-space: nowrap;
   @apply sm:text-4xl md:text-6xl lg:text-9xl;
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   margin-top: 2rem;
   text-align: left;
   font-weight: 700;
