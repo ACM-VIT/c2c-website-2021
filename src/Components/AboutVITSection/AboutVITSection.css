@@ -36,7 +36,7 @@
 
 .contentContainer {
   position: relative;
-  top: 18vh;
+  top: 10vh;
   margin: 0 min(15vw, 550px);
 }
 
