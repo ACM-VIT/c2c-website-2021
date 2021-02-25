@@ -155,7 +155,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         </div>
 
         {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
-        <div className="header_buttons subtitle">
+        <div className="header_buttons">
           <ApplyButton />
         </div>
       </section>
