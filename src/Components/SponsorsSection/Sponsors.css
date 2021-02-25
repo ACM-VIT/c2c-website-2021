@@ -26,31 +26,15 @@
   gap: 5rem 0rem;
 }
 
-.geeksforgeeks {
-  transform: scale(0.6);
-}
-
-.geeksforgeeks_p {
-  font-size: 1rem !important;
-  white-space: pre-line !important;
-}
-
-.rosenfeld {
-  transform: scale(0.6);
-}
-.rosenfeld_p {
-  font-size: 1rem !important;
-  white-space: pre-line !important;
-}
 
 .sponsor {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 250px;
+  width: 260px;
   height:100px;
   flex-direction: column;
-  padding: 1.5rem 1rem 0.5rem 1rem;
+  padding: 1.5rem 1.2rem 0.5rem 1.2rem;
   transition: transform 0.3s ease-out;
 }
 
@@ -74,7 +58,7 @@
 .sponsor > p {
   color: white;
   display: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   white-space: nowrap;
   -webkit-line-clamp: 2; /* number of lines to show */

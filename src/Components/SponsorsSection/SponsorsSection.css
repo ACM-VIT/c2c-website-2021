@@ -16,7 +16,7 @@
   white-space: nowrap;
   font-size: 3rem;
   font-weight: 900;
-  margin-bottom: 2em;
+  margin-bottom: 3.5rem;
 }
 
 .sponsorsinner {
@@ -73,7 +73,7 @@
 .sponsor > p {
   color: white;
   display: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   white-space: nowrap;
   -webkit-line-clamp: 2; /* number of lines to show */
