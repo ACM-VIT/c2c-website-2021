@@ -75,7 +75,7 @@
   @apply flex items-center justify-center mb-36 px-4;
 }
 .header_buttons {
-  @apply flex justify-center items-center pl-4 md:p-0 mx-auto;
+  @apply flex justify-center items-center px-4 md:p-0 mx-auto;
 }
 .header_buttons span {
   margin: 0 1rem;
