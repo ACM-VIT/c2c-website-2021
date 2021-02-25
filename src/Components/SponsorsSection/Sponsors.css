@@ -68,7 +68,7 @@
   transform: translateY(5px);
   /* takes care of the logo moving up */
   transition: all 0.3s ease-out;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .sponsor > p {
