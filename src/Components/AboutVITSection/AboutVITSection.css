@@ -40,11 +40,11 @@
   margin: 0 min(15vw, 550px);
 }
 
-.header {
+.aheader {
   @apply px-6 md:px-44 py-4 flex justify-between md:justify-between items-center fixed w-full top-0 left-0 z-50;
 }
 
-.shadow {
+.ashadow {
   @apply px-6 md:px-44 py-4 flex justify-between items-center fixed w-full bg-websiteBackground bg-opacity-50 shadow-xl  top-0 left-0 z-50;
 }
 

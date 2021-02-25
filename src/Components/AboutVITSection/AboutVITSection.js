@@ -10,7 +10,7 @@ import gsap from 'gsap'
 
 const AboutVITSection = ({scrollAbout}) => {
   const [offset, setOffset] = useState(0)
-  const [header, setHeader] = useState('header')
+  const [header, setHeader] = useState('aheader')
 
 
   useEffect(() => {
@@ -18,8 +18,8 @@ const AboutVITSection = ({scrollAbout}) => {
       setOffset(window.pageYOffset)
       setHeader(
         window.pageYOffset === 0
-          ? 'header'
-          : 'shadow'
+          ? 'aheader'
+          : 'ashadow'
       )
     }
 

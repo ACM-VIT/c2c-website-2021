@@ -87,7 +87,7 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
       setHeader(
         window.pageYOffset === 0
           ? 'header'
-          : 'shadow'
+          : 'header'
       )
     }
     if(headerRef)
