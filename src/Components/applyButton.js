@@ -15,7 +15,7 @@ export default function ApplyButton(props) {
   return (
     <div
       className="apply-button"
-      data-hackathon-slug="utkalhacks2021"
+      data-hackathon-slug="acm-c2c"
       data-button-theme="dark-inverted"
       style={{ height: "32px", width: "112px" }}
     ></div>
