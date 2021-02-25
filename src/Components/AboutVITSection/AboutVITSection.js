@@ -56,19 +56,15 @@ const AboutVITSection = ({scrollAbout}) => {
     <div className="page">
       <section className={header}>
         <Link to="/">
-          <a>
             <img
               className="acmlogo header-image"
               src={c2clogo}
               alt="C2C Logo"
             />
-          </a>
         </Link>
         <div className="hnavigate">
           <Link to={"/"}>
-            <a>
               <div className="navigatetitle">Home</div>
-            </a>
           </Link>
         </div>
         <img className="registerbutton" src={register} alt="Register Now" />
