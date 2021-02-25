@@ -26,7 +26,7 @@ const CarouselSection = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger); 
       const trigger = window.innerWidth >=700 ? ".marquee":"#cStart";  
-      const start = window.innerWidth >=700 ? "top top" :"top top+=100";  
+      const start = window.innerWidth >=700 ? "top top" :"top top+=150";  
       console.log(trigger);
       gsap.to(".cdiv",{
         opacity:1,
@@ -37,6 +37,7 @@ const CarouselSection = () => {
           start ,
           end: "+=40%",
           scrub:true,
+          markers:true,
         },
       },0);
   }, [])
