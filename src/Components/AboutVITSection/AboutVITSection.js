@@ -67,7 +67,6 @@ const AboutVITSection = ({scrollAbout}) => {
               <div className="navigatetitle">Home</div>
           </Link>
         </div>
-        <img className="registerbutton" src={register} alt="Register Now" />
       </section>
 
       <div className="contentContainer">
