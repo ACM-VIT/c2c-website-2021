@@ -16,6 +16,7 @@ import hackerearthlogo from "../../assets/hackerearth_14.svg";
 import meribachatlogo from "../../assets/meribachat.svg";
 import replitlogo from "../../assets/replit.svg";
 import tezoslogo from "../../assets/tezos.svg";
+import tezos_white from '../../assets/tezos_white.svg'
 import portislogo from "../../assets/portis.svg";
 import portiswhitelogo from '../../assets/portis_white.svg'
 import skilloxidelogo from "../../assets/skilloxide.svg";
@@ -47,7 +48,7 @@ const sponsers = [
   },
   {
     name: "tezos",
-    src: tezoslogo,
+    src: tezos_white,
     info: "Open-source blockchain network",
     url: "https://tezos.com/",
   },
