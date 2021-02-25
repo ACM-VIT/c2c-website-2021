@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-.orgSection{
+.orgSection {
   margin-top: 5rem;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .orgTitle {
- @apply text-2xl md:text-4xl;
+  @apply text-2xl md:text-4xl;
   color: #48ba86;
   font-weight: 900;
   margin-bottom: 4rem;
@@ -39,7 +39,7 @@
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
-  animation: ticker 90s linear infinite;
+  animation: ticker 90s linear infinite reverse;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

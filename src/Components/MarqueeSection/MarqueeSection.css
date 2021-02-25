@@ -21,7 +21,7 @@
   width: fit-content;
   display: flex;
   position: relative;
-  animation: marquee 20s linear infinite;
+  animation: marquee 20s linear infinite reverse;
   /* animation-play-state: paused; */
   /* animation-play-state: running; */
 }
