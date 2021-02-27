@@ -14,7 +14,9 @@
   padding-top: 3em;
   z-index: 100;
 }
-
+.navigate:hover{
+  text-decoration:none;
+}
 .menu_nav {
   width: 100vw;
   /* border: 1px solid orange; */

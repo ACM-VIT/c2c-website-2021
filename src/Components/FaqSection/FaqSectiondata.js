@@ -35,7 +35,7 @@ export default [
     id: "six",
     question: "Are there any specific tracks to be followed?",
     answer:
-      'Tracks will be announced soon. Stay tuned on our social media handles <a href="#footer"><style>a:hover{text-decoration:underline}</style>here!</a>',
+      'Tracks will be announced soon. Stay tuned on our social media handles <a href="#footer">here!</a>',
   },
   {
     id: "seven",
