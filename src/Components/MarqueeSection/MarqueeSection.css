@@ -11,10 +11,10 @@
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
-  background: #121212;
+  background: #131313;
   --color-highlightStroke: #1f3c2f;
   --color-stroke: rgba(72, 186, 134, 0.25);
-  --color-bg: #121212;
+  --color-bg: #131313;
 }
 
 .marquee__inner {

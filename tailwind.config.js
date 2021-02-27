@@ -12,7 +12,7 @@ module.exports = {
         13:"3rem",
       },
       backgroundColor: {
-        websiteBackground: "#121212",
+        websiteBackground: "#131313",
         c2cBgGreen: "#48BA86",
       },
       colors: {

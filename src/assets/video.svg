@@ -4,8 +4,8 @@
 <circle cx="41" cy="24" r="10" fill="#6FCF97"/>
 <circle cx="77" cy="24" r="10" fill="#F2C94C"/>
 <circle cx="113" cy="24" r="10" fill="#EB5757"/>
-<circle cx="1132" cy="24" r="12" fill="#121212"/>
-<rect x="159" y="14" width="912" height="20" rx="10" fill="#121212"/>
+<circle cx="1132" cy="24" r="12" fill="#131313"/>
+<rect x="159" y="14" width="912" height="20" rx="10" fill="#131313"/>
 <defs>
 <linearGradient id="paint0_linear" x1="585" y1="732" x2="585" y2="-388" gradientUnits="userSpaceOnUse">
 <stop stop-color="#138350" fill-opacity="0.5"/>

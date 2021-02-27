@@ -6,10 +6,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #121212;
+  background: #131313;
   --color-highlightStroke: #1f3c2f;
   --color-stroke: rgba(72, 186, 134, 0.25);
-  --color-bg: #121212;
+  --color-bg: #131313;
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -51,7 +51,7 @@
 .aboutSection {
   display: flex;
   flex-direction: column;
-  background: #121212;
+  background: #131313;
 }
 
 .aboutHead {

@@ -21,13 +21,13 @@
 .bar {
   width: 80%;
   @apply h-3 md:h-4;
-  background-color: #121212;
+  background-color: #131313;
   border-radius: 16px;
   @apply mx-1;
 }
 .circle {
   @apply w-3 md:w-4 h-3 md:h-4;
-  background-color: #121212;
+  background-color: #131313;
   border-radius: 50%;
   @apply mx-1;
 }
