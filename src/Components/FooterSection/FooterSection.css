@@ -48,6 +48,8 @@
     transform: scale(0.8);
   }
 }
+
+@media screen and (min-width: 600px) {
 .social-box {border-style: solid;
 border-color: black;
 color: black;
@@ -131,4 +133,5 @@ linear-gradient(to top, #3CB371 50%, transparent 50%);
 background-image: 
 linear-gradient(to top, #3CB371 51%, transparent 50%);
 
+}
 }
