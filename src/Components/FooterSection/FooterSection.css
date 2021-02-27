@@ -35,8 +35,8 @@
 
 @media screen and (max-width: 500px) {
   .mainIcon > img {
-    /* height: 16px;
-    width: 16px; */
+    height: 16px;
+    width: 16px;
     margin: 0 0.1rem;
   }
 
