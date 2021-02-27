@@ -33,6 +33,7 @@
   letter-spacing: 2px;
   font-family: "DM Sans", sans-serif;
   font-stretch: expanded;
+  border-color:rgba(72, 186, 134, 0.25);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--color-stroke);
   -webkit-text-fill-color: var(--color-bg);
