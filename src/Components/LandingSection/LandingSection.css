@@ -1,6 +1,6 @@
 .landsection {
   @apply cursor-default w-full md:pt-16;
-  background-image: url("../../assets/map1.gif");
+  background-image: url("../../assets/map.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
