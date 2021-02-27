@@ -20,45 +20,10 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Code2Create</title>
-        <style>
-      #loader{
-      position:fixed;
-      min-width: 100vw;
-      min-height: 100vh;
-      background:  url('../src/assets/loader.gif') no-repeat center;
-      background-size: cover;
-      z-index: 999;
-      }
-    </style>
   </head>
   <body>
-        <div id="loader">
-    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-           <!-- <script>
-  var loader;
-
-  function loadNow(opacity) {
-    if (opacity <= 0) {
-      displayContent();
-    } else {
-      loader.style.opacity = opacity;
-      window.setTimeout(function () {
-        loadNow(opacity);
-      }, 2020);
-    }
-  }
-
-  function displayContent() {
-    loader.style.display = 'none';
-    document.getElementById('root').style.display = 'block';
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    loader = document.getElementById('loader');
-    loadNow(1);
-  });
-    </script> -->
+    
   </body>
 </html>
