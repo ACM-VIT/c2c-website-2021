@@ -16,7 +16,7 @@ export default function ApplyButton(props) {
     <div
       className="apply-button"
       data-hackathon-slug="acm-c2c"
-      data-button-theme="dark-inverted"
+      data-button-theme="dark"
       style={{ height: "32px", width: "112px" }}
     ></div>
     
