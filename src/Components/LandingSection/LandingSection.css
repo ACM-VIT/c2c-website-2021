@@ -49,6 +49,7 @@
 }
 .navigatetitle {
   @apply text-lg mx-4 font-bold;
+  cursor:pointer;
 }
 .acmlogo {
   @apply h-8 md:h-10;
