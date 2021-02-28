@@ -36,9 +36,9 @@ const MarqueeSection = () => {
     <div className="marquee">
       <div className="marquee__inner" aria-hidden="true">
        <span>COMPUTING</span>
-            <span>CHANGE</span>
+            <span>CHANGE.</span>
             <span>CHALLENGING</span>
-            <span>CREATIVITY</span>
+            <span>CREATIVITY.</span>
       </div>
     </div>
   );
