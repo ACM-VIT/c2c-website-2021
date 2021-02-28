@@ -103,18 +103,18 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
           <img className="acmlogo header-image" src={c2clogo} alt="C2C Logo" />
         </a>
         <div className="navigate">
-          <Link to={"/about"}>
-            <div className="navigatetitle">About</div>
+          <Link className="navigatetitle" to={"/about"}>
+            <div>About</div>
           </Link>
-          <a onClick={() => scrollToSponsors()}>
-            <div className="navigatetitle">Sponsors</div>
+          <a className="navigatetitle" onClick={() => scrollToSponsors()}>
+            <div>Sponsors</div>
           </a>
-          <a onClick={() => scrollToOrganizers()}>
-            <div className="navigatetitle">Organisers</div>
+          <a className="navigatetitle" onClick={() => scrollToOrganizers()}>
+            <div>Organisers</div>
           </a>
 
-          <a onClick={() => scrollToFAQ()}>
-            <div className="navigatetitle">FAQ</div>
+          <a className="navigatetitle" onClick={() => scrollToFAQ()}>
+            <div>FAQ</div>
           </a>
         </div>
         <div className="hamburger" onClick={() => setHActive(!hActive)}>
