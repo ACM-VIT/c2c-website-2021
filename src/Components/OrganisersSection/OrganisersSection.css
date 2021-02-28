@@ -39,7 +39,7 @@
   flex-direction: row;
   overflow-x: scroll;
   overflow-y: hidden;
-  animation: ticker 90s linear infinite reverse;
+  animation: ticker 90s linear infinite;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

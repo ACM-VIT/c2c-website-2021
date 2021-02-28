@@ -5,16 +5,6 @@ import organisers from './oragnisersdata'
 
 
 import './OrganisersSection.css'
-import {
-  Fade,
-  Zoom,
-  Flip,
-  Rotate,
-  Bounce,
-  Slide,
-  Roll,
-  LightSpeed,
-} from "react-reveal";
 const Organiser = ({pic,name,position})=>{
     return (
     <section className="board_member">
