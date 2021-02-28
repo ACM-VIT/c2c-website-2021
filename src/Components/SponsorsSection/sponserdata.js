@@ -26,6 +26,7 @@ import sashidologo from "../../assets/sashido.svg";
 import axurelogo from "../../assets/axure.svg";
 import taskadelogo from "../../assets/taskade.svg";
 import balsamiqlogo from "../../assets/balsamiq.svg";
+import capitallogo from "../../assets/capital.svg";
 
 const sponsers = [
   {
@@ -57,6 +58,12 @@ const sponsers = [
     src: portiswhitelogo,
     info: "Non-custodial blockchain wallet",
     url: "https://www.portis.io/",
+  },
+  {
+    name: "capital",
+    src: capitallogo,
+    info: "Portfolio management made easy",
+    url: "https://www.capitalinc.in/",
   },
   {
     name: "replit",

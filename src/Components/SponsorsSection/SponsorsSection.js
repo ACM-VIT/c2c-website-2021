@@ -10,6 +10,7 @@ import {
   Roll,
   LightSpeed,
 } from "react-reveal";
+import TitleSponsor from "../../assets/prepbytes.svg";
 
 
 const Sponser = ({name,imgsrc,info,url}) => {
@@ -26,18 +27,31 @@ const Sponser = ({name,imgsrc,info,url}) => {
 const SponsorsSection = ({scrollSponsors})=>{
   return (
     <article className="sponsorsection" ref={scrollSponsors}>
-        <h1 className="sponsorhead">Sponsors</h1>
-        <div className="sponsorsinner">
-          {data.map((sponser, key) => (
-            <Sponser
-              key={key}
-              name={sponser.name}
-              imgsrc={sponser.src}
-              info={sponser.info}
-              url={sponser.url}
-            />
-          ))}
-        </div>
+      <h1 className="titlesponsorhead">Title Sponsor</h1>
+      <a
+        className="logos sponsor title_sponsor"
+        href="https://www.prepbytes.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img src={TitleSponsor} alt={`Prepbytes logo`} />
+        <p>
+          Mentorship driven personalized coding learning and placement preparation
+          platform
+        </p>
+      </a>
+      <h1 className="sponsorhead">Sponsors</h1>
+      <div className="sponsorsinner">
+        {data.map((sponser, key) => (
+          <Sponser
+            key={key}
+            name={sponser.name}
+            imgsrc={sponser.src}
+            info={sponser.info}
+            url={sponser.url}
+          />
+        ))}
+      </div>
     </article>
   );
 }

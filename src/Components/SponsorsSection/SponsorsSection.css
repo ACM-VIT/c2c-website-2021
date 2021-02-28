@@ -18,6 +18,15 @@
   font-weight: 900;
   margin-bottom: 3.5rem;
 }
+.titlesponsorhead {
+  color: #48ba86;
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 3.5rem;
+}
 
 .sponsorsinner {
   display: grid;
@@ -49,7 +58,10 @@
   padding: 2rem 2rem 1rem 2rem;
   transition: transform 0.3s ease-out;
 }
-
+.title_sponsor{
+  width:600px;
+  margin-bottom: 4rem;
+}
 /* seletcts the last two eleemnts */
 .sponsor:nth-last-child(1) {
   grid-column-start: 3;
@@ -67,6 +79,16 @@
   transition: all 0.3s ease-out;
   opacity :0.5;
   height: 50px;
+  width:auto;
+}
+.title_sponsor > img {
+  /* filter: invert(0.3) sepia(1) saturate(1) hue-rotate(175deg); */
+  margin-bottom: 1em;
+  transform: translateY(5px);
+  /* takes care of the logo moving up */
+  transition: all 0.3s ease-out;
+  opacity :0.5;
+  height: 80px;
   width:auto;
 }
 
@@ -117,6 +139,12 @@
     align-items: center;
     width: 250px;
   }
+  .title_sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
 
   .sponsor:nth-last-child(1) {
     grid-column-start: 2;
@@ -126,6 +154,9 @@
     grid-column-start: 1;
   }
   .sponsorhead {
+    font-size: 2.5rem;
+  }
+  .titlesponsorhead {
     font-size: 2.5rem;
   }
   .sponsor > p {
@@ -142,6 +173,11 @@
   .sponsor {
     width: 180px;
     height: 100px;
+    padding: 1.3rem 0em;
+  }
+  .title_sponsor {
+    width: 350px;
+    height:auto;
     padding: 1.3rem 0em;
   }
 
@@ -179,6 +215,9 @@
   .sponsorhead {
     font-size: 2rem;
   }
+  .titlesponsorhead {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -190,6 +229,11 @@
     width: 120px;
     padding: 1em 0em;
     height: 100px;
+  }
+  .title_sponsor {
+    width: 300px;
+    padding: 1em 0em;
+    height: auto;
   }
   .sponsor:nth-last-child(1) {
     grid-column-start: 0;
