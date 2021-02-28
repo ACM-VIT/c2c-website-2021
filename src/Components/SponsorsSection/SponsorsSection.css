@@ -175,8 +175,8 @@
   }
 
   .sponsor {
-    width: 180px;
-    height: 100px;
+    width: 170px;
+    height: 96px;
     padding: 1.3rem 0em;
   }
   .title_sponsor {
@@ -230,9 +230,9 @@
     grid-gap: 0 2em;
   }
   .sponsor {
-    width: 120px;
+    width: 110px;
     padding: 1em 0em;
-    height: 100px;
+    height: 92px;
   }
   .title_sponsor {
     width: 300px;
