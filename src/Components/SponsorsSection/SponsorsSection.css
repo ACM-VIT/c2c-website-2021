@@ -34,20 +34,10 @@
   grid-auto-rows: minmax(auto, 150px);
   gap: 5rem 0rem;
 }
-
-.geeksforgeeks {
-  transform: scale(0.6);
+.titlesponsorsinner {
+  height:220px;
 }
 
-.geeksforgeeks_p {
-  font-size: 0.79rem !important;
-  white-space: pre-line !important;
-}
-
-.rosenfeld_p {
-  font-size: 0.79rem !important;
-  white-space: pre-line !important;
-}
 
 .sponsor {
   display: flex;
@@ -169,6 +159,9 @@
 }
 
 @media screen and (max-width: 545px) {
+    .titlesponsorsinner {
+  height:200px;
+}
   .sponsorsinner {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 1rem;
@@ -225,6 +218,9 @@
 }
 
 @media screen and (max-width: 380px) {
+  .titlesponsorsinner {
+  height:190px;
+}
   .sponsorsinner {
     grid-template-columns: 1fr;
     grid-gap: 0 2em;
