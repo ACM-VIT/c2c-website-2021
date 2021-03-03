@@ -82,11 +82,11 @@ function App() {
       <CarouselSection />
       <SponsorsSection scrollSponsors={scrollSponsors} />
       <VideoSection />
-      <FacultySection scrollOrganizers={scrollOrganizers} />
-      <OrganisersSection />
+      {/* <FacultySection /> */}
+      <OrganisersSection scrollOrganizers={scrollOrganizers} />
       <FaqSection scrollToFooter={scrollToFooter} scrollFAQ={scrollFAQ} />
       <SecondMarqueeSection />
-      <FooterSection scrollFooter={scrollFooter}/>
+      <FooterSection scrollFooter={scrollFooter} />
     </div>
   );
 }

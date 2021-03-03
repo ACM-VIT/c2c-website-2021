@@ -14,33 +14,32 @@ const Organiser = ({pic,name,position})=>{
     </section>
     );
 }
-const OrganisersSection = () => {
-    const slider = useRef(null);
-    useEffect(()=>{
-    },[]);
-    return (
-      <article className="orgSection">
-          <h1 className="orgTitle">Student Organisers</h1>
-        <article className="orgContainer">
-          <section className="slider" ref={slider}>
-            {organisers.map((organiser, key) => (
-              <Organiser
-                key={key}
-                pic={organiser.pic}
-                name={organiser.name}
-                position={organiser.position}
-              />
-            ))}
-          </section>
-        </article>
-        {/* <Marquee play={true} direction="left" speed={20} className="bg-gray">
+const OrganisersSection = ({ scrollOrganizers }) => {
+  const slider = useRef(null);
+  useEffect(() => {}, []);
+  return (
+    <article className="orgSection" ref={scrollOrganizers}>
+      <h1 className="orgTitle">Organisers</h1>
+      <article className="orgContainer">
+        <section className="slider" ref={slider}>
+          {organisers.map((organiser, key) => (
+            <Organiser
+              key={key}
+              pic={organiser.pic}
+              name={organiser.name}
+              position={organiser.position}
+            />
+          ))}
+        </section>
+      </article>
+      {/* <Marquee play={true} direction="left" speed={20} className="bg-gray">
           <h1 className="bg-blue">
             I can be a React component, multiple React components, or just some
             text.
           </h1>
         </Marquee> */}
-      </article>
-    );
-}
+    </article>
+  );
+};
 
 export default OrganisersSection;

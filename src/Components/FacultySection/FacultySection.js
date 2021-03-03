@@ -22,12 +22,12 @@ const Organiser = ({pic,name,position})=>{
     </section>
     );
 }
-const FacultySection = ({scrollOrganizers}) => {
+const FacultySection = () => {
     const slider = useRef(null);
     useEffect(()=>{
     },[]);
     return (
-      <article className="facArticle" ref={scrollOrganizers}>
+      <article className="facArticle" >
           <h1 className="facTitle">Faculty Organisers</h1>
         <article className="facContainer">
           <section className="facSlider" ref={slider}>
