@@ -2,74 +2,80 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
+<link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Code2Create">
+<meta name="application-name" content="Code2Create">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="theme-color" content="#ffffff">
     <meta
       name="description"
       content="ACM-VIT is back with the fifth edition of its premium event, Code2Create and this time, we are going virtual. Get ready for a thrilling 36 hours where developers of various tech stacks collaborate and innovate groundbreaking solutions."
     />
-        <meta
+    <meta
       name="keywords"
       content="Hackathon, VIT, Coding, Event, ACM, code, create, c2c, code to create, 
     code 2 create, association for computing machinery, acm-vit, vit, vellore institute of technology, 36 hours, hack"
     />
-        <meta property="og:url" content="https://c2c.acmvit.in/" />
+    <meta property="og:url" content="https://c2c.acmvit.in/" />
     <meta property="og:site_name" content="Code2Create" />
-    <meta property="og:image" content="https://i.ibb.co/wzF1bGF/logo512.png">
-        <meta property="og:type" content="Website" />
-            <meta
+    <meta property="og:image" content="https://i.ibb.co/n3LgwF5/android-chrome-96x96.png" />
+    <meta property="og:type" content="Website" />
+    <meta
       property="og:description"
       content="ACM-VIT is back with the fifth edition of its premium event, Code2Create and this time, we are going virtual. Get ready for a thrilling 36 hours where developers of various tech stacks collaborate and innovate groundbreaking solutions."
     />
     <meta property="og:title" content="Code2Create" />
     <meta name="author" content="ACM VIT" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Code2Create</title>
-        <style>
-      #loader{
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1000;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  background-color: #030303;
-  overflow-y: hidden;
+
+    <style>
+      #loader {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #030303;
+        overflow-y: hidden;
       }
-      </style>
+    </style>
   </head>
   <body>
-      <div id="loader">
-              <img src="./loader.gif" height="400px" width="400px" />
+    <div id="loader">
+      <img src="./loader.gif" height="400px" width="400px" />
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script>
-  var loader;
+      var loader;
 
-  function loadNow(opacity) {
-    if (opacity <= 0) {
-      displayContent();
-    } else {
-      loader.style.opacity = opacity;
-      window.setTimeout(function () {
-        loadNow(opacity - 1);
-      }, 2020);
-    }
-  }
+      function loadNow(opacity) {
+        if (opacity <= 0) {
+          displayContent();
+        } else {
+          loader.style.opacity = opacity;
+          window.setTimeout(function () {
+            loadNow(opacity - 1);
+          }, 2020);
+        }
+      }
 
-  function displayContent() {
-    loader.style.display = 'none';
-    document.getElementById('root').style.display = 'block';
-  }
+      function displayContent() {
+        loader.style.display = "none";
+        document.getElementById("root").style.display = "block";
+      }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    loader = document.getElementById('loader');
-    loadNow(1);
-  });
+      document.addEventListener("DOMContentLoaded", function () {
+        loader = document.getElementById("loader");
+        loadNow(1);
+      });
     </script>
   </body>
 </html>
