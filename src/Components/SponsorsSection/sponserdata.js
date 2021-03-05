@@ -30,34 +30,10 @@ import capitallogo from "../../assets/capital.svg";
 
 const sponsers = [
   {
-    name: "devfolio",
-    src: devfoliologo,
-    info: "India’s #1 developer ecosystem",
-    url: "https://devfolio.co/",
-  },
-  {
     name: "meribachat",
     src: meribachatlogo,
     info: "Shopping Karo Befikr!",
     url: "https://meribachat.in/",
-  },
-  {
-    name: "matic",
-    src: maticlogo,
-    info: "Blockchain scalability platform",
-    url: "https://matic.network/",
-  },
-  {
-    name: "tezos",
-    src: tezos_white,
-    info: "Open-source blockchain network",
-    url: "https://tezos.com/",
-  },
-  {
-    name: "portis",
-    src: portiswhitelogo,
-    info: "Non-custodial blockchain wallet",
-    url: "https://www.portis.io/",
   },
   {
     name: "capital",

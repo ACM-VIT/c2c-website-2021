@@ -156,7 +156,13 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
 
         {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
         <div className="header_buttons">
-          <ApplyButton />
+          <a
+            href="https://c2c.acmvit.in"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="registerbutton" src={register} alt="Register Now" />
+          </a>
         </div>
       </section>
     </article>
