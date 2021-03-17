@@ -91,11 +91,6 @@ let organisers = [
     name: "Sriya Reddi",
     position: "Operations Head",
   },
-  {
-    pic: fac_cor,
-    name: "Prof. H.R. Vishwakarma",
-    position: "Faculty Coordinator",
-  },
 ];
 
 
