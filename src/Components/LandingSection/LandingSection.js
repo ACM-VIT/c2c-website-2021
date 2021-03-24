@@ -12,7 +12,6 @@ const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSpons
   const menuRef = useRef(null);
 
   useEffect(() => {
-    console.log(menuTop)
     menuRef.current.style = `top:${menuTop}px;position:fixed;left:0`;
     gsap.to(".menu_items",{
       opacity:1,
