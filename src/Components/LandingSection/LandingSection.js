@@ -143,11 +143,15 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
             <img className="registerbutton" src={register} alt="Register Now" />
           </a>
           <a
-            href="https://code2create.hackerearth.com/"
+            href="https://discord.com/invite/TqmcB7Z9J6"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="registerbutton" src={discord} alt="Join our Discord" />
+            <img
+              className="registerbutton"
+              src={discord}
+              alt="Join our Discord"
+            />
           </a>
         </div>
       </section>
