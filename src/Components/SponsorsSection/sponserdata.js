@@ -27,6 +27,7 @@ import axurelogo from "../../assets/axure.svg";
 import taskadelogo from "../../assets/taskade.svg";
 import balsamiqlogo from "../../assets/balsamiq.svg";
 import capitallogo from "../../assets/capital.svg";
+import mcwittieslogo from "../../assets/mcwitties.svg";
 
 const sponsers = [
   {
@@ -40,6 +41,12 @@ const sponsers = [
     src: capitallogo,
     info: "Portfolio management made easy",
     url: "https://www.capitalinc.in/",
+  },
+  {
+    name: "mcwitties",
+    src: mcwittieslogo,
+    info: "Lifestyle । Fitness । Creator",
+    url: "https://www.instagram.com/mcwitties/",
   },
   {
     name: "replit",

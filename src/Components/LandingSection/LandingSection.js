@@ -1,23 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import { useState, useEffect, useRef } from "react";
-import RBN from "react-burger-nav";
 import c2clogo from "../../assets/c2clogo.svg";
 import register from "../../assets/register.svg";
+import discord from "../../assets/discord.svg";
 import {Link} from 'react-router-dom';
 import gsap from 'gsap'
 /** Styles */
 import './LandingSection.css';
-import {
-  Fade,
-  Zoom,
-  Flip,
-  Rotate,
-  Bounce,
-  Slide,
-  Roll,
-  LightSpeed,
-} from "react-reveal";
-import ApplyButton from "../applyButton";
 
 const Menu = ({hActive,setHActive,scrollToFAQ, scrollToOrganizers, scrollToSponsors,menuTop}) => {
   const menuRef = useRef(null);
@@ -122,16 +111,6 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
           <div className="hamburgerLine"></div>
           <div className="hamburgerLine"></div>
         </div>
-        {/* <div
-                    style={{ transform: "scale(0.6)" }}
-                  >
-                    <div
-                      className="apply-button"
-                      data-hackathon-slug="acm-c2c"
-                      data-button-theme="dark-inverted"
-                      style={{ height: "18px", width: "110px", transform: "scale(0.4)" }}
-                    ></div>
-                  </div> */}
       </section>
       {hActive && (
         <Menu
@@ -157,11 +136,18 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
         <div className="header_buttons">
           <a
-            href="https://c2c.acmvit.in"
+            href="https://code2create.hackerearth.com/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <img className="registerbutton" src={register} alt="Register Now" />
+          </a>
+          <a
+            href="https://code2create.hackerearth.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img className="registerbutton" src={discord} alt="Join our Discord" />
           </a>
         </div>
       </section>

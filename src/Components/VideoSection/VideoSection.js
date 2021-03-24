@@ -1,26 +1,8 @@
-import { useEffect } from "react";
 import Tilt from "react-tilt"
 /** Styles */
 import "./VideoSection.css";
 import c2c from "../../assets/c2caftermovie.mp4";
 const VideoSection = () => {
-
-  useEffect(() => {
-
-  }, []);
-
-  const videoSrc =  {
-    type: 'video',
-    sources: [
-      {
-        src:c2c,
-        type: 'video/mp4',
-        size: 720,
-      },
-    ],
-  };
-
-
   return (
     <Tilt options={{ scale: 1, perspective: 1000, max: 15 }}>
       <article className="window__frame__container">
