@@ -139,9 +139,9 @@ const sponsers = [
   },
   {
     name: "geeksforgeeks",
-    src: geeksforgeekslogo,
-    info: "The portal for geeks",
-    url: "https://www.geeksforgeeks.org/",
+    src: onedropindialogo,
+    info: "Customisable Merchandise",
+    url: "https://www.onedropindia.com/",
   },
 
   // {
