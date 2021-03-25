@@ -140,7 +140,7 @@ const sponsers = [
   {
     name: "geeksforgeeks",
     src: geeksforgeekslogo,
-    info: "Computer Science portal for geeks",
+    info: "The portal for geeks",
     url: "https://www.geeksforgeeks.org/",
   },
 
