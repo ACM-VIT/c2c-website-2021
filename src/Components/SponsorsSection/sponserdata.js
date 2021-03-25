@@ -28,8 +28,21 @@ import taskadelogo from "../../assets/taskade.svg";
 import balsamiqlogo from "../../assets/balsamiq.svg";
 import capitallogo from "../../assets/capital.svg";
 import mcwittieslogo from "../../assets/mcwitties.svg";
+import prepbyteslogo from "../../assets/prepbytes.svg";
 
 const sponsers = [
+  {
+    name: "prepbytes",
+    src: prepbyteslogo,
+    info: "Placement preparation platform",
+    url: "https://www.prepbytes.com/",
+  },
+  {
+    name: "hackerearth",
+    src: hackerearthlogo,
+    info: "Remotely hire the best tech talent",
+    url: "https://www.hackerearth.com/",
+  },
   {
     name: "meribachat",
     src: meribachatlogo,
