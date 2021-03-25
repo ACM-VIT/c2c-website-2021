@@ -28,26 +28,24 @@ import taskadelogo from "../../assets/taskade.svg";
 import balsamiqlogo from "../../assets/balsamiq.svg";
 import capitallogo from "../../assets/capital.svg";
 import mcwittieslogo from "../../assets/mcwitties.svg";
-import prepbyteslogo from "../../assets/prepbytes.svg";
+import echoarlogo from "../../assets/echoar.svg";
+import gobildalogo from "../../assets/gobilda.svg";
+import oreillylogo from "../../assets/oreilly.svg";
+import onedropindialogo from "../../assets/onedropindia.svg";
 
 const sponsers = [
-  {
-    name: "prepbytes",
-    src: prepbyteslogo,
-    info: "Placement preparation platform",
-    url: "https://www.prepbytes.com/",
-  },
-  {
-    name: "hackerearth",
-    src: hackerearthlogo,
-    info: "Remotely hire the best tech talent",
-    url: "https://www.hackerearth.com/",
-  },
   {
     name: "meribachat",
     src: meribachatlogo,
     info: "Shopping Karo Befikr!",
     url: "https://meribachat.in/",
+  },
+
+  {
+    name: "hackerearth",
+    src: hackerearthlogo,
+    info: "Remotely hire the best tech talent",
+    url: "https://www.hackerearth.com/",
   },
   {
     name: "capital",
@@ -66,6 +64,24 @@ const sponsers = [
     src: replitlogo,
     info: "Browser based IDE",
     url: "https://repl.it/",
+  },
+  {
+    name: "oreilly",
+    src: oreillylogo,
+    info: "Online learning platform",
+    url: "https://www.oreilly.com/",
+  },
+  {
+    name: "gobilda",
+    src: gobildalogo,
+    info: "A modern build system",
+    url: "https://www.gobilda.com/",
+  },
+  {
+    name: "echoar",
+    src: echoarlogo,
+    info: "Cloud-based 3D-first CMS",
+    url: "https://www.echoar.xyz/",
   },
   {
     name: "balsamiq",
@@ -98,6 +114,12 @@ const sponsers = [
     url: "https://sashido.io/",
   },
   {
+    name: "github",
+    src: githublogo,
+    info: "The open source community",
+    url: "https://github.com/",
+  },
+  {
     name: "stickermule",
     src: stickermulelogo,
     info: "Internet's #1 printing company",
@@ -114,6 +136,12 @@ const sponsers = [
     src: skilloxidelogo,
     info: "Training and services company",
     url: "https://skilloxide.com/",
+  },
+  {
+    name: "geeksforgeeks",
+    src: geeksforgeekslogo,
+    info: "Computer Science portal for geeks",
+    url: "https://www.geeksforgeeks.org/",
   },
 
   // {
