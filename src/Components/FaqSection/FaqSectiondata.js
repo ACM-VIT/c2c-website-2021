@@ -29,7 +29,7 @@ export default [
     id: "five",
     question: "How many members can constitute a team?",
     answer:
-      "A team should consist of at least 2 members and at most 5 members. Team members need not be from the same college. In case you’re having trouble finding teammates, join our Discord community here, interact with fellow participants, and form teams with like-minded people who are looking for teammates!",
+      "A team should consist of at least 1 members and at most 4 members. Team members need not be from the same college. In case you’re having trouble finding teammates, join our Discord community here, interact with fellow participants, and form teams with like-minded people who are looking for teammates!",
   },
   {
     id: "six",
