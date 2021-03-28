@@ -32,6 +32,7 @@ import echoarlogo from "../../assets/echoar.svg";
 import gobildalogo from "../../assets/gobilda.svg";
 import oreillylogo from "../../assets/oreilly.svg";
 import onedropindialogo from "../../assets/onedropindia.svg";
+import hackonlogo from "../../assets/hackon.svg";
 
 const sponsers = [
   {
@@ -137,11 +138,17 @@ const sponsers = [
     info: "Training and services company",
     url: "https://skilloxide.com/",
   },
+  // {
+  //   name: "onedropindia",
+  //   src: onedropindialogo,
+  //   info: "Customisable Merchandise",
+  //   url: "https://www.onedropindia.com/",
+  // },
   {
-    name: "geeksforgeeks",
-    src: onedropindialogo,
-    info: "Customisable Merchandise",
-    url: "https://www.onedropindia.com/",
+    name: "hackon",
+    src: hackonlogo,
+    info: "A global digital hackathon",
+    url: "https://hackon.tech/",
   },
 
   // {
