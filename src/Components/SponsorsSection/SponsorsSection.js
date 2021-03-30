@@ -27,21 +27,6 @@ const Sponser = ({name,imgsrc,info,url}) => {
 const SponsorsSection = ({scrollSponsors})=>{
   return (
     <article className="sponsorsection" ref={scrollSponsors}>
-      <h1 className="titlesponsorhead">Title Sponsor</h1>
-      <div className="titlesponsorsinner">
-        <a
-          className=" logos sponsor title_sponsor"
-          href="https://www.prepbytes.com/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img src={TitleSponsor} alt={`Prepbytes logo`} />
-          <p>
-            Mentorship driven personalized coding learning and placement
-            preparation platform
-          </p>
-        </a>
-      </div>
       <h1 className="sponsorhead">Associated with</h1>
       <div className="sponsorsinner">
         {data.map((sponser, key) => (
