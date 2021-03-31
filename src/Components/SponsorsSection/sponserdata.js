@@ -61,6 +61,12 @@ const sponsers = [
     url: "https://www.instagram.com/mcwitties/",
   },
   {
+    name: "github",
+    src: githublogo,
+    info: "The open source community",
+    url: "https://github.com/",
+  },
+  {
     name: "replit",
     src: replitlogo,
     info: "Browser based IDE",
@@ -84,6 +90,7 @@ const sponsers = [
     info: "Cloud-based 3D-first CMS",
     url: "https://www.echoar.xyz/",
   },
+
   {
     name: "balsamiq",
     src: balsamiqlogo,
@@ -113,12 +120,6 @@ const sponsers = [
     src: sashidologo,
     info: "API Development Platform",
     url: "https://sashido.io/",
-  },
-  {
-    name: "github",
-    src: githublogo,
-    info: "The open source community",
-    url: "https://github.com/",
   },
   {
     name: "stickermule",
