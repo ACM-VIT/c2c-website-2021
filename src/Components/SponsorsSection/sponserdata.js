@@ -16,9 +16,9 @@ import hackerearthlogo from "../../assets/hackerearth_14.svg";
 import meribachatlogo from "../../assets/meribachat.svg";
 import replitlogo from "../../assets/replit.svg";
 import tezoslogo from "../../assets/tezos.svg";
-import tezos_white from '../../assets/tezos_white.svg'
-import portislogo from "../../assets/portis.svg";
-import portiswhitelogo from '../../assets/portis_white.svg'
+import c4projectslogo from '../../assets/c4projects.svg'
+import d2clogo from "../../assets/d2c.svg";
+import interviewreadylogo from '../../assets/interviewready.svg'
 import skilloxidelogo from "../../assets/skilloxide.svg";
 import eggheadlogo from "../../assets/egghead.svg";
 import stickermulelogo from "../../assets/stickermule.svg";
@@ -145,29 +145,32 @@ const sponsers = [
     info: "Customisable Merchandise",
     url: "https://www.onedropindia.com/",
   },
-  // {
-  //   name: "hackon",
-  //   src: hackonlogo,
-  //   info: "A global digital hackathon",
-  //   url: "https://hackon.tech/",
-  // },
+  {
+    name: "Interview Ready",
+    src: interviewreadylogo,
+    info: "Interview Ready Coaching Programmes",
+    url: "https://www.interview-ready.com/",
+  },
 
-  // {
-  //   name: "github",
-  //   src: githublogo,
-  //   info: "56+ Million developers",
-  // },
-  // {
-  //   name: "slack",
-  //   src: slacklogo,
-  //   info: "Leading workplace hub",
-  // },
+  {
+    name: "hackon",
+    src: hackonlogo,
+    info: "A global digital hackathon",
+    url: "https://hackon.tech/",
+  },
 
-  // {
-  //   name: "fold",
-  //   src: foldlogo,
-  //   info: "Transparent digital-only bank",
-  // },
+  {
+    name: "C4 Projects",
+    src: c4projectslogo,
+    info: "We mentor your journey to success!",
+    url: "https://www.instagram.com/tech.c4projects/",
+  },
+  {
+    name: "Dare2Compete",
+    src: d2clogo,
+    info: "Global Platform Connecting Students",
+    url:"https://dare2compete.com/"
+  },
 
   // {
   //   name: "geeksforgeeks",
