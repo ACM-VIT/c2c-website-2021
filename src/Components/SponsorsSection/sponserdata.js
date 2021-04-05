@@ -134,6 +134,18 @@ const sponsers = [
     url: "https://egghead.io/",
   },
   {
+    name: "C4 Projects",
+    src: c4projectslogo,
+    info: "We mentor your journey to success!",
+    url: "https://www.instagram.com/tech.c4projects/",
+  },
+  {
+    name: "Dare2Compete",
+    src: d2clogo,
+    info: "Global Platform Connecting Students",
+    url: "https://dare2compete.com/",
+  },
+  {
     name: "skilloxide",
     src: skilloxidelogo,
     info: "Training and services company",
@@ -148,7 +160,7 @@ const sponsers = [
   {
     name: "Interview Ready",
     src: interviewreadylogo,
-    info: "Interview Ready Coaching Programmes",
+    info: "Interview Ready Coaching",
     url: "https://www.interview-ready.com/",
   },
 
@@ -157,19 +169,6 @@ const sponsers = [
     src: hackonlogo,
     info: "A global digital hackathon",
     url: "https://hackon.tech/",
-  },
-
-  {
-    name: "C4 Projects",
-    src: c4projectslogo,
-    info: "We mentor your journey to success!",
-    url: "https://www.instagram.com/tech.c4projects/",
-  },
-  {
-    name: "Dare2Compete",
-    src: d2clogo,
-    info: "Global Platform Connecting Students",
-    url:"https://dare2compete.com/"
   },
 
   // {
