@@ -160,8 +160,8 @@ const sponsers = [
   {
     name: "Interview Ready",
     src: interviewreadylogo,
-    info: "Interview Ready Coaching",
-    url: "https://www.interview-ready.com/",
+    info: "Interview preparation courses",
+    url: "https://get.interviewready.io/",
   },
 
   {
