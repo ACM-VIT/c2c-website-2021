@@ -10,7 +10,7 @@ import {
   Roll,
   LightSpeed,
 } from "react-reveal";
-import TitleSponsor from "../../assets/prepbytes.svg";
+import TitleSponsor from "../../assets/zuddl.svg";
 
 
 const Sponser = ({name,imgsrc,info,url}) => {
@@ -27,6 +27,18 @@ const Sponser = ({name,imgsrc,info,url}) => {
 const SponsorsSection = ({scrollSponsors})=>{
   return (
     <article className="sponsorsection" ref={scrollSponsors}>
+      <h1 className="titlesponsorhead">Virtual Event Platform Sponsor</h1>
+      <div className="titlesponsorsinner">
+        <a
+          className=" logos sponsor title_sponsor"
+          href="https://www.zuddl.com/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img src={TitleSponsor} alt={`Prepbytes logo`} />
+          <p>Customized digital spaces for your unique virtual events</p>
+        </a>
+      </div>
       <h1 className="sponsorhead">Associated with</h1>
       <div className="sponsorsinner">
         {data.map((sponser, key) => (
