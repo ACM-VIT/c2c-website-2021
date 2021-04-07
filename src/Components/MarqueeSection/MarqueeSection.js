@@ -35,10 +35,11 @@ const MarqueeSection = () => {
   return (
     <div className="marquee">
       <div className="marquee__inner" aria-hidden="true">
-       <span>COMPUTING</span>
-            <span>CHANGE.</span>
-            <span>CHALLENGING</span>
-            <span>CREATIVITY.</span>
+        <span>Hack</span>
+        <span>till</span>
+        <span>you</span>
+        <span>lose</span>
+        <span>Ctrl.</span>
       </div>
     </div>
   );
