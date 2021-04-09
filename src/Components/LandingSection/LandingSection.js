@@ -5,6 +5,7 @@ import register from "../../assets/register.svg";
 import discord from "../../assets/discord.svg";
 import {Link} from 'react-router-dom';
 import gsap from 'gsap'
+import zuddl from '../../assets/zuddl.png'
 /** Styles */
 import './LandingSection.css';
 
@@ -135,11 +136,11 @@ const LandingSection = ({scrollToFAQ, scrollToOrganizers, scrollToSponsors})=>{
         {/* <a href="https://devfolio.co" target="_blank" rel="noreferrer noopener"> */}
         <div className="header_buttons">
           <a
-            href="https://code2create.hackerearth.com/"
+            href="http://bit.ly/c2c-zuddl"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img className="registerbutton" src={register} alt="Register Now" />
+            <img className="registerbutton" src={zuddl} alt="Go to zuddl" />
           </a>
           <a
             href="https://discord.com/invite/TqmcB7Z9J6"
