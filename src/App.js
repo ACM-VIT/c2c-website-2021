@@ -11,6 +11,7 @@ import OrganisersSection from './Components/OrganisersSection/OrganisersSection'
 // import FacultySection from './Components/FacultySection/FacultySection';
 import FooterSection from './Components/FooterSection/FooterSection';
 import FaqSection from './Components/FaqSection/FaqSection'
+import DownloadAppSection from "./Components/DownloadAppSection";
 function App() {
   const scrollFAQ = useRef(null);
   const scrollOrganizers = useRef(null);
@@ -66,6 +67,7 @@ function App() {
         scrollToSponsors={scrollToSponsors}
       />
       <MarqueeSection />
+      <DownloadAppSection />
       <CarouselSection />
       <SponsorsSection scrollSponsors={scrollSponsors} />
       <VideoSection />
